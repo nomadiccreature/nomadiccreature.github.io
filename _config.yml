@@ -17,17 +17,12 @@ description: User experience developer
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble: 
   email: arindra.das@live.com
   facebook: urbannomadiccreature
-  flickr: 
   github: arindrakumardas
   instagram: 
   linkedin: arindradas
-  pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter: nomadiccreature
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
