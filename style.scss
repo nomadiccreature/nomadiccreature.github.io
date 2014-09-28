@@ -69,11 +69,11 @@ p {
 }
 
 a {
- color: #FFA500;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-   color: #FF8C00;
+    color: $blue;
   }
 }
 
@@ -277,6 +277,10 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+
+
+
 
 
 //Typing animation
