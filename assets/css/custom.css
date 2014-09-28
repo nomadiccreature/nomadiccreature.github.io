@@ -1,0 +1,12 @@
+
+@font-face { font-family: HelveticaNeue-UltraLight; src: url('HelveticaNeue-UltraLight.otf'); }
+
+body
+{
+    font-family: "HelveticaNeue-UltraLight", sans-serif; 
+    font-weight: 200;
+    letter-spacing:0.5px;
+    font-size: 12pt;
+    background-color: #FAFAFA;
+}
+
