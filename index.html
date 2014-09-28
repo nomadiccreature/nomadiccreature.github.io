@@ -2,19 +2,27 @@
 layout: default
 ---
 
-
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#page1").click(function(){
+        $('#result').load('projects.html');
+         //alert("Thanks for visiting!");
+       }); 
+ 
+       $("#page2").click(function(){
+        $('#result').load('pages/page2.html');
+         //alert("Thanks for visiting!");
+       });
+     });
+  </script>
 
 
 <div class="col-md-4">
 
 <!-- <p class="css-typing">This is a paragraph that is being typed by CSS animation.</p> -->
-<div class="skillEva platKin" > <a>Kinect light painting </a>
 
-<script> 
-$('a').click(function() {
-$("#includedContent").load("projects.html"); 
-}); 
-</script> 
+<div class="skillEva platKin" > <a id="page1" href="#">Kinect light painting </a>
+
 
   <div>
 <div class="skillEva"> Yammer Evaluation<div>
@@ -28,7 +36,7 @@ $("#includedContent").load("projects.html");
 
 </div>
 
-<div id="includedContent" class="col-md-8">
+<div id="result" class="col-md-8">
   Hello
 </div>
 
