@@ -69,11 +69,11 @@ p {
 }
 
 a {
- color: #FFA500 !important;
+ color: #FFA500;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-   color: #FF8C00 !important;
+   color: #FF8C00;
   }
 }
 
