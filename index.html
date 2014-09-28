@@ -2,18 +2,9 @@
 layout: default
 ---
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/typed.js"></script>
-<script>
-  $(function(){
-      $(".element").typed({
-        strings: ["Hello", "Second sentence."],
-        typeSpeed: 0
-      });
-  });
-</script>
 
-<div class="element"></div>
+<p class="css-typing">This is a paragraph that is being typed by CSS animation.</p>
+
 
 <div class="posts">
   {% for post in site.posts %}
