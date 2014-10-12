@@ -259,23 +259,27 @@ line-height: 1;
 width:auto;
 height:3em;
 padding-left: 22%;
+padding-right: 22%;
 padding-bottom: 2px;
 }
 .featured_logo_bbc{
 width:auto;
 height:3em;
 padding-left: 28%;
+padding-right: 28%;
 padding-bottom: 2px;
 }
 .featured_logo_times{
 width:auto;
 height:3em;
 padding-left: 15%;
+padding-right: 15%;
 padding-bottom: 2px;
 }
 .featured_logo_telegraph{
 width:auto;
 height:3em;
+padding-right: 21%;
 padding-left: 21%;
 padding-bottom: 2px;
 }
