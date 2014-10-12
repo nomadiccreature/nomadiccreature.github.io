@@ -353,7 +353,7 @@ border-bottom: 1px solid #ccc;
 background-color: #FCF7F3;
 border:1px solid #F0D6C2;
 text-align: center;
-padding: 10px 40px 10px 40px;
+padding-bottom: 40px;
 }
 #learn_more_quote{
 font-size: 16px;
