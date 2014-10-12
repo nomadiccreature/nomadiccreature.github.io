@@ -254,32 +254,29 @@ line-height: 1;
 }
 
 @media(max-width: 767px){
-.featured_logo_pos{
-	position: relative;
-	margin:10px;
-}	
+
 .featured_logo_dm{
 width:auto;
-height:2em;
-padding-left: 33%;
+height:3em;
+padding-left: 22%;
 padding-bottom: 2px;
 }
 .featured_logo_bbc{
 width:auto;
-height:2em;
-padding-left: 38%;
+height:3em;
+padding-left: 28%;
 padding-bottom: 2px;
 }
 .featured_logo_times{
 width:auto;
-height:2em;
-padding-left: 25%;
+height:3em;
+padding-left: 15%;
 padding-bottom: 2px;
 }
 .featured_logo_telegraph{
 width:auto;
-height:2em;
-padding-left: 31%;
+height:3em;
+padding-left: 21%;
 padding-bottom: 2px;
 }
 }
@@ -288,6 +285,7 @@ padding-bottom: 2px;
 .featured_logo_pos{
 	position: relative;
 	padding-left: 100px;
+	padding-bottom: 20px;
 }
 .featured_logo_dm{
 width:auto;
@@ -393,7 +391,7 @@ border-bottom: 1px solid #ccc;
 background-color: #FCF7F3;
 border:1px solid #F0D6C2;
 text-align: center;
-padding-bottom: 40px;
+padding-bottom: 10px;
 }
 #learn_more_quote{
 font-size: 16px;
