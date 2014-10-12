@@ -1,0 +1,372 @@
+body.price {
+background: #fcf7f3; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcf7f3 0%, #fcf7f3 6%, #fcf9f6 24%, #ffffff 56%, #ffffff 72%, #cdccca 72%, #ffffff 72%, #ffffff 84%, #cdccca 84%, #eeeeee 84%, #eeeeee 95%, #cccccc 95%, #eeeeee 95%, #eeeeee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf7f3), color-stop(6%,#fcf7f3), color-stop(24%,#fcf9f6), color-stop(56%,#ffffff), color-stop(72%,#ffffff), color-stop(72%,#cdccca), color-stop(72%,#ffffff), color-stop(84%,#ffffff), color-stop(84%,#cdccca), color-stop(84%,#eeeeee), color-stop(95%,#eeeeee), color-stop(95%,#cccccc), color-stop(95%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcf7f3 0%,#fcf7f3 6%,#fcf9f6 24%,#ffffff 56%,#ffffff 72%,#cdccca 72%,#ffffff 72%,#ffffff 84%,#cdccca 84%,#eeeeee 84%,#eeeeee 95%,#cccccc 95%,#eeeeee 95%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcf7f3 0%,#fcf7f3 6%,#fcf9f6 24%,#ffffff 56%,#ffffff 72%,#cdccca 72%,#ffffff 72%,#ffffff 84%,#cdccca 84%,#eeeeee 84%,#eeeeee 95%,#cccccc 95%,#eeeeee 95%,#eeeeee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcf7f3 0%,#fcf7f3 6%,#fcf9f6 24%,#ffffff 56%,#ffffff 72%,#cdccca 72%,#ffffff 72%,#ffffff 84%,#cdccca 84%,#eeeeee 84%,#eeeeee 95%,#cccccc 95%,#eeeeee 95%,#eeeeee 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcf7f3 0%,#fcf7f3 6%,#fcf9f6 24%,#ffffff 56%,#ffffff 72%,#cdccca 72%,#ffffff 72%,#ffffff 84%,#cdccca 84%,#eeeeee 84%,#eeeeee 95%,#cccccc 95%,#eeeeee 95%,#eeeeee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf7f3', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+.container{
+width:100% !important;
+}
+.header_container{
+margin-top:15px;
+background-color: #FCF7F3;
+border-bottom: 1px solid #ccc;
+}
+.navbar-default{
+background-color: #FCF7F3 !important;
+}
+.navbar-default .navbar-nav li a {
+color:#000;
+font-weight: bold;
+}
+.navbar-default .navbar-nav li a:hover {
+color:#777 !important;
+font-weight: bold;
+}
+@media (max-width: 767px){
+.hide_me{
+display:none;
+}}
+@media (min-width: 767px){
+.show_me{
+display: none !important;
+}}
+@media (max-width: 767px){
+.show_me {
+display: block !important;
+}}
+#main_login{
+position:relative;
+float:right;
+margin-top: 6px;
+}
+#time_phone{
+float:left;
+width:75%;
+}
+#login{
+float:right;
+width:25%;
+}
+#login_btn{
+background: 0;
+text-shadow: none;
+border: 1px solid #af9b8a;
+color: #af9b8a;
+font-size: 15px;
+font-weight: 500;
+}
+.headline{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 40px;
+}
+.headline_head{
+font-family: "Times New Roman", Georgia, Serif;
+font-size: 34px;
+}
+.headline_content{
+font-size: 16px;
+}
+@media(min-width: 767px){
+.pricing_container{
+	position: relative;
+	width: 100%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.pricing_container_non_focus{
+border:1px solid #ccc;
+width: 32%;
+background: #FEFEFE;
+margin-top: 20px;
+padding-right: 0px;
+padding-left: 0px;
+border-radius: 10px;
+}
+.pricing_container_focus{
+border:1px solid #ccc;
+background: #FEFEFE;
+width: 32%;
+padding-right: 0px;
+padding-left: 0px;
+border-radius: 10px;
+}}
+@media(max-width: 767px){
+.pricing_container{
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.pricing_container_non_focus{
+border:1px solid #ccc;
+background: #FEFEFE;
+margin-top: 20px;
+padding-right: 0px;
+padding-left: 0px;
+border-radius: 10px;
+}
+.pricing_container_focus{
+border:1px solid #ccc;
+background: #FEFEFE;
+padding-right: 0px;
+padding-left: 0px;
+border-radius: 10px;
+}}
+.price_header{
+text-align:center;
+border-bottom: 1px solid #ccc;
+}
+.price_header_col_1_check_color{
+color: #A0BE8F;
+}
+.price_header_col_1_times_color{
+color:#FF9288;
+}
+.price_header_col_2_check_color{
+color: #73B035;
+}
+.price_header_col_2_times_color{
+color:#FF3C2A;
+}
+.price_header_col_3_check_color{
+color: #42711A;
+}
+/*.price_header_col_3_times_color{
+color:#CC1100;
+} */
+
+.features{
+white-space:nowrap;
+display:inline;
+}
+.features li {
+padding: 8px 12px;
+border-bottom: 1px solid #ccc;
+font-size: 14px;
+list-style-type: none;
+text-align:center;
+white-space:pre-line;
+}
+.features_extended{
+white-space:nowrap;
+display:inline;
+}
+.features_extended li {
+padding: 8px 15px;
+font-size: 11px;
+list-style-type: none;
+text-align:center;
+}
+.features li a {
+padding: 8px 15px;
+}
+.action_button {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+border-radius: 5px;
+background: linear-gradient(#666, #333);
+padding: 5px 20px;
+font-size: 11px;
+text-transform: uppercase;
+}
+input.btn-white-text-orange, a.btn-white-text-orange, .btn-white-text-orange {
+-webkit-box-shadow: none;
+box-shadow: none;
+color: #fff !important;
+height: auto;
+font-weight: normal;
+-webkit-box-shadow: 0 1px 2px rgba(60,60,60,0.5);
+box-shadow: 0 1px 2px rgba(60,60,60,0.5);
+border: 1px solid #c25316;
+background: #ffa800;
+background: -webkit-linear-gradient(top,#ffa800 10%,#fe7400);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#ffa800),to(#fe7400));
+background: linear-gradient(to bottom,#ffa800 10%,#fe7400);
+padding: 12px 30px 12px 30px !important;
+text-shadow: 0 1px 2px #c25316;
+-webkit-box-shadow: inset 0 1px 0 #feebbb,0 1px 2px rgba(60,60,60,0.5);
+font-family: 'Whitney SSm A','Whitney SSm B',Helvetica,Calibri,Arial,Verdana;
+font-size: 20px;
+font-weight: 500;
+}
+
+.most_pop_box{
+padding-top: 6px;
+text-transform: uppercase;
+font-size: 16px;
+width: 100%;
+height:30px;
+text-align: center;
+color:white;
+background-color:#73B035;
+letter-spacing: 4px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
+}
+.price_amount{
+letter-spacing: 1px;
+}
+.price_header_amount{
+font-size:20px;
+}
+.price_header_amount_decimal{
+font-size:13px;
+}
+.glyphicon_pos {
+position: relative;
+top: 3px;
+margin:5px;
+display: inline-block;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.featured_text_align{
+	text-align: center;
+}
+@media(min-width: 767px){
+.featured_hr_left{
+	position:relative;
+	float:left;
+	left: 18%;
+	width:25%;
+	border-color:#DA5964;
+	border-style:dashed none ;
+}
+.featured_hr_right{
+	position:relative;
+	float:right;
+	right: 18%;
+	width:25%;
+	border-color:#DA5964;
+	border-style:dashed none ;
+}
+.featured_text{
+	position:relative;
+	top:11px;
+}	
+}
+
+@media(max-width: 767px){
+.featured_logo{
+width:auto;
+height:1.5em;
+}}
+
+@media(min-width: 767px){
+.featured_logo_pos{
+	position: relative;
+	padding-left: 100px;
+}
+.featured_logo{
+width:auto;
+height:2.5em;
+margin: 5px;
+}
+}
+.footer{
+	width:100%;
+	background-color: #EEEEEE;
+}
+
+#footer_icons ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#footer_icons ul li { display: inline; }
+#footer_icons ul li a
+{
+float:right;
+padding: .1em .4em;
+}
+.footer_company_issues{
+font-size: 13px;
+}
+.footer_company_issues ul
+{
+margin: 0;
+padding: .3em 0em;
+list-style-type: none;
+}
+.footer_company_issues ul li { display: inline; }
+/* Landscape phones and smaller */
+@media (max-width:767px){
+.footer-company-issues {
+text-align: center;
+}
+}
+
+@media(max-width: 767px){
+	.footer_options{
+		display: none;
+	}
+}
+@media(min-width: 767px){
+.footer_options ul
+{
+padding: 1em;
+list-style-type: none;
+display: block;
+}
+.footer_options ul li a
+{
+color:#666666;
+line-height:2.5em;
+}}
+.footer_a
+{
+padding-bottom:.5em;
+border-top: 1px solid #ccc;
+}
+#quote_para{
+text-align: center;
+font-style: italic;
+font-size: 22px;
+color:#666666;
+}
+#quote_details{
+text-align: center;
+padding: 5px;
+}
+#quote_name{
+font-size: 16px;
+}
+#trustpilot_logo{
+height:30px;
+}
+.red_star{
+color: red;
+}
+.hr_line{
+padding-top: 10px;
+border-bottom: 1px solid #ccc;
+}
+.learn_more_box{
+background-color: #FCF7F3;
+border:1px solid #F0D6C2;
+text-align: center;
+padding: 10px 40px 10px 40px;
+}
+#learn_more_quote{
+font-size: 16px;
+color: #EC7C21;
+}
+@media(max-width: 767px){
+	.break_point_media{
+	padding:5px;
+}
+}
+
+/*.footerbar_btn{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+}*/
