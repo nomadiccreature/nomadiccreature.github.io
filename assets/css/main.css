@@ -254,9 +254,13 @@ line-height: 1;
 }
 
 @media(max-width: 767px){
+.featured_logo_pos{
+	position: relative;
+	padding-left: 20px;
+}	
 .featured_logo{
 width:auto;
-height:1.5em;
+height:1.3em;
 }}
 
 @media(min-width: 767px){
