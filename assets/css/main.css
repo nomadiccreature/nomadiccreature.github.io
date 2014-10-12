@@ -258,19 +258,53 @@ line-height: 1;
 	position: relative;
 	margin:10px;
 }	
-.featured_logo{
+.featured_logo_dm{
 width:auto;
-height:1.3em;
-padding-left: 40px;
-padding-bottom: 10px;
-}}
+height:2em;
+padding-left: 33%;
+padding-bottom: 2px;
+}
+.featured_logo_bbc{
+width:auto;
+height:2em;
+padding-left: 38%;
+padding-bottom: 2px;
+}
+.featured_logo_times{
+width:auto;
+height:2em;
+padding-left: 25%;
+padding-bottom: 2px;
+}
+.featured_logo_telegraph{
+width:auto;
+height:2em;
+padding-left: 31%;
+padding-bottom: 2px;
+}
+}
 
 @media(min-width: 767px){
 .featured_logo_pos{
 	position: relative;
 	padding-left: 100px;
 }
-.featured_logo{
+.featured_logo_dm{
+width:auto;
+height:2.5em;
+margin: 5px;
+}
+.featured_logo_bbc{
+width:auto;
+height:2.5em;
+margin: 5px;
+}
+.featured_logo_times{
+width:auto;
+height:2.5em;
+margin: 5px;
+}
+.featured_logo_telegraph{
 width:auto;
 height:2.5em;
 margin: 5px;
