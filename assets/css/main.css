@@ -256,7 +256,7 @@ line-height: 1;
 @media(max-width: 767px){
 .featured_logo_pos{
 	position: relative;
-	padding-left: 20px;
+	margin:20px;
 }	
 .featured_logo{
 width:auto;
