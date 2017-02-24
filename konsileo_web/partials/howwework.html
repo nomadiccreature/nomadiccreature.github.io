@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    rel="stylesheet">
+    <!-- Latest compiled and minified JavaScript -->
+
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <script src="./scripts/fullpage.min.js" type="text/javascript">
+    </script>
+    <script src="./scripts/wow.js" type="text/javascript">
+    </script>
+    <link href=
+    " http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/fullpage.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+     <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                scrollBar: true,
+                navigation: true,
+                afterRender: function(){
+                  new WOW().init();
+                }
+            });
+        });
+
+        function toggler(divId) {
+    $("#" + divId).toggle();
+}
+
+    </script>
+    
+</head>
+<body>
+  
+
+<nav class="navbar navbar-default navbar-fixed-top" id="nav-why-md">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" data-toggle="collapse" data-target=".nav-collapse" href="index.html"><img class="img-responsive" alt="Brand" src="images/docuvo-logo.png" alt="docuvo logo" style="width:180px;height:auto;padding-left:8px;"></a>
+
+           <button onclick="toggler('myContent');" type="button" class="navbar-toggle">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+      </div>
+
+
+            <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                        <li id="navigationbarextras">
+                            <a style=" text-decoration: none;" href="whatwedo.html">what we do</a>
+                        </li>
+                        <li id="navigationbarextras">
+                            <a style=" text-decoration: none;" href="team.html" class="li-team">team</a>
+                        </li>
+                         <!-- <li id="navigationbarextras"><a style=" text-decoration: none;" href="blog.html" class="li-team">blog</a></li> -->
+                         <!-- <li id="navigationbarextras"><a style=" text-decoration: none;padding-left:30px;padding-right:30px;" href="http://testing.docuvo.com/login" >log in</a></li> -->
+                        <li id="navigationbar"><a style=" text-decoration: none;" id="sign-up-nav" href="signup.html" onclick="onClickSignUp()">sign up</a></li>
+                    </ul>
+              
+            </div>
+
+
+          <div class="menu menu-mobile" id="myContent" style="display:none; color:#fff; margin-top:15px;font-size:12px;font-family: 'Raleway';">
+
+
+              <ul class="ex-bar-nav">
+                     
+                            <li class="ex-bar-item"><a style=" text-decoration: none;" href="whatwedo.html"><span class="borderLeft why-mobile-drop">what we do</span></a></li>
+                            <li class="ex-bar-item"><a style=" text-decoration: none;" href="team.html" class="li-team"><span class="why-mobile-drop">team</span></a></li>
+
+                        <!-- <li class="ex-bar-item"><a style=" text-decoration: none;" href="blog.html" class="li-team"><span class="why-mobile-drop"> blog</span></a></li> -->
+                            <!-- <li class="ex-bar-item"><a style=" text-decoration: none;" href="http://testing.docuvo.com/login" class="li-team"><span class="why-mobile-drop">log in</span></a></li> -->
+                            <li class="ex-bar-item"><a style=" text-decoration: none;" href="signup.html" ><span class="why-mobile-drop">sign up</span></a></li>
+
+                    </ul>
+
+          </div>
+   
+       </div>
+    </nav>
+
+
+
+        <div id="fullpage">
+
+            <!-- SECTION1 -->
+            <div class="section" id="section1">
+                <div class="container">
+                    <div class="row">
+                        <!-- SECTION1 lg -->
+                        <div class="why-para-lg col-sm-12 col-xs-12">
+                            <div class="col-sm-6 col-xs-6">
+                                <div class="why-title">
+                                    manage all your files in one place
+                                </div>
+                                <div class="why-subtitle">
+                                    organise and search
+                                </div>
+                                <div class="why-main">
+                                    with docuvo, it doesn’t matter where your files are. Integrate them all into one place, where you can manage them with ease with powerful search tools.
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know animated wow bounceInUp" id=
+                                "did-you-know-sec1">
+                                    <div class=
+                                    "did-you-know-title animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main animated wow bounceInUp">
+                                    we rely so heavily on emails that we still send 2.4 million emails every second. No wonder files are hard to find!
+                                    </div>
+                                </div> 
+                                <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div> 
+                            <div class="col-sm-1 col-xs-1"></div>
+                            <div class="col-sm-5 col-xs-5"><img class=
+                            "why-image wow animated zoomIn img-responsive" id=
+                            "illus1" src="./images/docuvo-shelf-view.png" alt= "shelf view for all your documents"></div>
+                        </div>
+                        <!-- SECTION1 md -->
+                        <div class="why-para-md col-sm-12 col-xs-12">
+                            
+                            <div class="col-sm-5 col-xs-5">
+                                <div class="why-title-md">
+                                     manage all your files in one place
+                                </div>
+                                <div class="why-subtitle-md">
+                                    organise and search
+                                </div>
+                                <div class="why-main-md">
+                                    with docuvo, it doesn’t matter where your files are. Integrate them all into one place, where you can manage them with ease with powerful search tools.
+                                </div>
+                               
+
+                                  <div class="did-you-know-md animated wow bounceInUp" id=
+                                "did-you-know-sec1-md">
+                                    <div class=
+                                    "did-you-know-title-md animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-md animated wow bounceInUp">
+                                    we rely so heavily on emails that we still send 2.4 million emails every second. No wonder files are hard to find!
+                                    </div>
+                                </div>
+                          <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-5 col-xs-5"><img class=
+                            "why-image-md wow animated zoomIn img-responsive"
+                            id="illus1" src="./images/docuvo-shelf-view.png" alt= "shelf view for all your documents">
+
+                           
+                          </div>
+                        </div>
+                        <!-- SECTION1 sm -->
+                        <div class="why-para-sm">
+                            <div class="col-sm-12">
+                                <div class="why-title-sm">
+                                     manage all your files in one place
+                                </div>
+                                <div class="why-subtitle-sm">
+                                 organise and search
+                                </div>
+                                <div class="col-sm-12"><img class=
+                                "why-image-sm img-responsive wow animated zoomIn"
+                                src="./images/docuvo-shelf-view.png" alt= "shelf view for all your documents"></div>
+                                <div class="why-main-sm"  style="padding-right:50px;padding-left:50px;">
+                                    with docuvo, it doesn’t matter where your files are. Integrate them all into one place, where you can manage them with ease with powerful search tools.
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know-sm animated wow bounceInUp">
+                                    <div class=
+                                    "did-you-know-title-sm animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-sm animated wow bounceInUp">
+                                 we rely so heavily on emails that we still send 2.4 million emails every second. No wonder files are hard to find!
+                                    </div>
+                                </div>
+                                <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- SECTION2 -->
+            <div class="section" id="section2">
+                <div class="container" style="position:relative;">
+                    <div class="row">
+
+                        <!-- SECTION2 lg -->
+                        <div class="why-para-lg col-sm-12">
+                            <div class="col-sm-5"><img class=
+                            "why-image animated wow fadeInLeft img-responsive"
+                            id="illus2" src="./images/docuvo-smart-preview.png" alt= "better findability"> <div class="copyright" style="margin-top: 85px">© Docuvo Limited 2016 All Rights Reserved.</div> 
+                            </div>  
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-5">
+                                <div class="why-title">
+                                    don’t just search, find
+                                </div>
+                                <div class="why-subtitle">
+                                    view multiple files quickly
+                                </div>
+                                <div class="why-main">
+                                    you know you have found what you need when you look at it. That’s our philosophy too so we designed our system to just that, letting you look at multiple files and skim through them, instantly.
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know animated wow bounceInUp">
+                                    <div class=
+                                    "did-you-know-title animated wow slideInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main animated wow slideInUp">
+                                        on average, users spend 50% of their time looking for files.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SECTION2 md -->
+                        <div class="why-para-md col-sm-12 col-xs-12">
+                            
+                            <div class="col-sm-5 col-xs-5">
+                                <div class="why-title-md">
+                                    don’t just search, find
+                                </div>
+                                <div class="why-subtitle-md">
+                                    view multiple files quickly
+                                </div>
+                                <div class="why-main-md">
+                                    you know you have found what you need when you look at it. That’s our philosophy too so we designed our system to just that, letting you look at multiple files and skim through them, instantly.
+                                   one.
+                                </div><br>
+                                <br>
+                          <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                            
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-5 col-xs-5"><img class=
+                            "why-image-md wow animated zoomIn img-responsive"
+                            id="illus1" src="./images/docuvo-smart-preview.png" alt= "better findability">
+
+                             <div class="did-you-know-md animated wow bounceInUp" id=
+                                "did-you-know-sec1-md">
+                                    <div class=
+                                    "did-you-know-title-md animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-md animated wow bounceInUp">
+                                    on average, users spend 50% of their time looking for files.
+                                    </div>
+                                </div>
+                               
+                          </div>
+
+                        </div>
+
+                        <!-- SECTION2 sm -->
+                        <div class="why-para-sm">
+                            <div class="col-sm-12">
+                                <div class="why-title-sm">
+                                    don’t just search, find
+                                </div>
+                                <div class="why-subtitle-sm">
+                                    view multiple files quickly
+                                </div>
+                                <div class="col-sm-12"><img class=
+                                "why-image-sm img-responsive wow animated zoomIn"
+                                src="./images/docuvo-smart-preview.png" alt= "better findability"></div>
+                                <div class="why-main-sm"  style="padding-right:50px;padding-left:50px;">
+                                    you know you have found what you need when you look at it. That’s our philosophy too so we designed our system to just that, letting you look at multiple files and skim through them, instantly.
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know-sm animated wow bounceInUp">
+                                    <div class=
+                                    "did-you-know-title-sm animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-sm animated wow bounceInUp">
+                                    on average, users spend 50% of their time looking for files.
+                                    </div>
+                                </div>
+                                <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- SECTION3 -->
+            <div class="section" id="section3">
+                <div class="container" style="position:relative;">
+                    <div class="row">
+                        
+                        <!-- SECTION3 lg -->
+                        <div class="why-para-lg col-sm-12">
+                            <div class="col-sm-5">
+                                <div class="why-title">
+                                    don't worry about structure
+                                </div>
+                                <div class="why-subtitle">
+                                    we are your mission control
+                                
+                                </div>
+                                <div class="why-main">
+                                    we understand how managing your know how
+                                   can be a barrier to growth as you add more
+                                   information and more collaborators. With
+                                   docuvo, you don't need to worry about naming conventions and taxonomy.
+                                </div>
+                                <div class=
+                                "did-you-know animated wow bounceInUp">
+                                    <div class=
+                                    "did-you-know-title animated wow slideInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main animated wow slideInUp">
+                                        on average you create 19 versions of a
+                                        single document
+                                    </div>
+                                </div>
+                                <div class="copyright" style="margin-top: 40px">© Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-5"><img class=
+                            "why-image animated wow slideInUp img-responsive"
+                            id="illus3" src="./images/docuvo-growth-scalable.png" alt= "collaborate and grow"></div>
+                        </div>
+
+                        <!-- SECTION3 md -->
+                        <div class="why-para-md col-sm-12 col-xs-12">
+                            
+                            <div class="col-sm-5 col-xs-5">
+                                <div class="why-title-md">
+                                    don't worry about structure
+                                </div>
+                                <div class="why-subtitle-md">
+                                     we are your mission control
+                                </div>
+                                <div class="why-main-md">
+                                    we understand how managing your know how
+                                   can be a barrier to growth as you add more
+                                   information and more collaborators. With
+                                   docuvo, you don't need to worry about naming conventions and taxonomy.
+                                </div><br>
+                                <br>
+                                <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                          
+                            </div>
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-5 col-xs-5"><img class=
+                            "why-image-md wow animated zoomIn img-responsive"
+                            id="illus1" src="./images/docuvo-growth-scalable.png" alt= "collaborate and grow">
+
+                             <div class="did-you-know-md animated wow bounceInUp" id=
+                                "did-you-know-sec1-md">
+                                    <div class=
+                                    "did-you-know-title-md animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-md animated wow bounceInUp">
+                                      on average you create 19 versions of a
+                                        single document
+                                    </div>
+                                </div>
+                                
+                          </div>
+                            </div>
+
+                
+
+                        <!-- SECTION3 sm -->
+                        <div class="why-para-sm">
+                            <div class="col-sm-12">
+                                <div class="why-title-sm">
+                                    don't worry about structure
+                                </div>
+                                <div class="why-subtitle-sm">
+                                     we are your mission control
+                                </div>
+                                <div class="col-sm-12"><img class=
+                                "why-image-sm img-responsive wow animated zoomIn"
+                                src="./images/docuvo-growth-scalable.png" alt= "collaborate and grow"></div>
+                                <div class="why-main-sm"  style="padding-right:50px;padding-left:50px;">
+                                    we understand how managing your know how
+                                   can be a barrier to growth as you add more
+                                   information and more collaborators. With
+                                   docuvo, you don't need to worry about naming conventions and taxonomy.
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know-sm animated wow bounceInUp" id=
+                                "did-you-know-sec1-sm">
+                                    <div class=
+                                    "did-you-know-title-sm animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-sm animated wow bounceInUp">
+                                    on average you create 19 versions of a
+                                    single document.
+                                    </div>
+                                </div>
+                                <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- SECTION4 -->
+            <div class="section" id="section4">
+                <div class="container" style="position:relative;">
+                    
+                    <!-- SECTION4 lg -->
+                    <div class="row">
+                        <div class="why-para-lg col-sm-12">
+                            <div class="col-sm-5">
+                            <img class=
+                            "why-image animated wow tada img-responsive" id=
+                            "illus4" src="./images/docuvo-user-friendly-ux.png" alt= "better user experience and intuitive tools">
+                            <div class="copyright" style="margin-top: 20px">© Docuvo Limited 2016 All Rights Reserved.
+                            </div> 
+                            </div>
+                            
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-5">
+                                <div class="why-title">
+                                    designed for you
+                                </div>
+                                <div class="why-subtitle">
+                                    we believe your way is the best way
+                                </div>
+                                <div class="why-main">
+                                    there is no best way to file. that’s why we
+                                   give you intuitive and flexible controls,
+                                   based on the principle of affordance.
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know animated wow bounceInUp">
+                                    <div class=
+                                    "did-you-know-title animated wow slideInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main animated wow slideInUp">
+                                        by 2017, 40% of large enterprise IT
+                                        organizations will actively exploit
+                                        user experience designs for
+                                        employee-facing apps.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- SECTION4 md -->
+                        <div class="why-para-md col-sm-12 col-xs-12">
+                            
+                            <div class="col-sm-5 col-xs-5">
+                                <div class="why-title-md">
+                                    designed for you
+                                </div>
+                                <div class="why-subtitle-md">
+                                    we believe your way is the best way
+                                </div>
+                                <div class="why-main-md">
+                                   there is no best way to file. That’s why we
+                                   give you intuitive and flexible controls,
+                                   based on the principle of affordance.
+                                </div><br>
+                                <br>
+                          <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                            </div>
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-5 col-xs-5"><img class=
+                            "why-image-md wow animated zoomIn img-responsive"
+                            id="illus1" src="./images/docuvo-user-friendly-ux.png" alt= "better user experience and intuitive tools">
+
+                             <div class="did-you-know-md animated wow bounceInUp" id=
+                                "did-you-know-sec1-md">
+                                    <div class=
+                                    "did-you-know-title-md animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-md animated wow bounceInUp">
+                                      by 2017, 40% of large enterprise IT
+                                    organizations will actively exploit user
+                                    experience designs for employee-facing
+                                    apps.
+                                    </div>
+                                </div>
+
+ 
+
+                          </div>   </div>
+
+                  
+                
+
+                    <!-- SECTION4 sm -->
+                    <div class="why-para-sm">
+                        <div class="col-sm-12">
+                            <div class="why-title-sm">
+                                designed for you
+                            </div>
+                            <div class="why-subtitle-sm">
+                                we believe your way is the best way
+                            </div>
+                            <div class="col-sm-12"><img class=
+                            "why-image-sm wow animated zoomIn img-responsive"
+                            src="./images/docuvo-user-friendly-ux.png" alt= "better user experience and intuitive tools"></div>
+                            <div class="why-main-sm"  style="padding-right:50px;padding-left:50px;">
+                                there is no best way to file. That’s why we
+                                   give you intuitive and flexible controls,
+                                   based on the principle of affordance.
+                            </div><br>
+                            <br>
+                            <div class=
+                            "did-you-know-sm animated wow bounceInUp" id=
+                            "did-you-know-sec1-sm">
+                                <div class=
+                                "did-you-know-title-sm animated wow bounceInUp">
+                                did you know?
+                                </div>
+                                <div class=
+                                "did-you-know-main-sm animated wow bounceInUp">
+                                    by 2017, 40% of large enterprise IT
+                                    organizations will actively exploit user
+                                    experience designs for employee-facing
+                                    apps.
+                                </div>
+                            </div>
+                            <div class="copyright" style="padding-top:40px;padding-bottom:20px">
+                                © Docuvo Limited 2016 All Rights Reserved.
+                                </div> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- SECTION5 -->
+            <div class="section" id="section5">
+                <div class="container" style="position:relative;">
+                    <div class="row">
+                       
+                        <!-- SECTION5 lg -->
+                        <div class="why-para-lg col-sm-12">
+                            <div class="col-sm-5">
+                                <div class="why-title">
+                                    learning from you
+                                </div>
+                                <div class="why-subtitle">
+                                    we adapt to you
+                                </div>
+                                <div class="why-main">
+                                 we analyse your data to continually improve search and learn how you file things. So teach us, senpai!  
+                                </div><br>
+                                <br>
+                                <div class=
+                                "did-you-know animated wow bounceInUp">
+                                    <div class=
+                                    "did-you-know-title animated wow slideInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main animated wow slideInUp">
+                                        with new advances in machine learning,
+                                       Alpha Go was able to win 
+                                       at the ancient game of Go by
+                                       discovering the rules that human
+                                       players understand but cannot explain.
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-5"><img class=
+                            "why-image animated wow pulse img-responsive" id=
+                            "illus5" src="./images/docuvo-machine-learning.png" alt= "machine learning for better findability"></div>
+                        </div>
+
+                        <!-- SECTION5 md -->
+                        <div class="why-para-md col-sm-12 col-xs-12">
+                            
+                            <div class="col-sm-5 col-xs-5">
+                                <div class="why-title-md">
+                                   learning from you
+                                </div>
+                                <div class="why-subtitle-md">
+                                   we adapt to you
+                                </div>
+                                <div class="why-main-md">
+                               we analyse your data to continually improve search and learn how you file things. So teach us, senpai! 
+                                </div><br>
+                                <br>
+                          
+                            </div>
+                            <div class="col-sm-2 col-xs-2"></div>
+                            <div class="col-sm-5 col-xs-5"><img class=
+                            "why-image-md wow animated zoomIn img-responsive"
+                            id="illus1" src="./images/docuvo-machine-learning.png" alt= "machine learning for better findability">
+
+                             <div class="did-you-know-md animated wow bounceInUp" id=
+                                "did-you-know-sec1-md">
+                                    <div class=
+                                    "did-you-know-title-md animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-md animated wow bounceInUp">
+                                     with new advances in machine learning,
+                                       Alpha Go was able to win 
+                                       at the ancient game of Go by
+                                       discovering the rules that human
+                                       players understand but cannot explain.
+                                    </div>
+                                </div>
+                          </div></div>
+
+                    
+
+                        <!-- SECTION5 sm -->
+                        <div class="why-para-sm">
+                            <div class="col-sm-12">
+                                <div class="why-title-sm">
+                                    learning from you
+                                </div>
+                                <div class="why-subtitle-sm">
+                                    we adapt to you
+                                </div>
+                                <div class="col-sm-12"><img class=
+                                "why-image-sm wow animated zoomIn img-responsive"
+                                src="./images/docuvo-machine-learning.png" alt= "machine learning for better findability"></div>
+                                <div class="why-main-sm"  style="padding-right:50px;padding-left:50px;">
+                                 we analyse your data to continually improve search and learn how you file things. So teach us, senpai! 
+                                </div><br>
+                                <br>
+                                <br>
+                                <div class=
+                                "did-you-know-sm animated wow bounceInUp" id=
+                                "did-you-know-sec1">
+                                    <div class=
+                                    "did-you-know-title-sm animated wow bounceInUp">
+                                    did you know?
+                                    </div>
+                                    <div class=
+                                    "did-you-know-main-sm animated wow bounceInUp">
+                                   with new advances in machine learning,
+                                       Alpha Go was able to win 
+                                       at the ancient game of Go by
+                                       discovering the rules that human
+                                       players understand but cannot explain.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+</body>
+</html>
