@@ -19,7 +19,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
     .when("/faq", {templateUrl: "partials/joinus.html", controller: "PageCtrl"})
-    .when("/pricing", {templateUrl: "partials/howwework.html", controller: "PageCtrl"})
+    .when("/howwework", {templateUrl: "partials/howwework.html", controller: "PageCtrl"})
     .when("/services", {templateUrl: "partials/press.html", controller: "PageCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
