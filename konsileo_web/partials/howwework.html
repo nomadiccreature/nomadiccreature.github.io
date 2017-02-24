@@ -1,4 +1,19 @@
-  
+<script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                scrollBar: true,
+                navigation: true,
+                afterRender: function(){
+                  new WOW().init();
+                }
+            });
+        });
+
+        function toggler(divId) {
+    $("#" + divId).toggle();
+}
+
+    </script>  
         <div id="fullpage">
 
             <!-- SECTION1 -->
