@@ -5,7 +5,7 @@
 /**
  * Main AngularJS Web Application
  */
-var app = angular.module('KonsileoWebApp', [
+var app = angular.module('konsileoWebApp', [
   'ngRoute'
 ]);
 
