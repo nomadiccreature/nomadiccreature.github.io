@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family:'Montserrat', sans-serif;
+  color: white;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+  display: block;
+  position: relative;
+  z-index: 10;
+  color: #fff;
+}
+
+.intro .intro-body .intro-text {
+  font-size: 18px;
+  display: block;
+  position: relative;
+  z-index: 10;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 50px;
+    display: block;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 28px;
+    display: block;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+  }
+
+  .overlay{
+    height: 100%;
+}
+
+}
+
+.why-header{
+font-family:'Montserrat', sans-serif;
+font-size: 20px;
+color: #4A4A4A;
+letter-spacing: 0;}
+
+
+.why-sub-header{
+font-family:'Montserrat', sans-serif;
+font-size: 20px;
+color: #4A4A4A;
+letter-spacing: 0;}
+
+
+.why-body{
+font-family:'Montserrat', sans-serif;
+font-size: 18px;
+color: #8B8B8B;
+letter-spacing: 0;
+}
+
+
+.content-section {
+  padding-top: 60px;
+}
+.download-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background-color: #017373;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (min-width: 767px) {
+  .content-section {
+    padding-top: 150px;
+  }
+  .download-section {
+    padding: 100px 0;
+  }
+}
+
+
+.hww { height: 200px; padding-top: 100px; text-transform: uppercase; color: #fff; font-size: 1.375rem; }
+.hww.hww_meet-broker { background: url("../img/meet-broker.svg") top center no-repeat; background-size: 70px 85px; }
+.hww.hww_go-to-market { background: url("../img/go-to-market.svg") top center no-repeat; background-size: 70px 85px; }
+.hww.hww_manage-your-insurance { background: url("../img/manage-your-insurance.svg") top center no-repeat; background-size: 70px 85px; }
+.hww.hww_manage-your-risk { background: url("../img/manage-your-risk.svg") top center no-repeat; background-size: 70px 85px; }
+.hww.hww_long-term-commitment { background: url("../img/long-term-commitment.svg") top center no-repeat; background-size: 70px 85px; }
+.hww a { color: #fff; }
+
+@media (max-width: 767px) {.hww { padding: 100px 0 0 0; margin: 0 0 50px 0; }
+ .hww.hww_meet-broker { background: url("../img/meet-broker.svg") #017373 top center no-repeat; background-size: 70px 85px; }
+ .hww.hww_go-to-market { background: url("../img/go-to-market.svg") #017373 top center no-repeat; background-size: 70px 85px; }
+ .hww.hww_manage-your-insurance { background: url("../img/manage-your-insurance.svg") #017373 top center no-repeat; background-size: 70px 85px; }
+ .hww.hww_manage-your-risk { background: url("../img/manage-your-risk.svg") #017373 top center no-repeat; background-size: 70px 85px; }
+ .hww.hww_long-term-commitment { background: url("../img/long-term-commitment.svg") #017373 top center no-repeat; background-size: 70px 85px; } }
+
+aside.clients img {
+  margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
