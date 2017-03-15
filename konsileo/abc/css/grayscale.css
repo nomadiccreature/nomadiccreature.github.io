@@ -119,12 +119,12 @@ a:focus {
 
 
 .btn-circle {
-  width: 70px;
+  /*width: 70px;
   height: 70px;
   margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid white;
-  border-radius: 100% !important;
+  padding: 7px 16px;*/
+  /*border: 2px solid white;
+  border-radius: 100% !important;*/
   font-size: 40px;
   color: white;
   background: transparent;
@@ -135,12 +135,7 @@ a:focus {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-.btn-circle:hover,
-.btn-circle:focus {
-  outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-}
+
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
