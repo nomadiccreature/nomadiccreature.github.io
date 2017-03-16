@@ -1247,7 +1247,7 @@ input[type=text]{
 }
 
 
-.team-member { width: 250px; height: 360px; margin: 0 auto; margin-bottom: 100px; overflow: hidden; position: relative; text-align: center; border: 1px solid #fff; }
+.team-member { width: 250px; height: 360px; margin: 0 auto; margin-bottom: 100px; overflow: hidden; position: relative; text-align: center; border: 1px solid #000; }
 
 @media (max-width: 320px) { .team-member { width: 100%; } }
 
@@ -1273,8 +1273,16 @@ line-height: 18px;
 
 .team-member .team__social { display: inline-block; width: 20px; height: 14px; }
 
-.team-member .team__social.twitter { background: url("/images/icon-twitter-grey.svg") top left no-repeat; }
+.team-member .team__social.twitter { background: url("../img/icon-twitter-grey.svg") top left no-repeat; }
 
-.team-member .team__social.linkedin { background: url("/images/icon-linkedin-grey.svg") top left no-repeat; }
+.team-member .team__social.linkedin { background: url("../img/icon-linkedin-grey.svg") top left no-repeat; }
 
-.team-member .team__social.mail { background: url("/images/icon-mail-grey.svg") top left no-repeat; }
+.team-member .team__social.mail { background: url("../img/icon-mail-grey.svg") top left no-repeat; }
+
+.our-vision {
+    height: 650px;
+    padding: 6.94% 27.77% 6.94% 27.77% !important;
+    background: url(../img/hero-our-vision.jpg) top left no-repeat;
+    color: #fff !important;
+    text-align: center !important;
+}
