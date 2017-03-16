@@ -1223,3 +1223,9 @@ input[type=text]{
   border-radius: 4px;
   }
 
+
+  #mc-embedded-subscribe {
+    display: inline !important;
+    margin: 0 !important; 
+  }
+
