@@ -1234,3 +1234,47 @@ input[type=text]{
     margin: 0 !important; 
   }
 
+
+
+.team-office-background {
+  width: auto;
+  background: url(../img/team-office-background.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 1440px;
+}
+
+
+.team-member { width: 250px; height: 360px; margin: 0 auto; margin-bottom: 100px; overflow: hidden; position: relative; text-align: center; border: 1px solid #fff; }
+
+@media (max-width: 320px) { .team-member { width: 100%; } }
+
+.team-member .team-member__info { 
+  /* Mel most recently wo: */
+font-family: inherit;
+font-size: 12px;
+color: #4A4A4A;
+letter-spacing: 0;
+line-height: 18px;
+
+  opacity: 0;width: 250px; height: 250px; padding: 5px; position: absolute; background: #fff;text-align: left; -webkit-transition: all 250ms ease-in-out; -moz-transition: all 250ms ease-in-out; -o-transition: all 250ms ease-in-out; transition: all 250ms ease-in-out; }
+
+.team-member:hover .team-member__info { opacity: 0.90; }
+
+.team-member .team-member__photo { width: 250px; height: 250px; }
+
+.team-member .team-member__name { height: 30px; border-top: 1px solid #9b9b9b; }
+
+.team-member .team-member__name h4 { padding: 0; margin: 0; }
+
+.team-member .team-member__role { height: 45px; color: #9b9b9b; font-size: 1.375rem; line-height: 2.000rem; }
+
+.team-member .team__social { display: inline-block; width: 20px; height: 14px; }
+
+.team-member .team__social.twitter { background: url("/images/icon-twitter-grey.svg") top left no-repeat; }
+
+.team-member .team__social.linkedin { background: url("/images/icon-linkedin-grey.svg") top left no-repeat; }
+
+.team-member .team__social.mail { background: url("/images/icon-mail-grey.svg") top left no-repeat; }
