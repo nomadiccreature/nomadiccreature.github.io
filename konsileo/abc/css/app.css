@@ -1162,12 +1162,51 @@ margin-top: 30px;
  border-radius: 5px;
 }
 
-.why-image{
-    padding: 0px 60px 0px 60px;
+.why-image-a{
+    padding: 0px 80px 0px 80px;
     margin-top: 30px;
+    margin-left: 80px;
+}
+
+.why-image-b{
+    padding: 0px 80px 0px 80px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.why-image-c{
+    padding: 0px 80px 0px 80px;
+    margin-top: 30px;
+    margin-left: 80px;
 }
 
 .why-sub-section{
     padding-bottom: 40px;
     padding-top: 40px;
 }
+
+.why-sub-section-a{
+    padding:50px 120px 50px 100px;
+}
+
+.why-sub-section-b{
+    padding:50px 40px 50px 160px;
+}
+
+.why-sub-section-c{
+    padding:50px 120px 50px 100px;
+}
+
+input[type=text]{
+  font-family: inherit;
+  font-size: 1.1em;
+  line-height: inherit;
+  font-weight: 200;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border: 1px #fff;
+  border-radius: 4px;
+}
+
