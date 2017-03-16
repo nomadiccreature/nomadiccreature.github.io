@@ -1104,13 +1104,13 @@ line-height: 20px;
 }
 
 .footer-copyright{
-font-family: Montserrat-Regular;
+font-family: inherit;  
 font-size: 12px;
-color: #4A4A4A;
-letter-spacing: 0;
+font-weight: 300;
+color: #c5c5c5;
 text-align: center;
 margin-bottom: -30px;
-margin-top: 30px;
+margin-top: 40px;
 }
 
 
@@ -1205,8 +1205,21 @@ input[type=text]{
   padding: 5px 5px 5px 5px;
   width: 100%;
   max-width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   border: 1px #fff;
   border-radius: 4px;
 }
+
+.input-email{
+  font-family: inherit;
+  font-size: 1.1em;
+  line-height: inherit;
+  font-weight: 200;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border: 1px #fff;
+  border-radius: 4px;
+  }
 
