@@ -135,13 +135,15 @@ letter-spacing: 0;
 }
 
 
-.hww { height: 200px; padding-top: 100px; text-transform: uppercase; color: #fff; font-size: 1.375rem; }
-.hww.hww_meet-broker { background: url("../img/meet-broker.svg") top center no-repeat; background-size: 70px 85px; }
+.hww { height: 250px; padding-top: 100px; text-transform: uppercase; color: #fff; font-size: 1.375rem; }
+.hww.hww_meet-broker { background: url("../img/meet-broker.svg") top center no-repeat; background-size: 70px 85px;}
 .hww.hww_go-to-market { background: url("../img/go-to-market.svg") top center no-repeat; background-size: 70px 85px; }
 .hww.hww_manage-your-insurance { background: url("../img/manage-your-insurance.svg") top center no-repeat; background-size: 70px 85px; }
 .hww.hww_manage-your-risk { background: url("../img/manage-your-risk.svg") top center no-repeat; background-size: 70px 85px; }
 .hww.hww_long-term-commitment { background: url("../img/long-term-commitment.svg") top center no-repeat; background-size: 70px 85px; }
 .hww a { color: #fff; }
+
+
 
 @media (max-width: 767px) {.hww { padding: 100px 0 0 0; margin: 0 0 50px 0; }
  .hww.hww_meet-broker { background: url("../img/meet-broker.svg") #017373 top center no-repeat; background-size: 70px 85px; }
@@ -159,6 +161,9 @@ aside.clients img {
   padding: 60px;
 }
 
+.content-section .row {
+    background: url("../img/line-white.png") 0 79px repeat-x;
+}
 
 
 
@@ -1190,7 +1195,7 @@ margin-top: 40px;
 }
 
 .why-sub-section-b{
-    padding:50px 40px 50px 160px;
+    padding:50px 40px 50px 160px;   
 }
 
 .why-sub-section-c{
@@ -1199,10 +1204,10 @@ margin-top: 40px;
 
 input[type=text]{
   font-family: inherit;
-  font-size: 1.1em;
+  font-size: 0.9em;
   line-height: inherit;
   font-weight: 200;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 5px 10px 5px;
   width: 100%;
   max-width: 300px;
   margin-bottom: 12px;
@@ -1212,13 +1217,13 @@ input[type=text]{
 
 .input-email{
   font-family: inherit;
-  font-size: 1.1em;
+  font-size: 0.9em;
   line-height: inherit;
   font-weight: 200;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 5px 10px 5px;
   width: 100%;
   max-width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   border: 1px #fff;
   border-radius: 4px;
   }
