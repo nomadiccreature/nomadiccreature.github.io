@@ -1209,8 +1209,8 @@ input[type=text]{
   font-weight: 200;
   padding: 10px 5px 10px 5px;
   width: 100%;
-  max-width: 300px;
-  margin-bottom: 12px;
+  max-width: 350px;
+  margin-bottom: 15px;
   border: 1px #fff;
   border-radius: 4px;
 }
@@ -1222,7 +1222,7 @@ input[type=text]{
   font-weight: 200;
   padding: 10px 5px 10px 5px;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   margin-bottom: 12px;
   border: 1px #fff;
   border-radius: 4px;
