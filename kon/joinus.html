@@ -1,136 +1,361 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <title>Konsileo</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Konsileo</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
+    <link href="https://www.konsileo.com/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/swiper.min.css" rel="stylesheet">
+    <link href="css/joinus.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
+<body>
+    <div class="container">
+        
 
-<body id="page-top" class="index">
+<!-- [header] -->
+<header class="header__inner header__join-us">
+    <!-- [main menu] -->
+    <div class="overlay"></div>
+<div class="header-holder">
+    <!-- [logo] -->
+    <a href="/" class="logo"></a>
+    <!-- [/logo] -->
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <!-- [top navigation] -->
+     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="height:40px;width: 167px;"><img class="img-responsive" src="img/logo.png"></a>
+
+                <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="#page-top">
+                    <img class="img-responsive" src="img/konsileo-logo.svg" alt="konsileo logo" style="width:180px;height:auto;padding-left:8px;">
+                </a>
+
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">HOW WE WORK</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">ABOUT US</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">APPLY TO BE A BROKER</a>
-                    </li>
-                    
-                </ul>
+
+             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">BROKER</a>
+                        </li>
+                        <li>
+                            <a href="howwework.html">CUSTOMERS</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/konsileo" target="_blank">BLOG</a>
+                        </li>
+                        <li id="navigationbar"><a style=" text-decoration: none;" id="sign-up-nav" href="#" onclick="onClickSignUp()">APPLY</a>
+                        </li>
+                    </ul>
+              
             </div>
+
+
+
+
+
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <!-- Header -->
 
-    <header>
-        <div class="container">
+    <!-- [/top navigation] -->
+</div>
+    <!-- [/main menu] -->
+
+    <h1>Join Us</h1>
+
+    <!-- [content - freedom] -->
+    <section class="content content__freedom">
+        <div class="content__white">
+            <h2>Freedom</h2>
+            <p>/. As a Konsileo broker you have the freedom to manage your own time, choose your clients and your colleagues and take home more of what you earn</p>
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <img class="img-responsive" src="img/join_us_image.png" alt="">
-                        <p style=" font-family: Montserrat-Regular; font-size: 40px; color: #FFFFFF;letter-spacing: 0;">Join Us</p>
-                        <div class="col-lg-10 col-lg-offset-1" style="background-color:#ffffff;height:200px;color:#000;">
-                        <div style="padding-top:30px;font-family: Montserrat-Medium; font-size: 22px;color: #000000;letter-spacing: 2.5px;padding-bottom:20px;">FREEDOM</div>
-                        <div style="font-size: 16px;color: #4A4A4A;letter-spacing:-0.3px;">/. As a Konsileo broker you have the freedom to manage your own time, choose your clients and your colleagues and take home more of what you earn
-                        </div>  
-                    </div>
-                      
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon renumeration">Renumeration – Start with a guaranteed base but over time, earn more of what you bring in</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon flexible-hours">Flexible hours – you manage your own work week</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon choose-your-clients">You choose your clients and your colleagues</div>
                 </div>
             </div>
         </div>
-    </header>
 
+        <!-- [become founding broker] -->
+        <div class="become-broker-form">
+            <form action="" method="post">
+                <h2>Become a founding Konsileo broker</h2>
+                <input type="text" name="" placeholder="add your email">
+                <input type="submit" value="GET IN TOUCH">
+                <div class="clear"></div>
+            </form>
+        </div>
+        <!-- [/become founding broker] -->
+    </section>
+    <!-- [/content - freedom] -->
+</header>
+<!-- [/header] -->
 
+<div class="container__join-us">
+    <!-- [content - konsileo world] -->
+    <section class="content content__konsileo-world">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6"><h3>Member Experience</h3></div>
+            <div class="col-xs-12 col-sm-6"><h2>Be in control, manage yourself and others with Konsileo World</h2></div>
+        </div>
 
+        <div class="row">
+            <div class="col-xs-12 col-sm-6"><div class="content__konsileo-world-clipart"></div></div>
+            <div class="col-xs-12 col-sm-6">
+                <ul>
+                    <li>Full transparency on all your financials and see your portfolio build over time.</li>
+                    <li>Tools to support your growth and the growth of others.</li>
+                    <li>Mentoring not management with assigned planning time.</li>
+                    <li>Never feel on your own with access to online communities.</li>
+                    <li>A truly social experience alongside frequent face to face engagement.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- [/content - konsileo world] -->
+
+    <!-- [content - support] -->
+    <section class="content content__support">
+        <div class="content__white">
+            <h2>Support</h2>
+            <p>/. As a Konsileo broker you will have your own personal mentor (not boss) chosen by you to support your ongoing development, access to best in class technology, help with leads and more time with clients to become their true business advisor.</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon mentor">Mentor not boss</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon technology">Technology to give you time back</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon lead-generation">State of the art lead generation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- [/content - support] -->
+
+    <!-- [content - konsileo fact find] -->
+    <section class="content content__konsileo-fact-find">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-push-6"><h3>Fact Find</h3></div>
+            <div class="col-xs-12 col-sm-6 col-sm-pull-6"><h2>Become a true business advisor with the Konsileo Fact Find</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-push-6"><div class="content__konsileo-fact-find-clipart"></div></div>
+            <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                <ul>
+                    <li>Learn your client’s business from governance and business activities to individual assets, before advising on insurance.</li>
+                    <li>Identify your client’s long-term objectives.</li>
+                    <li>Visualise your client’s business all on one page.</li>
+                    <li>Capture all the information the underwriter needs in an intuitive way.</li>
+                    <li>Use semi-structured data capture means for collecting information.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- [/content - konsileo fact find] -->
+
+    <!-- [content - set for success] -->
+    <section class="content content__set-for-success">
+        <p><a href="http://www.theleagueofbrokers.com/sign-up/" target="_blank">Set yourself up for success in the digital age and join our content platform for free.</a></p>
+    </section>
+    <!-- [/content - set for success] -->
+
+    <!-- [content - konsileo platform] -->
+    <section class="content content__konsileo-platform">
+        <div class="row">
+            <div class="col-xs-12"><h3>Broker Dashboard</h3></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3"><h2>Understand the real meaning of efficiency with the Konsileo Platform</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-push-3">
+                <div class="content__konsileo-platform-clipart"></div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-sm-pull-6">
+                <ul>
+                    <li>Intuitive search so you can find the information you need.Instantly.</li>
+                    <li>Seamless integration of all email correspondence to each client file as part of our Compliance by Design methodology.</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <ul>
+                    <li>Up to 60% time-saving on administrative tasks.</li>
+                    <li>Automatic documentation creation, designed to best show the risk to the underwriter.</li>
+                    <li>Chasing and rediarying automated within the system.</li>
+                    <li>Quick execution of MTA’s.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- [/content - konsileo platform] -->
+
+    <!-- [content - community] -->
+    <section class="content content__community">
+        <div class="content__white">
+            <h2>Community</h2>
+            <p>/. As a Konsileo broker you will be part of a collaborative community in your region and across the country, where teaming up to best service your clients is actively encouraged.</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon fluid-team">Fluid team structure to reinforce collaboration, but with lots of face-to-face interaction</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon broader-community">Broader community to support professional development and motivation</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content__white-icon access-to-specialists">Access to specialists to drive upsell and cross-sell</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- [/content - community] -->
+
+    <!-- [content - konsileo risk hub] -->
+    <section class="content content__konsileo-risk-hub">
+        <div class="row">
+            <div class="col-xs-12"><h3>Risk Hub</h3></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-4"><h2>Delight your clients with the Konsileo Risk Hub</h2></div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="content__konsileo-risk-hub-clipart"></div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <ul>
+                    <li>Empower your clients with access to their own Risk Hub.</li>
+                    <li>Enrich your relationships via a deeper understanding of their business supported by data-driven insights.</li>
+                    <li>Differentiate yourself in the market by offering additional functionality and services including constant monitoring of both insurable and uninsurable risks.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- [/content - konsileo risk hub] -->
+
+    <!-- [content - broker evolution] -->
+    <section class="content content__broker-evolution">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <h2>The Konsileo Broker Evolution</h2>
+                <ul>
+                    <li class="evo-1">Get in touch for an initial discussion</li>
+                    <li class="evo-2">Ensure we have the same vision and engage in business planning</li>
+                    <li class="evo-3">Offer made and onboarding commences</li>
+                    <li class="evo-4">Welcome to Konsileo</li>
+                </ul>
+
+                <!-- [get in touch] -->
+                <div class="get-in-touch">
+                    <form action="" method="post">
+                        <h2>Get in touch for initial discussion</h2>
+                        <input type="text" name="" placeholder="">
+                        <input type="submit" value="SUBSCRIBE">
+                        <div class="clear"></div>
+                    </form>
+                </div>
+                <!-- [/get in touch] -->
+            </div>
+        </div>
+    </section>
+    <!-- [/content - broker evolution] -->
+</div>
+        
+        <!-- [footer] -->
+        
+ <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Konsileo 2017</span>
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <div class="footer-header">KONSILEO</div>
+                        <div class="footer-body">
+                            @: john@konsileo.com <br>
+                            p: ++44 (0)20 7183 5562 <br>
+                            a: 1 Frederick's Place <br>
+                            London EC2R 8AE <br>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-body">
+                            <a href="index.html">Home</a><br>
+                            <a href="press.html">Press</a><br>
+                            <a href="aboutus.html">About us</a><br>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-body">
+                            <br>
+                            <a href="privacy.html">Privacy Policy</a><br>
+                            <a href="terms.html">Terms and conditions</a><br>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-body">
+                            Subscribe to our newsletter for all our news and updates.<br>
+                            <a href="https://www.theleagueofbrokers.com">League of Brokers</a><br>
+                        </div>    
+                    </div>
+
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+                <div class="col-md-12">
+                <div class="footer-copyright">Konsileo Ltd. is a company registered in England and Wales with company number 9569872. © Konsileo Ltd 2017. Konsileo Ltd. is authorised and regulated by the Financial Conduct Authority. Our Financial Services Register number is XXXXXX.</div>
+            </div>
             </div>
         </div>
+
+
     </footer>
+        <!-- [/footer] -->
+    </div>
 
+    <!-- [javascript] -->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+        <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/main.js"></script>
 
+<script src="/js/swiper.min.js"></script>
+<script src="/js/app.js"></script>
+<script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+    <!-- [/javascript] -->
 </body>
-
 </html>
