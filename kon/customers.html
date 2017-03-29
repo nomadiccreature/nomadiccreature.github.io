@@ -25,7 +25,7 @@
     "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
     rel="stylesheet">
     <!-- Latest compiled and minified JavaScript -->
-
+    <link href="css/homepage.css" rel="stylesheet">
     <script src=
     "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
     </script>
@@ -61,31 +61,30 @@
     <section class="why">
       <!-- Navbar -->
       
-
-
-
-<nav class="navbar navbar-default navbar-fixed-top" id="nav-why-md">
+   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" data-toggle="collapse" data-target=".nav-collapse" href="index.html"><img class="img-responsive" alt="Brand" src="img/konsileo-logo.svg" alt="docuvo logo" style="width:180px;height:auto;padding-left:8px;"></a>
-
-           <button onclick="toggler('myContent');" type="button" class="navbar-toggle">
-             <span class="sr-only">Toggle navigation</span>
+            <div class="navbar-header navbar-default">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-            </button>
-      </div>
+                </button>
+
+                <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="#page-top">
+                    <img class="img-responsive" src="img/konsileo-logo.svg" alt="konsileo logo" style="width:180px;height:auto;padding-left:8px;">
+                </a>
+
+            </div>
 
 
-         
-             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+             <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
                   <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">BROKER</a>
+                            <a href="broker.html">BROKER</a>
                         </li>
                         <li>
-                            <a href="howwework.html">CUSTOMERS</a>
+                            <a href="customers.html">CUSTOMERS</a>
                         </li>
                         <li>
                             <a href="aboutus.html">ABOUT US</a>
@@ -98,21 +97,9 @@
                     </ul>
               
             </div>
-
-
-          <div class="menu menu-mobile" id="myContent" style="display:none; color:#fff; margin-top:15px;font-size:12px;font-family: 'Raleway';">
-
-              <ul class="ex-bar-nav">
-                     
-                            <li class="ex-bar-item"><a style=" text-decoration: none;" href="#"><span class="borderLeft why-mobile-drop">what we do</span></a></li>
-                            <li class="ex-bar-item"><a style=" text-decoration: none;" href="#" class="li-team"><span class="why-mobile-drop">team</span></a></li>
-                            <li class="ex-bar-item"><a style=" text-decoration: none;" href="#" ><span class="why-mobile-drop">sign up</span></a></li>
-
-                    </ul>
-
-          </div>
-   
-       </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
 

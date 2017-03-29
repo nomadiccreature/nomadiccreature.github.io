@@ -36,25 +36,6 @@ section.blog {
   background-color: #33FFCC;
 }
 
-/*navbar */
-.navbar {
-  background-color: inherit;
-  border: none;
-  color: blue;
-  padding: 5px 0px 5px 0px;
-  font-size: 12px;
-}
-
-#nav-why-lg {
-  background-color:transparent;
-}
-#nav-why-md {
-  background-color:transparent;
-}
-#nav-why-blog {
-  background-color:transparent;
-}
-
 
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
   background-color:white;
@@ -78,25 +59,6 @@ section.blog {
 
 }
 
-#nav-team {
-  background-color:#33CCCC;
-}
-#nav-blog {
-  background-color:#33FFCC;
-}
-.navbar .nav > li > a {
-  color:white;
-  font-family:'Montserrat', sans-serif;
-  margin-left: 5px;
-}
-
-
-
-/*.navbar .nav > li > a.team-nav-leads{
- color:#777;
-  font-family:'Montserrat';
-  margin-left: 5px;
-}*/
                           /*footer*/
 footer {
 }
@@ -130,27 +92,6 @@ section.editor {
 h1#first-tag {
   opacity: 0.7;
 }
-
-a#sign-up-nav {
-border: 1px solid #FFFFFF;
-border-radius: 3px;
-padding-right: 35px;padding-left: 35px;
-}
-
-
-a#sign-up-nav-team {
-border: 1px solid #777;
-border-radius: 3px;
-padding-right: 35px;padding-left: 35px;
-}
-
-
-a#sign-up-nav-why {
-
-border-radius: 3px;
-padding-right: 35px;padding-left: 35px;
-}
-
 
 
 .section {
@@ -724,9 +665,6 @@ padding-right: 15px;padding-left: 15px;
   .why-para-sm {
     display: none;
   }
-  #nav-why {
-  background-color:transparent;                 
-}
 }
 
 
@@ -762,16 +700,6 @@ padding-right: 15px;padding-left: 15px;
 
 @media (max-width: 770px){
 
-  #nav-why-lg{
-        display: none;
-  }
- 
-
-
-  #jobbio_md{
-        display: none;
-  }
-
 }
 
 
@@ -780,9 +708,7 @@ padding-right: 15px;padding-left: 15px;
    #index-main-artwork-md{
         display: none;
   }
-   .navbar{
-    background-color:#32C5CA;
-  }
+
  
    #index-main-md{
         display: none;
