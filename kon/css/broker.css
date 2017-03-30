@@ -671,7 +671,7 @@ footer form input[type=text]:hover { border-color: #fff; }
 
 footer form input[type=submit] { width: 36px; height: 36px; float: left; border: 0; background: url("../img/icon-send.svg") #e2ebea 50% 50% no-repeat; text-align: center; }
 
-a.btn { display: inline-block; padding: 15px 20px 20px 20px !important; border: 2px solid #fff; text-transform: uppercase; }
+a.btn { display: inline-block; padding: 20px 20px 20px 20px !important; border: 2px solid #fff; text-transform: uppercase; }
 
 a.btn:hover { background: #fff; color: #08bcbd; }
 
