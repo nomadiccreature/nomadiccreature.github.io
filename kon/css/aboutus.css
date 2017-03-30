@@ -121,7 +121,7 @@ section.wide-content { padding-left: 6.94% !important; padding-right: 6.94% !imp
 
 .header__about-us h1 { margin-top: 25%; font-size: 5.000rem; text-transform: none; }
 
-.page-navigation__about-us { list-style: none; padding: 0; margin: 0; }
+.page-navigation__about-us { list-style: none; margin-left: 30%;}
 
 .page-navigation__about-us li { display: inline-block; padding: 25px 50px 0 50px; }
 
@@ -362,7 +362,8 @@ header .header-holder.sticky { background: rgba(0, 0, 0, 0.85); }
 
 @media (min-width: 1200px) { header.header__home { height: 750px; background: url("../img/hero-home.jpg") 50% 50% no-repeat; }
   header.header__press { height: 540px; background: url("../img/hero-press.jpg") 50% 50% no-repeat; }
-  header.header__about-us { height: 540px; background: url("../img/hero-about-us.jpg") 50% 50% no-repeat; } }
+  header.header__about-us { height: 460px; background: url("../img/hero-about-us.jpg") 50% 0% no-repeat;
+    background-size: 105%; }
 
 header.header__join-us { min-height: 1118px; background: url("../img/bg-join-us-header.svg") #f3f3f3 top center no-repeat; }
 
