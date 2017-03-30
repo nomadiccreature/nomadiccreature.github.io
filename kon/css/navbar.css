@@ -3,7 +3,7 @@
 
 /*navbar */
 
-@media (max-width: 767px) { .navbar-default { margin: 0; position: relative; z-index: 9; }
+@media (max-width: 767px) { .navbar-default { margin: 0; position: relative; z-index: 9;  background-color: transparent;}
   .navbar-default.expand { background: #fff; }
   .navbar-default.expand .container-fluid { height: 370px; }
   .navbar-default.expand .navbar-toggle:hover, .navbar-default.expand .navbar-toggle:focus { background-color: #fff; }

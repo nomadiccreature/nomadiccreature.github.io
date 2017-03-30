@@ -165,20 +165,6 @@ aside.clients img {
 }
 
 
-
-/*navbar */
-
-
-#nav-why-lg {
-  background-color:transparent;
-}
-#nav-why-md {
-  background-color:transparent;
-}
-#nav-why-blog {
-  background-color:transparent;
-}
-
 .borderLeft {
  border-bottom: solid #fff;
  padding-bottom: 5px;
@@ -193,26 +179,6 @@ aside.clients img {
  bottom:30%;
 
 }
-
-#nav-team {
-  background-color:#33CCCC;
-}
-#nav-blog {
-  background-color:#33FFCC;
-}
-.navbar .nav > li > a {
-  color:white;
-  font-family:'Montserrat', sans-serif;
-  margin-left: 5px;
-}
-
-
-
-/*.navbar .nav > li > a.team-nav-leads{
- color:#777;
-  font-family:'Montserrat';
-  margin-left: 5px;
-}*/
 
                           /*backgrounds*/
 .main {
@@ -895,10 +861,6 @@ padding-right: 15px;padding-left: 15px;
   padding-left: 15px;
   }
 
-.navbar .nav > li > a.li-team{
-  padding-right:15px;
-  padding-left:15px;
-}
   .typed, .typed-cursor {
     font-size: 2em;
     line-height: 2em;
