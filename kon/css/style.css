@@ -121,7 +121,7 @@ h1#first-tag {
     100% { opacity:1; }
 }
 
-.fa {
+.fa-social {
   color: white;
   background-color: #258293;
   border-radius: 50%;
@@ -137,7 +137,7 @@ h1#first-tag {
   text-align: center;
 
 }
-.fa:hover {
+.fa-social:hover {
   background: white;
   color: #258293;
   text-decoration: none;
@@ -627,13 +627,13 @@ img.why-image-md {
 
 /*md ends*/
 
-
+/*
 .subscribe-btn {
   background: white;
   color: black;
   text-decoration: none;
 }
-
+*/
 
 
 @media (max-width: 990px) {
@@ -746,7 +746,7 @@ padding-right: 15px;padding-left: 15px;
 
 }
 
-
+/*
 .subscribe-btn{ 
  color: #258293 !important;
  background-color:#fff  !important; 
@@ -761,9 +761,9 @@ padding-right: 15px;padding-left: 15px;
  border-radius: 5px;
  
 }
+*/
 
-
-
+/*
 .subscribe-btn-joinnow{
  font-family:'Montserrat', sans-serif;
  font-weight:200px;
@@ -790,7 +790,7 @@ color:#fff !important;
  padding: 15px 30px 15px 30px;
  border-radius: 5px;
 
-}
+}*/
 
 .signup-description{
  font-family:'aleo-light';
