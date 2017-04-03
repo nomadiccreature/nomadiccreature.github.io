@@ -76,7 +76,7 @@ section { position: relative; }
 
 section.content { line-height: 2.000em; }
 
-section.content.content__grey { background: #f3f3f3; }
+section.content.content__grey { background: #f3f3f3;    margin-bottom: 60px; }
 
 section.content p { margin-bottom: 30px; }
 
