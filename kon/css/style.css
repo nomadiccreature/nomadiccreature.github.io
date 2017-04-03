@@ -36,14 +36,14 @@ section.blog {
   background-color: #33FFCC;
 }
 
-/*
+
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
   background-color:white;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
   background: white !important;
 }
-*/
+
 .borderLeft {
  border-bottom: solid #fff;
  padding-bottom: 5px;
@@ -395,6 +395,7 @@ form#register-form-sm {
 
 .did-you-know-main {
   font-size: 16px;
+/*  font-family: "Helvetica Neue", Helvetica, sans-serif;*/
 font-family: 'Montserrat', sans-serif;
 
 /*
