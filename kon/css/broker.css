@@ -36,7 +36,6 @@ h3 { display: inline-block; font-size: 2.000rem; font-weight: 700; margin-bottom
 
 h4 { display: inline-block;  text-transform: uppercase; }
 
-a:hover { color: #08bcbd !important; text-decoration: none !important; }
 
 input { display: block; height: 54px; padding: 0; margin: 0; border: 1px solid #fff; background: none; }
 
@@ -490,4 +489,7 @@ a#sign-up-nav-join {
     padding-right: 35px;
     padding-left: 35px;
 }
+
+
+.get-in-touch a:hover{color:#08bcbd !important;background-color: #fff !important; text-decoration: none !important; }
 
