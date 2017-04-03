@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
-.navbar .nav > li > a.li-team{
+/*.navbar .nav > li > a.li-team{
   padding-right: 35px;padding-left: 35px;
 }
-
+*/
 a:visited {
   text-decoration: none;
 }
@@ -36,14 +36,14 @@ section.blog {
   background-color: #33FFCC;
 }
 
-
+/*
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
   background-color:white;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
   background: white !important;
 }
-
+*/
 .borderLeft {
  border-bottom: solid #fff;
  padding-bottom: 5px;
@@ -395,7 +395,6 @@ form#register-form-sm {
 
 .did-you-know-main {
   font-size: 16px;
-/*  font-family: "Helvetica Neue", Helvetica, sans-serif;*/
 font-family: 'Montserrat', sans-serif;
 
 /*
@@ -724,20 +723,20 @@ padding-right: 15px;padding-left: 15px;
   }
   #index-main-lg{
         display: none;
-  }
+  }/*
    .navbar{
     background-color:#32C5CA;
-  }
+  }*/
 
   a#sign-up-nav {
   border: none;
   padding-left: 15px;
   }
 
-.navbar .nav > li > a.li-team{
+/*.navbar .nav > li > a.li-team{
   padding-right:15px;
   padding-left:15px;
-}
+}*/
   .typed, .typed-cursor {
     font-size: 2em;
     line-height: 2em;
