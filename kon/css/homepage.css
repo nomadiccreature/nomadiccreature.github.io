@@ -150,7 +150,7 @@ img::-moz-selection {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/intro-bg.png) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -574,83 +574,6 @@ font-size: 24px;
 }
 
 
-
-
-/*#arindra:hover {
-  background-image: url("../images/arindra2.png");
-}*/
-
-
-.team-position {
-  text-align: center;
-  font-size:16px;
-  margin-bottom: 10px;
-  color: #777;
-}
-#register-section {
-  position: relative;
-  top: 200px;
-}
-.email-sub {
-  position: relative;
-  display: inline-block;
-}
-button.register-now {
-          background: transparent;
-          padding: 10px 50px;
-          border-radius: 5px;
-          border: 1px solid #ffffff;
-          display: inline-block;
-
-}
-/*
-button.register-now:hover {
-  color:black;
-}*/
-.input-area {
-  width: 81%;
-  height: 47px;
-  border-radius: 20px;
-  border: white;
-  color:black;
-  text-align: center;
-}
-.blog-input-area {
-  margin-left: -8%;
-  width: 120%;
-  height: 47px;
-  border-radius: 20px;
-  border: white;
-  color:black;
-  text-align: center;
-}
-.but-sub-main {
-  margin-top: 10px;
-}
-#blog-section {
-  margin-top:50px;
-}
-#blog-blog-post {
-  height: 300px;
-}
-form#register-form-lg {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-form#register-form-md {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-form#register-form-sm {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
 .line{height:450px; width:0px; position:relative; border-left:2px solid #fff;margin-top:180px;margin-left:100px;}
 .line_up{height:225px; width:0px; position:relative; border-left:2px solid #fff;margin-top:-100px;margin-left:100px;}
 .line_down{height:440px; width:0px; position:relative; border-left:2px solid #fff;margin-top:60px;margin-left:100px;}
@@ -702,56 +625,14 @@ form#register-form-sm {
   color: rgba(255,255,255,0.3);
 }
 
-.did-you-know-main {
-  font-size: 16px;
-/*  font-family: "Helvetica Neue", Helvetica, sans-serif;*/
-font-family: 'Montserrat', sans-serif;
-
-/*
-
-font-family: 'Signika', sans-serif;
-
-
-
-
-
- /* font-weight: 400;*/
-  position:relative;
-  text-align: center;
-}
-
 
 img.why-image {
   width: 100%;
   height: 100%;
-
-/*  margin-top: 200px;*/
 }
 
 
 
-
-#illus1 {
-  width: 65%;
-  margin-bottom: 50px;
-}
-#illus2 {
-  margin-top: 100px;
-  width: 100%;
-}
-
-#illus3 {
-  margin-top: 50px;
-  width: 100%;
-}
-#illus4 {
-  margin-top: 60px;
-  width: 100%;
-}
-#illus5 {
-  margin-top: 120px;
-  width: 110%;
-}
 section.why h1 {
   font-size: 38px;
 }
@@ -1265,7 +1146,10 @@ margin-top: 40px;
  border-radius: 5px;
 }
 
-.why-image-a{
+
+
+@media (min-width: 768px) {
+  .why-image-a{
     padding: 0px 80px 0px 80px;
     margin-top: 30px;
     margin-left: 80px;
@@ -1283,6 +1167,7 @@ margin-top: 40px;
     margin-left: 80px;
 }
 
+
 .why-sub-section{
     padding-bottom: 40px;
     padding-top: 40px;
@@ -1299,6 +1184,59 @@ margin-top: 40px;
 .why-sub-section-c{
     padding:50px 120px 50px 100px;
 }
+
+.why-sub-section-responsive{
+  display:none;
+}
+
+}
+
+@media (max-width: 768px) {
+.why-image-a{
+    padding: 0px 80px 0px 80px;
+    width:400px;
+
+}
+
+.why-image-b{
+    width:400px;
+    padding: 0px 80px 0px 80px;
+
+}
+.why-image-c{
+    width:400px;
+    padding: 0px 80px 0px 80px;
+
+}
+
+.why-sub-section-768{
+  display:none;
+}
+
+
+.why-sub-section-a{
+  padding-top:30px;
+    padding-bottom: 60px;
+}
+
+.why-sub-section-b{
+  padding-top:30px;
+    padding-bottom:16px;   
+}
+
+.why-sub-section-c{
+  padding-top:30px;
+    padding-bottom: 60px;
+}
+
+.section-header{
+  margin-top: 30px;
+}
+
+}
+
+
+
 
 input[type=text]{
   font-family: inherit;

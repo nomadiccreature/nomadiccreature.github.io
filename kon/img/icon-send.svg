@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Send</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_page" transform="translate(-1323.000000, -3974.000000)" fill="#007373">
+            <g id="Group-28" transform="translate(0.000000, 3839.000000)">
+                <g id="Group-27" transform="translate(85.000000, 29.000000)">
+                    <path d="M1238,115.375 L1243,117.25 L1243.625,123.5 L1246.75,119.125 L1251.125,123.5 L1255.5,106 L1238,115.375 L1238,115.375 Z M1250.44922,121.054687 L1246.75,117.25 L1251.75,110.375 L1244.25,116.382812 L1241.02344,115.171875 L1253.60156,108.433594 L1250.44922,121.054687 L1250.44922,121.054687 Z" id="Send"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

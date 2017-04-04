@@ -23,7 +23,7 @@
     width: 100%;
     top: 0px;
     left: 15px;
-    height: 600px;
+    min-height: 250px;
     color: black;
     overflow: hidden;}
     .navbar-collapse.navbar-right.navbar-main-collapse ul{padding-top: 80px;}
