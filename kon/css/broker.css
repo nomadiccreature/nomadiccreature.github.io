@@ -469,3 +469,10 @@ a#sign-up-nav-join {
 
 .get-in-touch a:hover{color:#08bcbd !important;background-color: #fff !important; text-decoration: none !important; }
 
+ .job-title{font-size:20px ;font-weight:500;text-align: center;}
+ .job-salary{color:#08BCBD;font-size:18px ;font-weight: 500;text-align: center;}
+ .job-location{color:#919191;text-transform: uppercase; font-size:16px ;font-weight: 600;text-align: center;}
+ .job-role-header{color:#4A4A4A;font-size:16px ;font-weight: 500;text-align: center;}
+ .job-role-body{color:#4A4A4A;font-size:15px ;font-weight: 300;text-align: center;}
+ 
+
