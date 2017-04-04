@@ -28,6 +28,14 @@
     overflow: hidden;}
     .navbar-collapse.navbar-right.navbar-main-collapse ul{padding-top: 80px;}
     .navbar-collapse.navbar-right.navbar-main-collapse ul li{text-align: center;}
+    .wearehiring-image{position: absolute;
+    top: 190px;
+    left: 210px;
+    width: 68px;
+    height: auto;
+    padding-left: 8px;
+    z-index: 1;
+}
 }
 
 .top-navigation ul { padding: 0; margin: 0; }
@@ -105,6 +113,9 @@
   margin-left: 5px;
   font-size: 14px;
 }
+.wearehiring-image{
+  position: absolute; top: -15px; left: 70px; width: 80px; height: auto; padding-left: 8px; z-index: 1;
+}
 }
 
 .navbar{
@@ -114,4 +125,5 @@
     position: absolute;
     right: 30px;
 }
+
 
