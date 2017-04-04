@@ -268,7 +268,7 @@ padding-right: 30px;
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 150px;
+    padding-top: 100px;
   }
   .content-section-why {
     padding-top: 100px;
@@ -280,7 +280,8 @@ padding-right: 30px;
   }
 }
 
-
+@media (max-width: 500px) {.hww { height: 150px !important; padding-top: 100px; text-transform: uppercase; color: #fff; font-size: 1.375rem; }
+}
 .hww { height: 250px; padding-top: 100px; text-transform: uppercase; color: #fff; font-size: 1.375rem; }
 .hww.hww_meet-broker { background: url("../img/meet-broker.svg") top center no-repeat; background-size: 70px 85px;}
 .hww.hww_go-to-market { background: url("../img/go-to-market.svg") top center no-repeat; background-size: 70px 85px; }
