@@ -109,16 +109,16 @@ a:focus {
 }
 
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #08BCBD;
+  color: #08BCBD;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #08BCBD;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #08BCBD;
 }
 footer {
   padding: 50px 0;
