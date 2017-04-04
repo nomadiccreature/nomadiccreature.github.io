@@ -39,7 +39,7 @@ h4 { display: inline-block;  text-transform: uppercase; }
 
 input { display: block; height: 54px; padding: 0; margin: 0; border: 1px solid #fff; background: none; }
 
-form { display: inline-block; position: relative; z-index: 10; margin-top: 50px; }
+form { display: inline-block; position: relative; z-index: 10; margin-top: 20px; }
 
 @media (max-width: 767px) { form { display: block; width: 100%; margin-top: 0px; text-align: center; } }
 
@@ -53,11 +53,12 @@ form input[type=text]:hover { border-color: #fff; }
 
 @media (max-width: 767px) { form input[type=text] { display: block; float: none; width: 95%; margin: 0 auto; max-width: 395px; border: 1px solid #9b9b9b; } }
 
-form input[type=submit] { width: 200px; float: left; border: 0; background: #08bcbd; text-align: center;  letter-spacing: 2.5px; text-transform: uppercase; color: #fff; }
+form input[type=submit] { width: 200px; float: left; border: 0; background: #08bcbd; text-align: center; letter-spacing: 2.5px; text-transform: uppercase; color: #fff; }
 
 form input[type=submit]:hover { background: #fff; color: #08bcbd; }
 
 @media (max-width: 767px) { form input[type=submit] { display: block; float: none; width: 95%; margin: 0 auto; max-width: 395px; } }
+
 
 section { position: relative; }
 
@@ -403,28 +404,6 @@ header .logo { display: block; width: 170px; height: 40px; position: absolute; z
 
 
 
-.stay-in-touch { padding: 70px 0 70px 0; background: url("../img/hero-stay-in-touch.png") no-repeat; }
-
-@media (max-width: 767px) { .stay-in-touch { padding: 30px 0 30px 0; } }
-
-.stay-in-touch h2 { color: #fff; }
-
-.stay-in-touch p {  color: #fff; }
-
-.stay-in-touch form { display: inline-block; margin-top: 20px; }
-
-@media (max-width: 767px) { .stay-in-touch form input { height: 40px; font-size: 1.250rem; } }
-
-.stay-in-touch form input[type=text] { width: 395px; float: left; border: 0; background: #fff; text-align: center; text-transform: none !important;  letter-spacing: 2.5px; text-transform: uppercase; color: #9b9b9b; }
-
-.stay-in-touch form input[type=text]:hover { border-color: #fff; }
-
-.stay-in-touch form input[type=submit] { width: 200px; float: left; border: 2px solid #fff; background: none; text-align: center;  letter-spacing: 2.5px; text-transform: uppercase; color: #fff; }
-
-@media (max-width: 767px) { .stay-in-touch form { width: 90%; }
-  .stay-in-touch form input[type=text] { width: 100%; }
-  .stay-in-touch form input[type=submit] { width: 100%; } }
-
 .team-member { width: 250px; height: 360px; margin: 0 auto; margin-bottom: 100px; overflow: hidden; position: relative; text-align: center; border: 1px solid #9b9b9b; }
 
 @media (max-width: 320px) { .team-member { width: 100%; } }
@@ -459,10 +438,7 @@ header .logo { display: block; width: 170px; height: 40px; position: absolute; z
 
 .press img { margin-bottom: 30px; }
 
-footer { padding: 50px 0 50px 0; text-align: left;  font-size: 1.375rem; color: #4a4a4a; }
 
-@media (max-width: 767px) { footer { padding: 50px; }
-  footer .col-xs-12 { float: none; margin-bottom: 30px; } }
 
   #navigationbar a:hover { 
     background-color: #fff;
