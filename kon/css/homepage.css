@@ -309,7 +309,7 @@ aside.clients img {
 
 .how-section .row {
     background: url("../img/line-white.png") 0 79px repeat-x;
-    
+
 }
 
 
@@ -358,26 +358,6 @@ section.editor {
 }
 h1#first-tag {
   opacity: 0.7;
-}
-
-a#sign-up-nav {
-border: 1px solid #FFFFFF;
-border-radius: 3px;
-padding-right: 35px;padding-left: 35px;
-}
-
-
-a#sign-up-nav-team {
-border: 1px solid #777;
-border-radius: 3px;
-padding-right: 35px;padding-left: 35px;
-}
-
-
-a#sign-up-nav-why {
-
-border-radius: 3px;
-padding-right: 35px;padding-left: 35px;
 }
 
 .section {
@@ -1149,28 +1129,34 @@ margin-top: 40px;
                 padding:50px 120px 50px 100px;
             }
 
-            .why-sub-section-responsive{
+}
+
+
+  @media (min-width: 770px){
+     .why-sub-section-responsive{
               display:none;
             }
+  }         
 
-
-}
 
 @media (max-width: 768px) {
           .why-image-a{
               padding: 0px 80px 0px 80px;
               width:400px;
+              margin-left: 20%;
 
           }
 
           .why-image-b{
               width:400px;
               padding: 0px 80px 0px 80px;
+              margin-left: 20%;
 
           }
           .why-image-c{
               width:400px;
               padding: 0px 80px 0px 80px;
+              margin-left: 20%;
 
           }
 
@@ -1196,6 +1182,34 @@ margin-top: 40px;
 
           .section-header{
             margin-top: 30px;
+          }
+
+}
+
+
+
+
+@media (max-width: 500px) {
+          .why-image-a{
+              padding: 0px 80px 0px 80px;
+              width:400px;
+              margin-left: 0% !important;
+
+          }
+
+          .why-image-b{
+              width:400px;
+              padding: 0px 80px 0px 80px;
+              margin-left: 0% !important;
+
+          }
+          .why-image-c{
+              width:400px;
+              padding: 0px 80px 0px 80px;
+              margin-left: 0% !important;
+
+          }
+
           }
 
 }

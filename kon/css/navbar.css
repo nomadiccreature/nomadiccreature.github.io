@@ -127,3 +127,22 @@
 }
 
 
+a#sign-up-nav {
+border: 1px solid #FFFFFF;
+border-radius: 3px;
+padding-right: 35px;padding-left: 35px;
+}
+
+
+a#sign-up-nav-team {
+border: 1px solid #777;
+border-radius: 3px;
+padding-right: 35px;padding-left: 35px;
+}
+
+
+a#sign-up-nav-why {
+
+border-radius: 3px;
+padding-right: 35px;padding-left: 35px;
+}
