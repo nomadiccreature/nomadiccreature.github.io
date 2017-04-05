@@ -384,7 +384,17 @@ a.download:hover { color: #fff !important; }
 
 .press-releases { width: 1080px; max-width: 100%; margin: 0 auto; }
 
-.release { width: 315px; margin: 0 auto; margin-top: 50px; border: 1px solid rgba(155, 155, 155, 0.14); text-align: center; }
+.release { 
+
+font-size: 15px;
+    max-width: 300px;
+    line-height: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid rgba(155, 155, 155, 0.14);
+    text-align: center;
+    font-weight: 500;
+     }
 
 @media (max-width: 767px) { .release { width: 90%; } }
 
@@ -392,7 +402,7 @@ a.download:hover { color: #fff !important; }
 
 .release .release__photo:hover .overlay { display: none; }
 
-.release .release__photo .release__title { display: block; width: 100%; padding: 5px; position: absolute; z-index: 11; bottom: 0px; color: #fff; font-family: "montserratregular"; }
+.release .release__photo .release__title { display: block; width: 100%; padding: 5px; position: absolute; z-index: 11; bottom: 0px; color: #fff; }
 
 .release .release__photo .release__title:hover { color: #fff !important; }
 
@@ -402,7 +412,11 @@ a.download:hover { color: #fff !important; }
 
 .release .release__date { padding: 10px; text-align: right;font-weight: 300; font-size: 1.250rem; }
 
-.release .release__intro { padding: 10px; text-align: left; font-weight: 400; font-size: 1.500rem; }
+.release .release__intro { padding: 10px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 16px; }
 
 .release .release__source { height: 25px; }
 
