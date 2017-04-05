@@ -550,22 +550,7 @@ footer.why-foot div.text-muted {
     font-weight: 300;
 }
 
-footer#blog-foot {
-    margin: 0;
-    padding: 0;
-}
 
-footer#blog-foot p.text-muted {
-    margin-bottom: 20px;
-    margin-top: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-footer#blog-foot a {
-    line-height: 2;
-}
 
 form.editor-form {
     position: relative;
@@ -1074,4 +1059,13 @@ http://ryanfait.com/
 @media (max-width: 500px){
 .social-media-footer{
   display:none;
+}}
+
+
+
+@media (max-width: 500px) {
+footer.why-foot div.text-muted {
+    font-size: 8px;
+    color: #ffffff;
+    font-weight: 300;
 }}
