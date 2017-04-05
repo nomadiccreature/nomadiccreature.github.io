@@ -351,6 +351,15 @@ form#register-form-sm {
   margin-top: 25%;
 }
 
+.why-title-5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+  margin-top: 8%;
+}
+
 
 .why-main {
     font-weight: 300;
@@ -464,9 +473,10 @@ footer.why-foot {
 
 }
 footer.why-foot div.text-muted {
-  font-size: 10px;
+  font-size: 9px;
   color: #ffffff;
   margin-bottom: 10px;
+  font-weight: 300;
 }
 footer#blog-foot {
   margin: 0;
