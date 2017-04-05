@@ -57,7 +57,7 @@ section.blog {
 
 }
 
-                      /*backgrounds*/
+                /*backgrounds*/
 .main {
   background: #33cccc; /* Old browsers */
   background: -moz-linear-gradient(top,  #33cccc 0%, #31adc4 100%); /* FF3.6-15 */
@@ -522,6 +522,7 @@ form.editor-form {
 .why-title-sm{
   font-size: 15px;
   font-weight: 300;
+  padding-top: 30px;
 }
 
 .why-subtitle-sm{
@@ -531,7 +532,7 @@ form.editor-form {
 
 .why-main-sm{
   padding-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   font-weight: 300;
 }
