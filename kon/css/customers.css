@@ -1070,3 +1070,8 @@ http://ryanfait.com/
     line-height: 1.2;
     font-weight: 300;
 }
+
+@media (max-width: 500px){
+.social-media-footer{
+  display:none;
+}}
