@@ -342,7 +342,7 @@ form#register-form-sm {
 }
 .line{height: 450px; width: 0px; position: relative; border-left: 2px solid #fff; margin-top: 195px; margin-left: 102px;}
 .line_up{height:250px; width:0px; position:relative; border-left:2px solid #fff;margin-top:-80px;margin-left:100px;}
-.line_down{height:440px; width:0px; position:relative; border-left:2px solid #fff;margin-top:60px;margin-left:100px;}
+.line_down{height:440px; width:0px; position:relative; border-left:2px solid #fff;margin-top:20px;margin-left:100px;}
 .line_up_a{height:250px; width:0px; border-left:2px solid #fff;margin-top:-85px;margin-left:100px;}
 
 .why-title {
@@ -946,3 +946,22 @@ http://ryanfait.com/
 .team-mobile-drop{
   font-size: 12px;
 }
+
+.why-para-lg-img-1{float:right; margin-top:88%;margin-right:20%;}
+.why-para-lg-img-2{float: right;position: absolute;right: 26%;margin-top:-18%;}
+.why-para-lg-img-3{float: right;position: absolute;right: 26%;margin-top: -16%;
+    }
+.why-para-lg-img-4{float:right; margin-top:10%;margin-right:25%;z-index: 100;}
+.why-para-lg-img-5{float:right; margin-top:-8%;margin-right:22%;}
+
+@media (max-width: 1024px){
+.why-para-lg-img-1{float:right; margin-top:96%;margin-right:-2%;}
+.why-para-lg-img-2{float:right; margin-top:-38%;margin-right:-2%;}
+.why-para-lg-img-3{float:right; margin-top:-38%;margin-right:0%;}
+.why-para-lg-img-4{float:right; margin-top:-12%;margin-right:6%;}
+.why-para-lg-img-5{float:right; margin-top:-38%;margin-right:-2%;}
+
+
+}
+
+
