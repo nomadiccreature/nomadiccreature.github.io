@@ -340,10 +340,10 @@ form#register-form-sm {
   margin-right: auto;
   margin-bottom: 50px;
 }
-.line{height:450px; width:0px; position:relative; border-left:2px solid #fff;margin-top:180px;margin-left:100px;}
-.line_up{height:225px; width:0px; position:relative; border-left:2px solid #fff;margin-top:-100px;margin-left:100px;}
+.line{height: 450px; width: 0px; position: relative; border-left: 2px solid #fff; margin-top: 195px; margin-left: 102px;}
+.line_up{height:250px; width:0px; position:relative; border-left:2px solid #fff;margin-top:-80px;margin-left:100px;}
 .line_down{height:440px; width:0px; position:relative; border-left:2px solid #fff;margin-top:60px;margin-left:100px;}
-
+.line_up_a{height:250px; width:0px; border-left:2px solid #fff;margin-top:-85px;margin-left:100px;}
 
 .why-title {
   font-family: 'Montserrat', sans-serif;
@@ -351,18 +351,17 @@ form#register-form-sm {
   font-weight: 500;
   letter-spacing: 2.5px;
   color: #ffffff;
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
 
 .why-main {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 18px;
-  color: #FFFFFF;
-  letter-spacing: 0;
-  line-height: 23px;
-  padding-top: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding-top: 25px;
 }
 
 
@@ -524,13 +523,13 @@ form.editor-form {
 }
 
 .why-title-sm{
-  font-size: 20px;
-  font-weight: 200px;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .why-subtitle-sm{
-  font-size: 16px;
-  font-weight: 100px;
+  font-size: 12px;
+  font-weight: 100;
 }
 
 .why-main-sm{
@@ -682,9 +681,6 @@ padding-right: 15px;padding-left: 15px;
   #index-main-lg{
         display: none;
   }
-  .navbar{
-    background-color:#32C5CA;
-  }
   #index-main-artwork-md{
         display: none;
   }
@@ -721,10 +717,7 @@ padding-right: 15px;padding-left: 15px;
   }
   #index-main-lg{
         display: none;
-  }/*
-   .navbar{
-    background-color:#32C5CA;
-  }*/
+  }
 
   a#sign-up-nav {
   border: none;
@@ -953,5 +946,3 @@ http://ryanfait.com/
 .team-mobile-drop{
   font-size: 12px;
 }
-
-
