@@ -266,8 +266,6 @@ section.content p {
 section.content p span {
     display: block;
     font-weight: 700;
-    margin-top: -8px;
-    font-size: 10px;
 }
 
 section.content blockquote {
@@ -513,7 +511,16 @@ section.wide-content {
 
 .reinventing-organizations p span {
     text-transform: uppercase;
+    font-weight: 700;
 }
+
+.reinventing-author {
+    display: block;
+    font-weight: 700;
+    margin-top: -8px;
+    font-size: 10px;
+}
+
 
 .our-vision {
     height: 650px;
