@@ -49,22 +49,37 @@
 <div class="container">
   <div id="message">
    
- <a href="index.html"><i class="fa fa-hand-o-right" style="padding-right:10px;" aria-hidden="true"></i>My Research</a>
+ <a href="index.html"><i class="fa fa-hand-o-right" style="padding-right:10px;" aria-hidden="true"></i>My Research</a><br>
+ <a href="index.html"><i class="fa fa-hand-o-right" style="padding-right:10px;" aria-hidden="true"></i>Icon set</a>
 </div>
   <div class="row">
     <div class="col-md-12">
     <h3 style="padding-top:40px;padding-bottom:40px;">Blogs</h3>
-    <ol>
-        <li><a href="why_sketch.html" style="color:black;"><p>Why Sketch is one of the greatest tool ever for any kind of visual design?</p></a></li>
-        <li><a href="animations.html" style="color:black;"><p>Animations using 6-frame rule with Sketch.</p></a></li>
-        <li><a href="thematic_analysis.html" style="color:black;"><p>How to do Thematic analysis?</p></a></li>
-        <li><a href="art_distraction.html" style="color:black;"><p>User experience: The art of Distraction and its importance</p></a></li>
+    <div class="tag-box" style="margin-bottom:80px;">
+    <div class="tag-tool" style="border:1px;background-color:blue;width:50px;color:white;cursor:pointer;"> TOOL</div>
+    <div class="tag-animation" style="border:1px;background-color:orange;width:90px;color:white;cursor:pointer;"> ANIMATION</div>
+    <div class="tag-ur" style="border:1px;background-color:red;width:140px;color:white;cursor:pointer;"> USER RESEARCH</div>
+    <div class="tag-all" style="border:1px;background-color:green;width:90px;color:white;cursor:pointer;"> ALL</div>
 
-        
+
+
+  </div>
+
+    <ol>
+        <li class="tool all"><a href="why_sketch.html" style="color:black;"><p>Why Sketch is one of the greatest tool ever for any kind of visual design?</p></a></li>
+        <li class="animation all"><a href="animations.html" style="color:black;"><p>Animations using 6-frame rule with Sketch.</p></a></li>
+        <li class="ur all"><a href="thematic_analysis.html" style="color:black;"><p>How to do Thematic analysis?</p></a></li>
+        <li class="ux all"><a href="art_distraction.html" style="color:black;"><p>User experience: The art of Distraction and its importance</p></a></li>
     </ol>    
   </div>
   </div>
       </div>
+
+      
+
+ 
+
+
    <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -75,7 +90,40 @@
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
 
-    
+       <script>
+    $(document).ready(function(){
+    $(".tag-tool").click(function(){
+        $(".tool").show();
+         $(".ux").hide();
+         $(".animation").hide();
+         $(".aur").hide();
+      });
+
+    $(".tag-animation").click(function(){
+        $(".animation").show();
+         $(".ux").hide();
+         $(".tool").hide();
+         $(".ur").hide();
+      });
+
+
+    $(".tag-ur").click(function(){
+        $(".ur").show();
+        $(".ux").hide();
+         $(".tool").hide();
+         $(".animation").hide();
+      });
+
+    $(".tag-all").click(function(){
+        $(".all").show();
+      });
+
+
+
+    });
+
+
+    </script>
     
   </body>
 </html>
