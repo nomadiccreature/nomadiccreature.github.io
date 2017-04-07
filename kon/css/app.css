@@ -1264,8 +1264,9 @@ input[type=text] {
 }
 
 .team-member .team-member__name {
-    height: 30px;
+   height: 36px;
     border-top: 1px solid #9b9b9b;
+    padding-top: 10px;
 }
 
 .team-member .team-member__name h4 {
