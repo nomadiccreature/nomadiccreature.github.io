@@ -1414,3 +1414,14 @@ a#sign-up-nav-join {
     font-weight: 300;
     text-align: center;
 }
+
+@media (min-width: 768px) {
+.apply-btn{
+    left:35%; position: absolute; width: 200px; border: 0; background: #08bcbd; text-align: center; letter-spacing: 2.5px; text-transform: uppercase; color: #fff; padding: 20px 0px 20px 0px;
+}}
+
+@media (max-width: 768px) {
+.apply-btn{
+    left:20%;top: 50%;position: absolute; width: 200px; border: 0; background: #08bcbd; text-align: center; letter-spacing: 2.5px; text-transform: uppercase; color: #fff; padding: 20px 0px 20px 0px;
+}
+}
