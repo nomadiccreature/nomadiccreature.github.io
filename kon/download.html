@@ -92,7 +92,12 @@
                 <section>
 
                     <h1 style="color:black;"> Download CII report </h1>
-                    <div>
+
+<div id="download-me" style="display:none;">
+<br><br><br><br>
+<a  target="_blank" href="future-of-broking-report.pdf"> Download the CII report</a> </div>
+
+                    <div id="hide-me">
    
     
 <!-- Begin MailChimp Signup Form -->
@@ -113,8 +118,7 @@
 </form>
 </div>
 
-<br><br><br><br>
-<a id="download-me" style="display:none;" target="_blank" href="future-of-broking-report.pdf"> Download the CII report</a>
+</div>
 
 
 <!--End mc_embed_signup-->
@@ -128,7 +132,6 @@
 
 
 
-</div>
                    
                 </section>
 
@@ -237,6 +240,7 @@
     <script>
 $("#shown").click(function(){
     $("#download-me").show();
+    $("#hide-me").hide();
 });
 
 
