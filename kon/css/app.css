@@ -1176,18 +1176,7 @@ http://ryanfait.com/
     padding: 50px 120px 50px 100px;
 }
 
-input[type=text] {
-    font-family: inherit;
-    font-size: 0.9em;
-    line-height: inherit;
-    font-weight: 200;
-    padding: 10px 5px 10px 5px;
-    width: 100%;
-    max-width: 350px;
-    margin-bottom: 15px;
-    border: 1px #fff;
-    border-radius: 4px;
-}
+
 
 .input-email {
     font-family: inherit;
