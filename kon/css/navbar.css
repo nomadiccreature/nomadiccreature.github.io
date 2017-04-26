@@ -75,7 +75,7 @@
     .navbar-collapse.navbar-right.navbar-main-collapse ul li {
         text-align: center;
     }
-    .wearehiring-image {
+    /*.wearehiring-image {
         position: absolute;
         top: 190px;
         left: 210px;
@@ -83,7 +83,9 @@
         height: auto;
         padding-left: 8px;
         z-index: 1;
-    }
+    }*/
+
+
 }
 
 .top-navigation ul {
@@ -179,7 +181,7 @@
         margin-left: 5px;
         font-size: 14px;
     }
-    .wearehiring-image {
+    /*.wearehiring-image {
         position: absolute;
         top: -15px;
         left: 70px;
@@ -187,7 +189,7 @@
         height: auto;
         padding-left: 8px;
         z-index: 1;
-    }
+    }*/
 }
 
 .navbar {
@@ -219,3 +221,29 @@ a#sign-up-nav-why {
     padding-right: 35px;
     padding-left: 35px;
 }
+
+@media (min-width: 1024px){
+.nav-cii{
+   position: absolute;
+    top: 0px;
+    /* text-align: center; */
+    left: 0%;
+    color: white;
+    min-width: 100%;
+    font-size: 12px;
+    font-weight: 200;
+    background-color: #FF4A47;
+    padding: 3px 0px 3px 0px;
+    /* max-width: 100%; */
+    text-align: center;
+    border: none;
+
+}
+.close{font-size: 16px !important;
+margin-right: 20px;
+color: white;
+opacity: 1;
+font-weight: 300;
+    text-shadow:none;}
+}
+
