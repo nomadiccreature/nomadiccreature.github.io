@@ -252,6 +252,32 @@ a#sign-up-nav-why {
 }
 
 
+@media (max-width: 1024px){
+.nav-cii{
+   position: fixed;
+    bottom: 0px;
+    /* text-align: center; */
+    left: 0%;
+    color: white;
+    min-width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #371560;
+    padding: 10px 0px 10px 0px;
+    /* max-width: 100%; */
+    text-align: center;
+    border: none;
+    z-index: 100;
+}
+    .close{
+    margin-right: 20px;
+    color: white;
+    opacity: 1;
+    font-weight: 300;
+    text-shadow:none;}
+}
+
+
 
 .cii-a-color{
    color: black !important;
