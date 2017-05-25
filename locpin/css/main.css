@@ -72,7 +72,15 @@ text-align: center;
 }
 
 
-
+.section-header{
+  /* In the news: */
+font-weight: 400;
+font-size: 30px;
+color: #4A4A4A;
+letter-spacing: 0;
+text-align: center;
+border-bottom: 1px solid rgba(0, 0, 0,0.1);
+}
 
 
 /*team*/
@@ -90,7 +98,6 @@ h6.description{
 }
 .profile{
   margin-top: 25px;
-  height: 300px;
 }
 .profile h1{
   font-weight: normal;
@@ -164,13 +171,8 @@ h6.description{
   border-color: #fff;
   color: #007bb6;
 }
-a{
-    color:#007bb6;
-}
-a:hover{
-    text-decoration:none;
-    color:#519548;
-}
+
+
 i.red{
     color:#BC0213;
 }
@@ -213,17 +215,29 @@ video {
 }
 
 a {
-  display: inline-block;
-  color: #fff;
   text-decoration: none;
   padding: .5rem;
   transition: .6s background; 
 }
 
-@media screen and (max-width: 500px) { 
+
+/*@media screen and (max-width: 500px) { 
   div{width:70%;} 
-}
+}*/
 @media screen and (max-device-width: 800px) {
   html { background: url(../img/locpin-movie.png) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
+}
+
+.news-box{
+  padding:3px 3px 3px 3px;
+  text-align: center;
+  background-color: #00B7CB;
+  font-size: 0.6em;
+  border-radius: 4px;
+  color: #fff;
+}
+
+a:hover{
+    color:#4A4A4A;
 }
