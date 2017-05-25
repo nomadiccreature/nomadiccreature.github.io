@@ -1,0 +1,38 @@
+/*!
+ * Start Bootstrap - Agency v4.0.0-alpha (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.section-1-cover{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; 
+}
+
+h1{
+font-size: 3em;
+color: #4A4A4A;
+letter-spacing: -0.23px;
+line-height: 55px;
+font-weight: 300;
+margin-top:10%;
+padding:0 30px 0 30px; 
+}
