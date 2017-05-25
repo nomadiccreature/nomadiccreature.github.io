@@ -90,6 +90,7 @@ h6.description{
 }
 .profile{
   margin-top: 25px;
+  height: 300px;
 }
 .profile h1{
   font-weight: normal;
@@ -140,7 +141,7 @@ h6.description{
   width: 30px;
     height: 30px;
     text-align: center;
-    border: 1px solid #88C425;
+    border: 1px solid #007bb6;
     margin: 2px;
     padding: 5px;
   display: inline-block;
@@ -161,10 +162,10 @@ h6.description{
 }
 .img-box a:hover li{
   border-color: #fff;
-  color: #88C425;
+  color: #007bb6;
 }
 a{
-    color:#88C425;
+    color:#007bb6;
 }
 a:hover{
     text-decoration:none;
