@@ -36,3 +36,30 @@ font-weight: 300;
 margin-top:10%;
 padding:0 30px 0 30px; 
 }
+
+.btn-cta-section-1{
+background: #FF1716;
+border-radius: 53px;
+font-weight: 500;
+font-size: 1em;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+
+}
+
+.btn-outline:hover {
+    color: #FFFFFF;
+    background-color: #FF3B3A;
+    border-color:#FF3B3A;
+}
+
+.btn-xl {
+    padding: 15px 45px;
+}
+
+
+
+
+
+
+
