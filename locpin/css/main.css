@@ -174,3 +174,59 @@ a:hover{
 i.red{
     color:#BC0213;
 }
+
+
+
+/*
+video*/
+
+video { 
+    position: relative;
+    margin-top: 20%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('../img/locpin-movie.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+    text-align: center;
+    overflow: hidden;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#locpin_video { 
+  position: absolute;
+  top:25%;
+  font-weight:100; 
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  font-size: 1.2rem;
+  right: 20%;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem;
+  transition: .6s background; 
+}
+
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(../img/locpin-movie.png) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
