@@ -9,7 +9,6 @@
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -240,4 +239,21 @@ a {
 
 a:hover{
     color:#4A4A4A;
+}
+
+
+/* Map */
+
+#map {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;    
+}
+
+#menu {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }

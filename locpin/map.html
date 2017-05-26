@@ -14,9 +14,12 @@
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
@@ -34,7 +37,7 @@
 
   <body>
 
-<header class="bs-docs-nav navbar navbar-static-top" id="top"> 
+     <header class="bs-docs-nav navbar navbar-static-top" id="top"> 
 
   <div class="container"> 
     <div class="navbar-header"> 
@@ -65,25 +68,18 @@
 
 
 
-
-
     <div class="container-fluid">
       <!-- Example row of columns -->
-    <section class="section-1-cover">  
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/buildings.jpg">
-        </div>
-        <div class="col-md-6">
-          <h1>Easiest way to share precise delivery information securely</h1>
-          <a href="https://www.locpin.com/Create.aspx" class="btn btn-outline btn-xl btn-cta-section-1"> Reserve your address</a>
-       </div>
-      </div>
-    </section> 
 
+<section>
+<div id="map"></div>
+
+
+</section>
       <hr>
 
-<footer class="footer">
+
+    <footer class="footer">
               <div class="container">
                 <p class="text-center" style="font-size:10px;">© Copyright 2017 Locpin Limited. 
 
@@ -95,9 +91,7 @@
               </div>
       </footer>
 
-
     </div> <!-- /container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -108,5 +102,69 @@
     <script src="js/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- Google Maps -->
+
+<script>
+
+
+jQuery(document).ready(function () {
+    var map;
+
+    var style = [
+        {
+        stylers: [
+            { saturation: "-100" },
+            { lightness: "20" }
+        ]
+        },{
+        featureType: "poi",
+        stylers: [
+            { visibility: "off" }
+        ]
+        },{
+        featureType: "transit",
+        stylers: [
+            { visibility: "off" }
+        ]
+        },{
+        featureType: "road",
+        stylers: [
+            { lightness: "50" },
+            { visibility: "on" }
+        ]
+        },{
+        featureType: "landscape",
+        stylers: [
+            { lightness: "50" }
+        ]
+        }
+    ]
+
+    var options = {
+        zoom: 18,
+        center:  new google.maps.LatLng(45.50867, -73.553992),
+        mapTypeId: google.maps.MapTypeId.HYBRID,
+        disableDefaultUI: true
+    };
+
+    map = new google.maps.Map($('#map')[0], options);
+    map.setOptions({
+        styles: style
+    });
+
+});
+
+
+
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
   </body>
 </html>
