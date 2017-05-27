@@ -228,6 +228,12 @@ a {
   #bgvid { display: none; }
 }*/
 
+
+.news-container{
+  padding: 30px;
+}
+
+
 .news-box{
   padding:3px 3px 3px 3px;
   text-align: center;
@@ -236,6 +242,8 @@ a {
   border-radius: 4px;
   color: #fff;
 }
+
+
 
 a:hover{
     color:#4A4A4A;
