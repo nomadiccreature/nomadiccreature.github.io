@@ -7,13 +7,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 
 body {
-  overflow-x: hidden;
+/*  overflow-x: hidden;*/
   font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
 }
 
 .section-1-cover{
-  display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
@@ -81,6 +80,11 @@ text-align: center;
 border-bottom: 1px solid rgba(0, 0, 0,0.1);
 }
 
+@media(max-device-width: 800px){
+#hide-buildings{
+  display: none;
+}
+}
 
 /*team*/
 
@@ -180,8 +184,8 @@ i.red{
 
 /*
 video*/
-
-video { 
+/*
+.video { 
     position: relative;
     margin-top: 20%;
     left: 50%;
@@ -196,12 +200,12 @@ video {
   transition: 1s opacity;
     text-align: center;
     overflow: hidden;
-}
+}*//*
 .stopfade { 
    opacity: .5;
-}
+}*/
 
-#locpin_video { 
+/*#locpin_video { 
   position: absolute;
   top:25%;
   font-weight:100; 
@@ -211,7 +215,7 @@ video {
   margin:2rem;
   font-size: 1.2rem;
   right: 20%;
-}
+}*/
 
 a {
   text-decoration: none;
