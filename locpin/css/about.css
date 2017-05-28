@@ -1,0 +1,175 @@
+.about-us-story-text{
+font-weight: 400;
+font-size: 1em;
+color: #4A4A4A;
+letter-spacing: 0;
+text-align: center;
+}
+
+.team-profile-picture{
+  margin: 0 30px 0 30px;
+}
+
+@media(max-device-width: 800px){
+#hide-buildings{
+  display: none;
+}
+}
+
+/*team*/
+
+
+.team{
+    padding:75px 0;
+}
+h6.description{
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  padding-bottom: 5px;
+}
+.profile{
+  margin-top: 25px;
+}
+.profile h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin:10px 0 0 0;
+}
+.profile h2{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile .img-box:after{
+  content:"";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box ul{
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin:0px;
+  opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+  -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.img-box ul li{
+  width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #007bb6;
+    margin: 2px;
+    padding: 5px;
+  display: inline-block;
+}
+.img-box a{
+  color:#fff;
+}
+.img-box:hover:after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+  border-color: #fff;
+  color: #007bb6;
+}
+
+
+i.red{
+    color:#BC0213;
+}
+
+
+
+/*
+video*/
+/*
+.video { 
+    position: relative;
+    margin-top: 20%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('../img/locpin-movie.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+    text-align: center;
+    overflow: hidden;
+}*//*
+.stopfade { 
+   opacity: .5;
+}*/
+
+/*#locpin_video { 
+  position: absolute;
+  top:25%;
+  font-weight:100; 
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  font-size: 1.2rem;
+  right: 20%;
+}*/
+
+
+
+/*@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}*/
+/*@media screen and (max-device-width: 800px) {
+  html { background: url(../img/locpin-movie.png) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}*/
+
+
+.news-container{
+  padding: 30px;
+}
+
+
+.news-box{
+  padding:3px 3px 3px 3px;
+  text-align: center;
+  background-color: #00B7CB;
+  font-size: 0.6em;
+  border-radius: 4px;
+  color: #fff;
+}
+
+
