@@ -36,4 +36,8 @@ letter-spacing: -0.32px;
 #hide-buildings{
   display: none;
 }
+
+h1{
+margin-top: -5%;
+}
 }
