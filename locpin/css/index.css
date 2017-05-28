@@ -1,0 +1,31 @@
+.section-1-cover{
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; 
+}
+
+.btn-cta-section-1{
+background: #FF1716;
+border-radius: 53px;
+font-weight: 500;
+font-size: 1em;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+}
+
+.btn-outline:hover {
+    color: #FFFFFF;
+    background-color: #FF3B3A;
+    border-color:#FF3B3A;
+}
+
+.btn-xl {
+    padding: 15px 45px;
+}
