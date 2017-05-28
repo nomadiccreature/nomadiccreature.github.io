@@ -79,6 +79,9 @@
             <div class="table-cell-mid-container">
                
                 <input type="text" class="search-box" placeholder="Search by postcode or address">
+                <div style="
+    display: inline-block;
+" class="btn btn-primary">Hello</div>
             </div>
         </div>
     </div>
@@ -152,10 +155,10 @@ jQuery(document).ready(function () {
         ]
         }
     ]
-
+var uluru = {lat: -25.363, lng: 131.044};
     var options = {
-        zoom: 18,
-        center:  new google.maps.LatLng(45.50867, -73.553992),
+        zoom: 13,
+        center:  uluru,
         mapTypeId: google.maps.MapTypeId.HYBRID,
         disableDefaultUI: true
     };
@@ -165,18 +168,30 @@ jQuery(document).ready(function () {
         styles: style
     });
 
+  
+    var marker = new google.maps.Marker({
+          map: map,
+          position: uluru,
+          draggable: true,
+          animation: google.maps.Animation.DROP
+        });
+
 });
 
 
-
+google.maps.event.addListener(directionsDisplay, 'directions_changed', function() {
+  var directionsList = directionsDisplay.getDirections();
+  computeTotalDistance(directionsList);
+  document.getElementById("from").value = directionsList.routes[0].legs[0]["start_address"];
+  document.getElementById("to").value = directionsList.routes[0].legs[0]["end_address"];
+});
 
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+ <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&callback=initMap">
+    </script>
+
 
   </body>
 </html>
