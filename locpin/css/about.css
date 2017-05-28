@@ -10,12 +10,6 @@ text-align: center;
   margin: 0 30px 0 30px;
 }
 
-@media(max-device-width: 800px){
-#hide-buildings{
-  display: none;
-}
-}
-
 /*team*/
 
 

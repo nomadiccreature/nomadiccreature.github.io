@@ -23,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
 
 
@@ -73,24 +74,7 @@
     <div class="container-fluid">
       <!-- Example row of columns -->
 
-
-<!-- <section>
-     <div class="row">
-      <div class="col-md-12" >
-      <video poster="img/locpin-movie.png" id="bgvid" playsinline autoplay muted loop>
-      <source src="https://05-lvl3-pdl.vimeocdn.com/01/1440/5/132201348/392795242.mp4?expires=1495724780&token=0b6176f9ff42daf900f72" type="video/mp4">
-      </video>
-      <div id="locpin_video">
-        <p> -->
-         <!--  <a href="https://vimeo.com/132201348">Video</a><p>“Locpin will help the delivery drones find your door.”</p> -->
-<!--         <div class="play"><img src="img/pause-button.png"></div>
-      </div>
-      </div>  
-    </div>  
-</section> 
- -->
-
-  <section class="team">  
+  <section class="register-section-1">  
       <div class="row">
          <div class="col-md-3 col-xs-12" ></div>
         <div class="col-md-6 col-xs-12"  style="text-align:center;" >
@@ -112,73 +96,59 @@
   <div class="container">
   <div class="row">
     <form class="form-horizontal">
-<fieldset>
+        <fieldset>
+            <!-- Text input-->
+            <div class="form-group">
+              <div class="col-md-4 col-md-offset-4 col-xs-12 input-form-box">
+              <input placeholder="Name" class="form-control" required="" type="text">
+              </div>
+            </div>
+
+            <!-- Email input-->
+            <div class="form-group">
+              <div class="col-md-4 col-md-offset-4 col-xs-12 input-form-box">
+              <input  placeholder="Email" class="form-control" required="" type="email">
+              </div>
+            </div>
+
+            <!-- Phone input-->
+            <div class="form-group"> 
+              <div class="col-md-4 col-md-offset-4 input-form-box">
+              <input  placeholder="Mobile" class="form-control" required="" type="text">
+              </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="form-group"> 
+              <div class="col-md-4 col-md-offset-4 input-form-box">
+              <input  placeholder="Password" class="form-control" required="" type="text">
+              </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="form-group">
+              <div class="col-md-4 col-md-offset-4 input-form-box">
+              <input  placeholder="Confirm Password" class="form-control" required="" type="text">
+              </div>
+            </div>
+
+            <!-- Terms and conditions -->
+            <div class="form-group">
+              <div class="col-md-4 col-md-offset-4 input-form-box">
+                <span><input type="checkbox"> I accept the <a href="terms.html">Terms and Conditions</a> for using Locpin </span>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+              <div class="col-md-4 col-md-offset-4 input-form-box">
+                <button id="submit" name="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
 
 
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4 col-md-offset-4">
-  <input placeholder="Name" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
-<!-- Email input-->
-<div class="form-group">
-  <div class="col-md-4 col-md-offset-4">
-  <input  placeholder="Email" class="form-control input-md" required="" type="email">
-    
-  </div>
-</div>
-
-
-
-<!-- Text input-->
-<div class="form-group"> 
-  <div class="col-md-4 col-md-offset-4">
-  <input  placeholder="Mobile" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
-
-<!-- Text input-->
-<div class="form-group"> 
-  <div class="col-md-4 col-md-offset-4">
-  <input  placeholder="Password" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
-
-
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4 col-md-offset-4">
-  <input  placeholder="Confirm Password" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
-<!-- Terms and conditions -->
-<div class="form-group">
-  <div class="col-md-4 col-md-offset-4">
-<span><input type="checkbox" >
-I accept the
-<a href="terms.html">Terms and Conditions</a> for using Locpin </span>
-    
-  </div>
-</div>
-
-<!-- Button -->
-<div class="form-group">
-  <div class="col-md-4 col-md-offset-4">
-    <button id="submit" name="submit" class="btn btn-default">Submit</button>
-  </div>
-</div>
-
-</fieldset>
-</form>
+        </fieldset>
+    </form>
 
   </div>
 </div>

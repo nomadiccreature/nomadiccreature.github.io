@@ -30,3 +30,10 @@ letter-spacing: -0.32px;
 .btn-xl {
     padding: 15px 45px;
 }
+
+
+@media(max-device-width: 800px){
+#hide-buildings{
+  display: none;
+}
+}
