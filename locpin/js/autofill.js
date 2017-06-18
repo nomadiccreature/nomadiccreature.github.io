@@ -1,5 +1,4 @@
 
-    <script>
       // This example displays an address form, using the autocomplete feature
       // of the Google Places API to help users fill in the information.
 
@@ -66,6 +65,4 @@
           });
         }
       }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&libraries=places&callback=initAutocomplete"
-        async defer></script>
+    
