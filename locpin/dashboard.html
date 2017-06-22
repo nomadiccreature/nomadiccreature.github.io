@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/img/logo.png">
+
+    <title>Update Locpin</title>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     
+
+    <link href="css/main.css" rel="stylesheet">
+    
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+
+     <link href="css/dashboard.css" rel="stylesheet">
+
+     <style>
+     #map {
+        height: 400px;
+        width: 100%;
+       }
+     </style>
+
+
+    <!-- Custom styles for this template -->
+    
+    
+    
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+         
+    
+    
+</head>
+<body>
+<header class="navbar navbar-custom navbar-static-top" id="top"> 
+
+    <div class="container"> 
+         <div class="navbar-header navbar-default"> 
+
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+     </button>
+
+
+      <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="index.html">
+                    <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
+      </a>
+    </div> 
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
+                
+            
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Locpin">My Locpins</a></li>                        
+                    </ul>
+                <form method="post" id="logoutForm" class="navbar-right" action="/Account/Logout">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a title="Manage" href="/Manage">Logged In: arindra.das@live.com</a>
+            </li>
+            <li>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link">Log out</button>
+            </li>
+        </ul>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BhyJnhyDr5HqRomtrrOQ5kJM8S0-WVCbeuMddM6mFgK8HWCL1O26mYtn9KISq63ur-weZ65E5FGxtA29FvMm8T23NTF5L87LkParQM5V2y34IOb-B8aUroohpzye4sNacO6RQJJn5csHJRncRfOFZd4b9M6WGN4p8sdv0ycp9bzXO81RnznngiArmeH7kgwnQ" /></form>
+
+        </div>
+    </div> 
+</header>
+
+
+
+
+
+<div class="container-fluid">
+
+    <section>
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-12">
+
+
+              <div>
+              <btn><i class="fa fa-angle-left" aria-hidden="true" style="padding-left:10px;padding-right:10px;"></i>Back</btn> 
+              <p style="text-align:center;font-size:24px;font-weight:700;"> Locpin: AW8J36</p>
+              <p style="text-align:center;margin-bottom:40px;"> You can edit your locpin details here and update it</p>
+              </div>
+
+                        <div class="col-md-5">
+                                
+                        <div class="form-inline" style="width:100% !important;">
+                                    <label for="name">Name</label>
+                                    
+                                        <input type="text" class="form-control" name="Label" value="" style="width:100%;max-width: 350px;float:right;" />
+                              
+                                </div>
+
+                                <br><br>
+
+
+                            
+                                        <form class="form-inline">                                    
+                                                <label for="searchBox">PostCode</label>
+
+                                                <div class="input-group"  style="float:right;">
+                                                    <input type="text" id="searchBox" class="form-control" />
+                                                    <div class="input-group-btn">
+                                                        <button class="btn btn-default" type="button" id="searchButton">Search</button>
+                                                    </div>
+                                                </div>                                    
+                                        </form> <br><br>
+                                        <div id="map"></div>    
+                        </div>
+                        <div class="col-md-6 col-md-offset-1">
+                           
+                            <form method="post" action="/Locpin/Update">
+
+                                <div class="form-inline" style="width:100% !important;">
+                                    <label for="notes">Notes</label>
+                                        <input type="text"  class="form-control" name="Notes" value="" style="width:100%;max-width: 350px;float:right;" />
+                                
+                                </div>
+                                  <br><br>
+                               
+                                <div class="form-inline" style="width:100% !important;">
+                                    
+                                    <label for="AddressLine1">Address</label>
+                                    <input type="text" id="AddressLine1" class="form-control" name="AddressLine1" value="" style="width:100%;max-width: 350px;float:right;"/> <br><br>
+                                    <input type="text" id="AddressLine2" class="form-control" name="AddressLine2" value="" style="width:100%;max-width: 350px;float:right;"/>
+                                    
+                                </div>
+
+                                <br><br><br>
+                                <div class="form-inline" style="width:100% !important;">
+                                    <label for="City">City</label>
+                                    <input type="text" id="City" class="form-control" name="City" value="" style="width:100%;max-width: 350px;float:right;"/>
+                                </div>
+                                <br><br>
+                                <div class="form-inline" style="width:100% !important;">
+                                    <label for="County">County</label>
+                                    <input type="text" id="County" class="form-control" name="County" value="" style="width:100%;max-width: 350px;float:right;"/>
+                                </div>
+                                <br><br>
+                                <div class="form-inline" style="width:100% !important;">
+                                    <label for="PostCode">PostCode</label>
+                                    <input type="text" id="PostCode" class="form-control" name="PostCode" value=""style="width:100%;max-width: 350px;float:right;" />
+                                </div>
+                                <br><br>
+                                <div class="form-inline" style="width:100% !important;">
+                                    <label for="Country">Country</label>
+                                    <input type="text" id="Country" class="form-control" name="Country" value="" style="width:100%;max-width: 350px;float:right;"/>
+                                </div>
+                                <br><br>
+                                <div class="form-inline" style="width:100% !important;">
+
+                                    <input type="submit" class="btn btn-lg btn-success" value="Update" style="float:right;"/>
+                                </div>
+                                
+                               
+                           </form>
+                        </div>
+                        
+                        
+                        
+                          </div> 
+                </div>
+            </div>
+
+    </section>
+
+    </div>
+
+
+
+    <hr>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center footer-copyright-text">© Copyright 2017 Locpin Limited. 
+                <a href="/Home/About"><span id="footer-about-us" >About us</span></a>
+                <a href="/Home/Privacy"><span id="footer-privacy" >Privacy Policy</span></a>
+            </p>  
+        </div>
+    </footer>    
+       <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- Google Maps -->
+
+ <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&callback=initMap">
+    </script>
+
+    
+</body>
+</html>
