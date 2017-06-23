@@ -4,3 +4,9 @@ label{
     color: #9B9B9B;
 }
 
+
+.form-input{
+	width:100% !important;
+	max-width: 350px;
+	float:right;
+}
