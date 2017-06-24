@@ -21,10 +21,26 @@ color: #FFFFFF;
 letter-spacing: -0.32px;
 }
 
-.btn-outline:hover {
+.btn-cta-section-2{
+background: #00B7CB;
+border-radius:  4px 4px 4px 4px;
+font-weight: 500;
+font-size: 1em;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+}
+
+.btn-outline-section-1:hover {
     color: #FFFFFF;
     background-color: #FF3B3A;
     border-color:#FF3B3A;
+}
+
+
+.btn-outline-section-2:hover {
+    color: #FFFFFF;
+    background-color: #3BC5D4;
+    border-color:#3BC5D4;
 }
 
 .btn-xl {
@@ -80,6 +96,30 @@ line-height: 45px;
 
 
 .section-2-cover{
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; 
+}
+
+.section-3-cover{
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; 
+  background-color: #F2F2F2;
+}
+
+
+.section-4-cover{
   width: 100%;
   height: auto;
   padding: 100px 0;
