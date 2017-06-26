@@ -27,51 +27,49 @@
     
 </head>
 <body>
-<header class="navbar navbar-custom navbar-static-top" id="top"> 
-
-    <div class="container"> 
-        <div class="navbar-header navbar-default"> 
-
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-
-            <a class="navbar-brand" data-toggle="collapse" data-target=".nav-collapse" href="/">
-                <img class="img-responsive" src="/img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
-            </a>
-        </div> 
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
-                
-            
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/Locpin">My Locpins</a></li>                        
-                    </ul>
-                <form method="post" id="logoutForm" class="navbar-right" action="/Account/Logout">
-        <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a title="Manage" href="/Manage">Logged In: arindra.das@live.com</a>
-            </li>
-            <li>
-                <button type="submit" class="btn btn-link navbar-btn navbar-link">Log out</button>
-            </li>
-        </ul>
-    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BhyJnhyDr5HqRomtrrOQ5nGj5DEViB75DIR1tUWHZ0tz639j13A-TfNp6AL-N9Twlxzm4yYmuFIRFKlWMYZUa1fP7FBV8Ct3MIve6MKbnjhCmS36zHiYzSS4EIb5YiuQ5GPWtpjQ5Yc2r8XQzN4bM-uWqdFgp-uN_d04_4i9nXrjDjdKzka-kyW26CsjI_XYA" /></form>
-
-        </div>
-    </div> 
-</header>
+      <header class="navbar navbar-custom navbar-static-top" id="top">
+         <div class="container">
+            <div class="navbar-header"> 
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="index.html">
+               <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
+               </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/Locpin">My Locpins</a></li>
+               </ul>
+               <form method="post" id="logoutForm" class="navbar-right" action="/Account/Logout">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li>
+                        <a title="Manage" href="/Manage">Logged In: arindra.das@live.com</a>
+                     </li>
+                     <li>
+                        <button type="submit" class="btn btn-link navbar-btn navbar-link">Log out</button>
+                     </li>
+                  </ul>
+               </form>
+            </div>
+         </div>
+      </header>
     
 
-<div class="container">
-    <ul class="nav navbar-nav navbar-right">
-        <li><a href="/Locpin/Codes">Codes</a></li>
-        <li><a href="/Locpin/Map">Map</a></li>
-    </ul>
+<div class="container" style="padding-bottom:20px;">
+<div class="nav navbar-nav navbar-right">
+    <strong>Views</strong>
+        <div class="btn-group">
+            <a href="/Locpin/Codes" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+            </span> List</a> <a href="/Locpin/Map" id="grid" class="btn btn-default btn-sm"><span
+                class="glyphicon glyphicon-map-marker"></span> Map</a>
+        </div>
+       </div> 
 </div>
+
 
 <div class="container-fluid">
 <section>
@@ -79,28 +77,24 @@
     <table class="table">
 
         <tr>
-            <th>Code</th>
-            <th>GPS</th>
-            <th>Full Address</th>
-            <th>Notes</th>
-            <th>Label</th>
-            <th>Share</th>
+            <th style="text-align: center;" width="100">Code</th>
+            <th style="text-align: center;" width="200">Name</th>
+            <th style="text-align: center;">Notes</th>
+            <th style="text-align: center;" width="300">Full Address</th>
+            
         </tr>
             <tr>
-                <td><a href="/Locpin/Details/95c40e35-1cc7-457c-a787-08d4b259547f">AW8J36</a></td>
-                <td>51.496182050885 , -0.0587330999999267</td>
-                <td>Flat 14, Cornick House,, Slippers Place, London, London, United Kingdom-English, SE16 2EL</td>
-                <td>Open the door</td>
-                <td>Arindra</td>
-                <td></td>
+                <td style="text-align: center;" width="100"><a href="/Locpin/Details/95c40e35-1cc7-457c-a787-08d4b259547f">AW8J36</a></td>
+                <td style="text-align: center;" width="200">Arindra's Residence</td>
+                <td style="text-align: center;">Open the door</td>
+                <td style="text-align: center;" width="300">Flat 14, Cornick House,Slippers Place, London, London, United Kingdom-English, SE16 2EL</td>
+                
             </tr>
             <tr>
-                <td><a href="/Locpin/Details/b6ebcd23-3514-4197-d778-08d4ba4366a3">AQ99UQ</a></td>
-                <td>51.495509603117 , -0.0568733000000066</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td style="text-align: center;" width="100"><a href="/Locpin/Details/b6ebcd23-3514-4197-d778-08d4ba4366a3">AQ99UQ</a></td>
+                <td style="text-align: center;" width="200">Arindra's car</td>
+                <td style="text-align: center;">Open the door</td>
+                <td style="text-align: center;" width="300"></td>
             </tr>
 
     </table>

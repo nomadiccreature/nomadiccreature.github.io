@@ -30,6 +30,15 @@ color: #FFFFFF;
 letter-spacing: -0.32px;
 }
 
+.btn-cta-section-4{
+background: #FF1716;
+border-radius:  4px 4px 4px 4px;
+font-weight: 500;
+font-size: 1em;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+}
+
 .btn-outline-section-1:hover {
     color: #FFFFFF;
     background-color: #FF3B3A;
