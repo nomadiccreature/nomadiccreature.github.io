@@ -23,7 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/map.css" rel="stylesheet">
+    <link href="css/safelite-email-map-redirect.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
 
@@ -41,18 +41,20 @@
 
   <body>
 
-     <header class="bs-docs-nav navbar navbar-static-top" id="top"> 
+
+
+<header class="navbar navbar-custom navbar-static-top" id="top"> 
 
   <div class="container"> 
-    <div class="navbar-header"> 
+    <div class="navbar-header navbar-default"> 
 
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+     </button>
 
-        <span class="sr-only">Toggle navigation</span> 
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span> 
-      </button> 
       <div class="navbar-brand page-scroll" style="font-size:12px;">
                     <img class="img-responsive" src="img/safelite-logo.svg" alt="locpin logo" style="width:150px;height:auto;padding-left:8px;padding-bottom:5px;">
 
@@ -71,7 +73,7 @@
                   </ul>
         </div>
     </div> 
-
+</div> 
 </header>
 
 
@@ -81,9 +83,9 @@
       <!-- Example row of columns -->
 
 <section>
-<div class="map-top-box" style="height:250px !important;">
+<div class="map-top-box">
 
- <div class="table-container">
+ <div class="table-container"   style="margin-top:2%;">
         <div class="table-cell-container">
             <div class="table-cell-mid-container">
                
@@ -93,7 +95,9 @@
         </div>
 
 
-        <div> <img src="img/blue-locpin.svg" style="padding-right:5px;width:20px;height:auto;">29775 GATES MILLS BVLD, PEPPER PIKE, OH, 44124, United States</div>
+        <div style="font-size:15px;"> <img src="img/blue-locpin.svg" style="padding-right:5px;width:20px;height:auto;">29775 GATES MILLS BVLD, PEPPER PIKE, OH, 44124, United States</div>  
+
+        <a href="register.html" style="margin-top:15px; " class="btn btn-primary"> Confirm Location</a>
 
 
                 
@@ -104,7 +108,7 @@
 
 </div>  
 <div class="upper-section"> <img src="img/current-location.png"> </div>
-<div id="map"></div>
+<div id="map" style-" position: relative;"></div>
 </section>
       <hr>
 
