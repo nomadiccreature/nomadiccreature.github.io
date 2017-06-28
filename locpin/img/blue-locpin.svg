@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="26px" viewBox="0 0 19 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.9090909,9.68128747 C18.9090909,4.43041969 14.6708464,0 9.45454545,0 C4.23824451,0 -8.52651283e-14,4.49605554 -8.52651283e-14,9.77974124 C-8.52651283e-14,11.8472704 0.652037618,13.8819817 1.76050157,15.5228779 L5.60752351,20.9050174 L8.96551724,25.7292521 C9.22633229,26.0902493 9.74796238,26.0902493 9.97617555,25.7292521 L13.3341693,20.9378353 L17.1811912,15.5228779 C18.2570533,13.8819817 18.9090909,11.7488167 18.9090909,9.68128747 Z M10.1717868,16.4417797 C5.73793103,16.9012307 2.02131661,13.1599874 2.44514107,8.66393184 C2.77115987,5.34932155 5.44451411,2.65825181 8.73730408,2.33007258 C13.1711599,1.87062165 16.8877743,5.61186494 16.4639498,10.1079205 C16.137931,13.4225308 13.4645768,16.1136005 10.1717868,16.4417797 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onboading-1" transform="translate(-177.000000, -29.000000)">
+            <g id="Group" transform="translate(177.000000, 29.000000)">
+                <g id="Rectangle-9">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#00B7CB" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <polygon fill="#FFFFFF" opacity="0.352411685" mask="url(#mask-2)" points="9.45454545 -0.712653301 20.0909091 -1.18181818 20.0909091 13.8722281 9.45454545 27.1818182"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
