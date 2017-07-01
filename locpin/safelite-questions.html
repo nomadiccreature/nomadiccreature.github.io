@@ -16,7 +16,7 @@
       <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
       <!-- Custom styles for this template -->
       <link href="css/main.css" rel="stylesheet">
-      <link href="css/safelite-email-map-redirect.css" rel="stylesheet">
+      <link href="css/safelite-questions.css" rel="stylesheet">
       <link href="css/header.css" rel="stylesheet">
       <link href="css/footer.css" rel="stylesheet">
       <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -27,42 +27,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-<style>
-.vertical-div {
-    display: table-cell;
-    vertical-align: middle;
-    height: 50px;
-}
 
-.containing-table {
-    display: table;
-}
-
-
-input[type="radio"] {
-    display: none;
-}
-
-.graphical-radio {
-    background: url(./img/input-not-checked.svg) no-repeat center;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    position: relative;
-    top: 12px;
-}
-
-input[type="radio"]:checked + .graphical-radio {
-    background: url(./img/input-checked.svg) no-repeat center;
-    width: 30px;
-    height: 30px;
-}
-
-
-
-
-</style>
 
    </head>
    <body>
@@ -117,14 +82,14 @@ input[type="radio"]:checked + .graphical-radio {
             <div class="col-md-4 col-md-offset-2 containing-table" style="text-align:center;"><div class="vertical-div">What is your vehicle license plate number?</div>
             </div>
             <div class="col-md-4" style="text-align:center;">
-               <input style="padding-left:10px;background: #F5F8FA;border: 1px solid #D3D8DB; border-radius:7px;height:50px;width:100%;max-width:250px;" type="text" value="" maxlength="200" class="textbox" />
+               <input type="text" value="" maxlength="200" class="textbox details-input" />
             </div>
          </div>
          <div class="clear">
          <div class="col-md-12" style="text-align:center;padding:20px;">
             <div class="col-md-4 col-md-offset-2 containing-table" style="text-align:center;"><div class="vertical-div">What color is your vehicle?</div></div>
             <div class="col-md-4" style="text-align:center;">
-               <input style="padding-left:10px;background: #F5F8FA;border: 1px solid #D3D8DB; border-radius:7px;height:50px;width:100%;max-width:250px;" type="text" value="" maxlength="200" class="textbox" />
+               <input type="text" value="" maxlength="200" class="textbox details-input" />
             </div>
          </div>
          <div class="clear">
@@ -133,12 +98,12 @@ input[type="radio"]:checked + .graphical-radio {
             <div class="col-md-4" style="text-align:center;">
  
     <label class="radio-inline" style="margin-right:40px;"><input type="radio" id="g-option" name="selector" checked>
-    <span class="graphical-radio"></span><span style="padding-left: 5px;position: relative;top: 3px;">Garage</span>
+    <span class="graphical-radio"></span><span class="radio-label">Garage</span>
 </label>
    
   
     <label class="radio-inline"><input type="radio" id="l-option" name="selector">
-    <span class="graphical-radio"></span><span style="padding-left: 5px;position: relative;top: 3px;">Lot</span>
+    <span class="graphical-radio"></span><span class="radio-label">Lot</span>
 </label>
     
             </div>
@@ -147,7 +112,7 @@ input[type="radio"]:checked + .graphical-radio {
          <div class="col-md-12" style="text-align:center;padding:20px;">
             <div class="col-md-4 col-md-offset-2 containing-table" style="text-align:center;"><div class="vertical-div">If applicable, what is the lot name, which floor #, or corner of the lot (NE, SW, etc.) will the vehicle be parked in?</div></div>
             <div class="col-md-4" style="text-align:center;">
-               <input style="padding-left:10px;background: #F5F8FA;border: 1px solid #D3D8DB; border-radius:7px;height:50px;width:100%;max-width:250px;" type="text" value="asd" maxlength="200" class="textbox" />
+               <input style="" type="text" value="" maxlength="200" class="textbox details-input" />
             </div>
          </div>
          <div class="clear"> 
@@ -155,7 +120,7 @@ input[type="radio"]:checked + .graphical-radio {
                <div class="col-md-4 col-md-offset-2 containing-table" style="text-align:center;"><div class="vertical-div">Any any other information you think would be useful (such as a nearby business)</div></div>
                <div class="col-md-4" style="text-align:center;">
                   <div class="input">
-                     <textarea style="padding-left:10px;background: #F5F8FA;border: 1px solid #D3D8DB; border-radius:7px;height:50px;width:100%;max-width:250px;" rows="5" cols="20" class="wide"></textarea>
+                     <textarea rows="5" cols="20" class="wide details-input"></textarea>
                   </div>
                </div>
                <div class="clear">          
@@ -163,7 +128,7 @@ input[type="radio"]:checked + .graphical-radio {
 
             </div>
   <div class="col-md-12" style="text-align:center;">             
-  <a href="#" style="font-size:12px;background: #00CA4C;border-radius: 43px;color:white;padding:5px 20px 5px 20px;" class="btn btn-xl btn-outline-section-1"> Submit</a>
+  <a href="#" class="btn btn-xl question-form-submit"> Submit</a>
 </div>
 
 
