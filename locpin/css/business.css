@@ -1,0 +1,57 @@
+.retailers{
+background-color: #43B7BD;
+width: 100%;
+}
+
+.delivery{
+background-color: #3E3E58;
+width: 100%;
+}
+
+.ecommerce{
+background-color: #006CA3;
+width: 100%;
+}
+
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+}
+
+
+
+.business-heading{
+font-weight:700px;text-align:center;
+font-size: 30px;
+color: #FFFFFF;
+letter-spacing: -1.8px;
+line-height: 46px;
+margin-top: 10%;
+margin-bottom: 5%;
+}
+
+body {
+  height: 70vh;
+    background: url(../img/business-intro-bg.png) 50% 0% no-repeat;
+  background-size:cover;  
+
+            /* Workaround for some mobile browsers */
+         
+            padding-top: 20px;
+            padding-bottom: 20px;
+}
+
+.intro {
+  height: 50vh;
+    
+}
+
+
+.nav-tabs {
+    border-bottom: 0px !important;
+}
