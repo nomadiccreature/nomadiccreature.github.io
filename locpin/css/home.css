@@ -1,42 +1,42 @@
 
 .section-1-cover{
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: white;
-  background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover; 
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
 }
 
 .btn-cta-section-1{
-background: #FF1716;
-border-radius:  0px 4px 4px 0px;
-font-weight: 500;
-font-size: 1em;
-color: #FFFFFF;
-letter-spacing: -0.32px;
+    background: #FF1716;
+    border-radius:  0px 4px 4px 0px;
+    font-weight: 500;
+    font-size: 1em;
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
 }
 
 .btn-cta-section-2{
-background: #00B7CB;
-border-radius:  4px 4px 4px 4px;
-font-weight: 500;
-font-size: 1em;
-color: #FFFFFF;
-letter-spacing: -0.32px;
+    background: #00B7CB;
+    border-radius:  4px 4px 4px 4px;
+    font-weight: 500;
+    font-size: 1em;
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
 }
 
 .btn-cta-section-4{
-background: #FF1716;
-border-radius:  4px 4px 4px 4px;
-font-weight: 500;
-font-size: 1em;
-color: #FFFFFF;
-letter-spacing: -0.32px;
+    background: #FF1716;
+    border-radius:  4px 4px 4px 4px;
+    font-weight: 500;
+    font-size: 1em;
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
 }
 
 .btn-outline-section-1:hover {
@@ -58,85 +58,83 @@ letter-spacing: -0.32px;
 
 
 @media(max-device-width: 800px){
-#hide-buildings{
-  display: none;
-}
+    #hide-buildings{
+        display: none;
+    }
 
-h1{
-margin-top: -5%;
-font-size: 2.4em;
-line-height: 45px;
-}
+    h1{
+        margin-top: -5%;
+        font-size: 2.4em;
+        line-height: 45px;
+    }
 }
 
 #address {
-  border: 1px solid #000090;
-  background-color: #f0f0ff;
-  width: 480px;
-  padding-right: 2px;
+    border: 1px solid #000090;
+    background-color: #f0f0ff;
+    width: 480px;
+    padding-right: 2px;
 }
 #address td {
-  font-size: 10pt;
+    font-size: 10pt;
 }
 .field {
-  width: 99%;
+    width: 99%;
 }
 .slimField {
-  width: 80px;
+    width: 80px;
 }
 .wideField {
-  width: 200px;
+    width: 200px;
 }
 
 
 .autocomplete{
-  height:50px;
-  color: #999999;
-  border-radius:4px 0px 0px 4px;
-  min-width:300px;
-  padding-left: 20px;
-  box-shadow: 0 2px 4px 0 rgba(198,198,198,0.50);
-  letter-spacing: -0.17px;
-  border: 1px solid rgba(202,202,202,0.21);
-  text-align: left;
-  font-size: 14px;
+    height:50px;
+    color: #999999;
+    border-radius:4px 0px 0px 4px;
+    min-width:300px;
+    padding-left: 20px;
+    box-shadow: 0 2px 4px 0 rgba(198,198,198,0.50);
+    letter-spacing: -0.17px;
+    border: 1px solid rgba(202,202,202,0.21);
+    text-align: left;
+    font-size: 14px;
 }
 
 
 
 .section-2-cover{
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover; 
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
 }
 
 .section-3-cover{
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover; 
-  background-color: #F2F2F2;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
+    background-color: #F2F2F2;
 }
 
 
 .section-4-cover{
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover; 
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
 }
-
-

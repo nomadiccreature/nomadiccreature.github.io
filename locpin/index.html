@@ -1,165 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <link rel="icon" href="img/logo.png">
-      <title>Locpin</title>
-      <!-- Bootstrap core CSS -->
-      <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-      <!-- Custom styles for this template -->
-      <link href="css/main.css" rel="stylesheet">
-      <link href="css/home.css" rel="stylesheet">
-      <link href="css/header.css" rel="stylesheet">
-      <link href="css/footer.css" rel="stylesheet">
-      <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-      <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-      <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-   </head>
-   <body>
-      <header class="navbar navbar-custom navbar-static-top" id="top">
-         <div class="container">
-            <div class="navbar-header navbar-default"> 
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="index.html">
-               <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
-               </a>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/logo.png">
+
+    <title>Home Page</title>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
+    <link href="css/create.css" rel="stylesheet" />
+    <link href="css/safeliteConfirm.css" rel="stylesheet" />
+    <link href="css/safeliteQuestions.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/business.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="navbar navbar-custom navbar-static-top" id="top">
+        <div class="container">
+            <div class="navbar-header navbar-default">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" data-toggle="collapse" data-target=".nav-collapse" href="/">
+                    <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
+                </a>
             </div>
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
-               <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a href="about.html">About us</a>
-                  </li>
-               </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/Register/Create">Register</a>
+                    </li>
+                    <li>
+                        <a href="/Account/Login">Log in</a>
+                    </li>
+                </ul>
+
             </div>
-         </div>
-      </header>
-     
+        </div>
+    </header>
 
-
-     
-        
-        
-
-
-         <section class="section-1-cover">
-            <div class="container">
+    <section class="section-1-cover">
+        <div class="container">
             <div class="row">
-               <div class="col-md-5 col-sm-6 col-md-offset-1" id="hide-buildings">
-                  <img src="img/buildings.png" class="img-responsive" style="width:100%;max-width:500px;">
-               </div>
-               <div class="col-md-6 col-sm-6">
-                  <h1>Easiest way to share precise delivery information securely</h1>
-                  <form class="form-search">
-                     <div class="input-append" id="locationField">
-                        <input id="autocomplete" class="autocomplete" placeholder="Search by postcode or address"
-                           onFocus="geolocate()" type="text"></input>
-                        <a href="map.html" type="submit" class="btn btn-outline-section-1 btn-xl  btn-cta-section-1"> Search</a>
-                     </div>
-                  </form>
-               </div>
+                <div class="col-md-5 col-sm-6 col-md-offset-1" id="hide-buildings">
+                    <img src="img/buildings.png" class="img-responsive" style="width:100%;max-width:500px;">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h1>Easiest way to share precise delivery information securely</h1>
+                    <form class="form-search" method="get" id="searchForm" action="/Register/Create">
+                        <div class="input-append" id="locationField">
+                            <input id="autocomplete" class="autocomplete" placeholder="Search by postcode or address" type="text"></input>
+                            <a href="map.html" type="submit" class="btn btn-outline-section-1 btn-xl  btn-cta-section-1"> Search</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            </div>
-         </section>
-         
+        </div>
+    </section>
 
-         <section class="section-2-cover">
-           <div class="container">
+<section class="section-2-cover">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-6 col-md-offset-1">
+                <h1 style="font-weight:300;font-size: 30px;color: #9898AF;letter-spacing: 0;line-height: 39px;">Delivery problems solved with a personal postcode</h1>
+                <div style="text-align:left;padding-left:20%;font-size:20px;color:#A9A9A9;">
+                    <div style="padding-top:20px;padding-bottom:10px;">Complex Location</div>
+                    <div style="padding-bottom:10px;">Right Neighbour</div>
+                    <div style="padding-bottom:10px;">Safe place</div>
+                    <div style="padding-bottom:10px;">Hard to find address</div>
+                    <a href="map.html" class="btn btn-outline-section-2 btn-xl btn-cta-section-2"> Get my locpin now</a>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6 col-md-offset-1">
+                <img src="img/locpin-card.png" class="img-responsive" style="width:100%;max-width:300px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="section-3-cover">
+        <div class="container">
             <div class="row">
-               <div class="col-md-5 col-sm-6 col-md-offset-1">
-                  <h1 style="font-weight:300;
-                     font-size: 30px;
-                     color: #9898AF;
-                     letter-spacing: 0;
-                     line-height: 39px;">Delivery problems solved with a personal postcode</h1>
-                  <div style="text-align:left;padding-left:20%;font-size:20px;color:#A9A9A9;">
-                     <div style="padding-top:20px;padding-bottom:10px;">Complex Location</div>
-                     <div style="padding-bottom:10px;">Right Neighbour</div>
-                     <div style="padding-bottom:10px;">Safe place</div>
-                     <div style="padding-bottom:10px;">Hard to find address</div>
-                     <a href="map.html" class="btn btn-outline-section-2 btn-xl btn-cta-section-2"> Get my locpin now</a>
-                  </div>
-               </div>
-               <div class="col-md-5 col-sm-6 col-md-offset-1">
-                  <img src="img/locpin-card.png" class="img-responsive" style="width:100%;max-width:300px;">
-               </div>
+                <div class="col-md-12" style="text-align:center;font-size: 40px;color: #9898AF;margin-bottom:5%;">
+                    Revolutionise your customer's delivery experience
+                </div>
+                <div class="col-md-6 col-md-offset-2">
+                    <img src="img/business.png" class="img-responsive" style="width:100%;max-width:600px;">
+                </div>
+                <div class="col-md-2">
+                    <p style="font-size: 20px;color: #4A4A4A;letter-spacing: 0;">Drives customer satisfaction & Loyalty
+                        <br>
+                        <br>
+                        <br> 1 billion interactions per year
+                        <br> Minimal effort
+                        <br>Maximum knowledge</p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="business.html">Learn more</a>
+                </div>
             </div>
-          </div>
-         </section>
+        </div>
+    </section>
 
-
-
-         <section class="section-3-cover">
-           <div class="container">
+    <section class="section-4-cover">
+        <div class="container">
             <div class="row">
-               <div class="col-md-12" style="text-align:center;font-size: 40px;color: #9898AF;margin-bottom:5%;">
-                  Revolutionise your customer's delivery experience
-               </div>
-               <div class="col-md-6 col-md-offset-2">
-                  <img src="img/business.png" class="img-responsive" style="width:100%;max-width:600px;">
-               </div>
-               <div class="col-md-2">
-                  <p style="font-size: 20px;color: #4A4A4A;letter-spacing: 0;">Drives customer satisfaction & Loyalty
-                  <br><br><br>
-                  1 billion interactions per year <br> Minimal effort <br>Maximum knowledge</p>
-                  <br><br><br>
-                  <a href="business.html">Learn more</a>
-               </div>
+                <div class="col-md-12" style="font-size: 24px;color: #FB4D4C;letter-spacing: 0;">
+                    Create your locpin and never miss a delivery again
+                </div>
+                <a href="map.html" class="btn btn-xl btn-cta-section-4 btn-outline-section-1"> Get my locpin now</a>
             </div>
-            </div>
-         </section>
+        </div>
+    </section>
+
+    <footer class='footer-scrollable'>
+        <hr/>
+        <div class="container">
+            <p class="text-center footer-copyright-text">© Copyright 2017 Locpin Limited.
+                <a href="Home/About"><span id="footer-about-us">About us</span></a>
+                <a href="Home/Privacy"><span id="footer-privacy">Privacy Policy</span></a>
+            </p>
+        </div>
+    </footer>
 
 
-         <section class="section-4-cover">
-           <div class="container">
-            <div class="row">
-               <div class="col-md-12" style="font-size: 24px;color: #FB4D4C;letter-spacing: 0;">
-                  Create your locpin and never miss a delivery again 
-               </div>
-               <a href="map.html" class="btn btn-xl btn-cta-section-4 btn-outline-section-1"> Get my locpin now</a>
-            </div>
-            </div>
-         </section>
+</body>
 
-
-         <hr>
-         <footer class="footer">
-            <div class="container">
-               <p class="text-center footer-copyright-text">© Copyright 2017 Locpin Limited. 
-                  <a href="about.html"><span id="footer-about-us" >About us</span></a>
-                  <a href="privacy.html"><span id="footer-privacy" >Privacy Policy</span></a>
-               </p>
-            </div>
-         </footer>
-      </div>
-      <!-- /container -->
-      <!-- Bootstrap core JavaScript
-         ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-      <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-      <script src="js/main.js"></script>
-      <script src="js/autofill.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&libraries=places&callback=initAutocomplete"
-         async defer></script>
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-   </body>
 </html>

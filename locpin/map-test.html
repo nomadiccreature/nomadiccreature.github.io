@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/logo.png">
+
+    <title>Home Page</title>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
+    <link href="css/create.css" rel="stylesheet" />
+    <link href="css/safeliteConfirm.css" rel="stylesheet" />
+    <link href="css/safeliteQuestions.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+
+</head>
+<body>
+<header class="navbar navbar-custom navbar-static-top" id="top"> 
+    <div class="container"> 
+        <div class="navbar-header navbar-default"> 
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" data-toggle="collapse" data-target=".nav-collapse" href="/">
+                <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
+            </a>
+        </div> 
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
+                <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="/Register/Create">Register</a>
+        </li>
+        <li>
+            <a href="/Account/Login">Log in</a>
+        </li>
+    </ul>
+
+        </div>
+    </div> 
+</header>
+
+<div class="container-fluid">
+    <section>
+        <form method="post" id="form" action="/Register/Create">
+            <input type="hidden" ID="hfLatitude" data-val="true" data-val-number="The field Latitude must be a number." data-val-required="The Latitude field is required." name="Locpin.Latitude" value="" />
+            <input type="hidden" ID="hfLongitude" data-val="true" data-val-number="The field Longitude must be a number." data-val-required="The Longitude field is required." name="Locpin.Longitude" value="" />
+            <input type="hidden" ID="hfZoomLevel" data-val="true" data-val-number="The field ZoomLevel must be a number." data-val-required="The ZoomLevel field is required." name="ZoomLevel" value="0" />
+            <input type="hidden" id="RegistrationId" name="RegistrationId" value="" />
+            <div class="map-top-box">
+                <div class="table-container">
+                    <div class="table-cell-container">
+                        <div class="table-cell-mid-container">
+                            <input type="text" id="place" class="search-box" placeholder="Search by postcode or address" name="Place" value="London, United Kingdom">                            
+                            <a href="#" id="next" style="display: inline-block;" class="btn btn-primary"> Confirm Location</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="upper-section">
+                <a href="#" id="useMyLocation"><img src="img/current-location.png"></a>             
+            </div>
+
+            <div class="map" id="map">
+
+            </div>
+
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BhyJnhyDr5HqRomtrrOQ5lKhbWaC9dvPS_RFtTYDe7jOd5VtrM61m9bm2o7oDG5F-uX9LerbAPcWK7134i69ZxlRYYTSGoVLpaNCYu3gaC6zwIUOnXV4HxQscEy97Ac-emG8_Fy8Kizy2kjxfsm6u8" /></form>
+    </section>
+</div>
+
+ 
+   
+<footer class='footer-scrollable'>
+    <hr/>
+    <div class="container">
+        <p class="text-center footer-copyright-text">© Copyright 2017 Locpin Limited.
+            <a href="/Home/About"><span id="footer-about-us">About us</span></a>
+            <a href="/Home/Privacy"><span id="footer-privacy">Privacy Policy</span></a>
+        </p>
+    </div>
+</footer>    
+
+
+    
+    <script type="text/javascript">
+
+        var locpin;
+
+        // Initialise position
+        
+    </script>
+
+    <script type="text/javascript" data-main="js/CreateVM.js" src="lib/requirejs/require.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+.map-top-box-safelite {
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+    background:white;
+    height: 320px;
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.map-top-box {
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+    background:white;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+}
