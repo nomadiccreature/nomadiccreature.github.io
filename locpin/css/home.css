@@ -57,7 +57,7 @@
 }
 
 
-@media(max-device-width: 800px){
+@media(max-device-width:500px){
     #hide-buildings{
         display: none;
     }
