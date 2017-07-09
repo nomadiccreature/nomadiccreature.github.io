@@ -65,6 +65,11 @@
     #img-buildings{
         max-width:400px;
     }
+
+
+.section-2-align{
+text-align:center !important;
+}
 }
 
 @media(max-device-width:500px){
@@ -141,4 +146,23 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover; 
+}
+
+.locpin-signup{
+    font-size: 24px;
+    color: #FB4D4C;
+    letter-spacing: 0;
+    padding-bottom: 20px;
+}
+
+ul
+{
+list-style-type: none;
+padding-left: 0;
+font-size:20px;
+color:#A9A9A9;
+}
+
+.section-2-align{
+text-align:left;
 }
