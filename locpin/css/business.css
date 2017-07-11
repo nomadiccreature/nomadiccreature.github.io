@@ -1,11 +1,14 @@
 .retailers{
     /* Background color: */
+    color: #fff;
+    text-align: center !important;
 background-image: linear-gradient(-180deg, #39B9B8 0%, #95A1EB 100%);
 }
 
 .delivery{
-    background-color: #fff;
+    background-color: #F8F8F8;
     color:#000;
+    text-align: center !important;
 }
 
 
@@ -20,18 +23,30 @@ section {
 
 
 .business-heading{
-    font-weight:700px;text-align:center;
-    font-size: 30px;
+    font-weight:700px;
+    font-size: 40px;
     color: #FFFFFF;
     letter-spacing: -1.8px;
     line-height: 46px;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+}
+
+.business-sub-heading{
+font-weight: 300;
+font-size: 25px;
+color: #FFFFFF;
+letter-spacing: -0.5px;
+line-height: 30px;
+margin-bottom: 5%;
+}
+
+.business-para{
+  margin-bottom: 5%;
 }
 
 .intro {
-    height: 50vh;
-    
+    background: url(../img/business-hero.png) center no-repeat;
 }
 
 
@@ -44,17 +59,59 @@ section {
 .btn-cta-section-business-1 {
     /* Rectangle 2: */
 background: #FFFFFF;
-border-radius: 1px;
+border-radius: 10px;
 /* Get in touch: */
 font-family: 500;
 font-size: 18px;
 color: #00B7CB;
 letter-spacing: -0.32px;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 
 
 .btn-cta-section-business-1:hover{
     color: #FFFFFF;
     background-color: #00B7CB;
-    border-color: #fff;
+    border-color: #00B7CB;
+}
+
+
+
+.btn-cta-section-business-2 {
+    /* Rectangle 2: */
+background: #F1C638;
+border-radius: 10px;
+/* Get in touch: */
+font-family: 500;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+
+.btn-cta-section-business-2:hover{
+    color: #F4F4F4;
+    background-color: #FFE079;
+    border-color: #FFE079;
+}
+
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.nav-tabs>li {
+    float:none !important;
+    display: inline-block;
+
+}
+.myNavbar{
+    list-style: none;
+    text-align: center;
 }

@@ -25,7 +25,14 @@ h2{
     font-weight: 300;
 }
 
-
+h3{
+  /* “Direct to Locpin”: */
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 0.4px;
+padding:10px;
+}
 
 
 @media screen and (max-width: 998px) {    
