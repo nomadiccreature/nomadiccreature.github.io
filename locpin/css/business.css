@@ -1,18 +1,16 @@
 .retailers{
-    background-color: #43B7BD;
-    width: 100%;
+    /* Background color: */
+background-image: linear-gradient(-180deg, #39B9B8 0%, #95A1EB 100%);
 }
 
 .delivery{
     background-color: #fff;
     color:#000;
-    width: 100%;
 }
 
 
 section {
     width: 100%;
-    padding: 0 7%;
     display: table;
     margin: 0;
     max-width: none;
@@ -31,17 +29,6 @@ section {
     margin-bottom: 5%;
 }
 
-body {
-    height: 70vh;
-    background: url(../img/business-intro-bg.png) 50% 0% no-repeat;
-    background-size:cover;  
-
-    /* Workaround for some mobile browsers */
-         
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .intro {
     height: 50vh;
     
@@ -50,4 +37,24 @@ body {
 
 .nav-tabs {
     border-bottom: 0px !important;
+}
+
+
+
+.btn-cta-section-business-1 {
+    /* Rectangle 2: */
+background: #FFFFFF;
+border-radius: 1px;
+/* Get in touch: */
+font-family: 500;
+font-size: 18px;
+color: #00B7CB;
+letter-spacing: -0.32px;
+}
+
+
+.btn-cta-section-business-1:hover{
+    color: #FFFFFF;
+    background-color: #00B7CB;
+    border-color: #fff;
 }
