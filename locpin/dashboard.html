@@ -42,15 +42,28 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
                <ul class="nav navbar-nav navbar-right">
                   <li><a href="/Locpin">My Locpins</a></li>
-               </ul>
+               
                <form method="post" id="logoutForm" class="navbar-right" action="/Account/Logout">
-                  <ul class="nav navbar-nav navbar-right">
-                     <li>
-                        <a title="Manage" href="/Manage">Logged In: arindra.das@live.com</a>
-                     </li>
-                     <li>
-                        <button type="submit" class="btn btn-link navbar-btn navbar-link">Log out</button>
-                     </li>
+                  <li>
+                     <div class="dropdown">
+    <a href="#"class="dropdown-toggle" type="button" data-toggle="dropdown" style="display: inline-block;text-decoration:none;padding:12px 10px;border-radius:5px;"> <img src="img/avatar.png" class="img-responsive" style="display: inline-block;width:30px;"><span style="margin-left:5px;">Arindra<span>
+   </a>
+    <ul class="dropdown-menu">
+      <li><a title="Manage" href="/Manage"><img src="img/settings.png" class="img-responsive"></a></li>
+      <li><a type="submit" href="#"><img src="img/logout.png" class="img-responsive"></a>
+
+      </li>
+    </ul>
+  </div>
+  </li>
+
+
+                    
+                    
+                     
+
+
+                     
                   </ul>
                </form>
             </div>
@@ -171,3 +184,15 @@
          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&callback=initMap"></script>
    </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
