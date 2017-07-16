@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>residential-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Locpin-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-9" transform="translate(-603.000000, -176.000000)">
+            <g id="residential-active" transform="translate(603.000000, 176.000000)">
+                <circle id="Oval-3-Copy-4" fill="#6896CB" cx="20" cy="20" r="20"></circle>
+                <circle id="Oval" fill="#82D2E9" cx="20" cy="20" r="17.4468085"></circle>
+                <path d="M20.5396727,11.4091525 C19.9834357,10.9487222 19.1490802,10.9487222 18.5928431,11.4091525 L8.12547401,20.5692914 C7.54395351,21.1024212 7.49338651,21.9505822 8.04962351,22.5321783 C8.60586052,23.0895412 9.49078303,23.1380076 10.097587,22.6048778 L19.5536162,14.2928999 L29.0602123,22.5806446 C29.3383308,22.8229763 29.6922998,22.9441422 30.0462688,22.9441422 C30.4508048,22.9441422 30.8300573,22.7987432 31.1081758,22.5079451 C31.6644128,21.9505822 31.5885623,21.0539548 31.0323253,20.5450582 L20.5396727,11.4091525 Z" id="Shape" fill="#FA7D5B" fill-rule="nonzero"></path>
+                <path d="M11.0638298,22.2981027 L12.7158949,30.5899289 C12.9161452,31.6033743 13.8673342,32.3404255 14.9687109,32.3404255 L24.1802253,32.3404255 C25.3066333,32.3404255 26.232791,31.6033743 26.4330413,30.5899289 L28.0851064,22.2981027 L19.4993742,15.3191489 L11.0638298,22.2981027 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

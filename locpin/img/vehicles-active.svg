@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>vehicles-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Locpin-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-9" transform="translate(-859.000000, -105.000000)">
+            <g id="vehicles-active" transform="translate(859.000000, 105.000000)">
+                <circle id="Oval-3-Copy" fill="#6896CB" cx="20" cy="20" r="20"></circle>
+                <circle id="Oval" fill="#82D2E9" cx="20" cy="20" r="17.4468085"></circle>
+                <path d="M10.7367021,18.7234043 L8.5106383,20.7347074 L8.5106383,23.9893617 L31.4893617,23.9893617 L31.4893617,20.7347074 L29.2632979,18.7234043 L10.7367021,18.7234043 Z M10.2340426,25.1595745 L10.2340426,28.0851064 L13.106383,28.0851064 L13.106383,25.1595745 L10.2340426,25.1595745 Z M26.893617,25.1595745 L26.893617,28.0851064 L29.7659574,28.0851064 L29.7659574,25.1595745 L26.893617,25.1595745 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M9.65957447,20.7712766 L12.2446809,20.7712766 C13.244305,20.7712766 13.6808511,21.9069681 13.6808511,22.8191489 L9.65957447,22.8191489 L9.65957447,20.7712766 Z" id="Path" fill="#FA7D5B"></path>
+                <path d="M27.7553191,20.7712766 L30.3404255,20.7712766 L30.3404255,22.8191489 L26.3191489,22.8191489 C26.3191489,21.9069681 26.755695,20.7712766 27.7553191,20.7712766 Z" id="Path" fill="#FA7D5B"></path>
+                <polygon id="Path" stroke="#FA7D5B" fill="#FA7D5B" points="13.0642317 13.6170213 11.0638298 17.8723404 28.0851064 17.8723404 26.0847045 13.6170213"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
