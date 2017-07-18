@@ -37,13 +37,11 @@ min-height:320px;
   background-color: #E7E7E7;
 }
 
-.orange{
-background-color: #4C5264;
+.yellow{
+background-color: #F1C638;
 }
 
-.purple{
-background-color: #9783A3;
-}
+
 
 
 .box-head{
@@ -83,10 +81,11 @@ background-color: #9783A3;
 .box-subheader{
   color: #fff;
   margin-top: 20px;
+  font-size: 12px;
 }
 
 .box-para{
-  color: #fff;
+  color: #000;
 }
          
 .dashboard-section{
