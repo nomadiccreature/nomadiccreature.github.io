@@ -1,219 +1,173 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="img/logo.png">
-
-    <title>Home Page</title>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link href="css/register.css" rel="stylesheet">
-    <link href="css/create.css" rel="stylesheet" />
-    <link href="css/safeliteConfirm.css" rel="stylesheet" />
-    <link href="css/safeliteQuestions.css" rel="stylesheet" />
-    <link href="css/home.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
-    <link href="css/details.css" rel="stylesheet">
-    <link href="css/dashboard.css" rel="stylesheet">
-
-
-
-</head>
-
-<body>
-  <header class="navbar navbar-custom navbar-static-top" id="top">
-    <div class="container">
-      <div class="navbar-header navbar-default">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="index.html">
-          <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
-        </a>
-      </div>
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
-        <ul class="nav navbar-nav navbar-right">
-          
-          <form method="post" id="logoutForm" class="navbar-right" action="/Account/Logout">
-            <li>
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" style="display: inline-block;text-decoration:none;padding:12px 10px;border-radius:5px;">
-                <img src="img/avatar.png" class="img-responsive" style="display: inline-block;width:30px;"><span style="margin-left:5px;"><span>
-   </a>
-    <ul class="dropdown-menu">
-      <li><a title="Manage" href="/Manage"><img src="img/settings.png" class="img-responsive"></a></li>
-      <li><a type="submit" href="#"><img src="img/logout.png" class="img-responsive"></a>
-
-      </li>
-    </ul>
-  </div>
-  </li>
-
-       
-                  </ul>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="img/logo.png">
+      <title>Home Page</title>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/header.css" rel="stylesheet">
+      <link href="css/footer.css" rel="stylesheet">
+      <link href="css/register.css" rel="stylesheet">
+      <link href="css/create.css" rel="stylesheet" />
+      <link href="css/safeliteConfirm.css" rel="stylesheet" />
+      <link href="css/safeliteQuestions.css" rel="stylesheet" />
+      <link href="css/home.css" rel="stylesheet">
+      <link href="css/about.css" rel="stylesheet">
+      <link href="css/details.css" rel="stylesheet">
+      <link href="css/dashboard.css" rel="stylesheet">
+   </head>
+   <body>
+      <header class="navbar navbar-custom navbar-static-top" id="top">
+         <div class="container">
+            <div class="navbar-header navbar-default">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand page-scroll" data-toggle="collapse" data-target=".nav-collapse" href="index.html">
+               <img class="img-responsive" src="img/logo.svg" alt="locpin logo" style="width:90px;height:auto;padding-left:8px;">
+               </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse top-navigation">
+               <ul class="nav navbar-nav navbar-right">
+                  <form method="post" id="logoutForm" class="navbar-right" action="/Account/Logout">
+                     <li>
+                        <div class="dropdown">
+                           <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown" style="display: inline-block;text-decoration:none;padding:12px 10px;border-radius:5px;">
+                           <img src="img/avatar.png" class="img-responsive" style="display: inline-block;width:30px;"><span style="margin-left:5px;"><span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li><a title="Manage" href="/Manage"><img src="img/settings.png" class="img-responsive"></a></li>
+                              <li><a type="submit" href="#"><img src="img/logout.png" class="img-responsive"></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+               </ul>
                </form>
             </div>
          </div>
       </header>
-     
-    <!-- 
-
-<div class="container" style="padding-bottom:20px;">
-<div class="nav navbar-nav navbar-right">
-    <strong>Views</strong>
-        <div class="btn-group">
-            <a href="/Locpin/Codes" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
-            </span> List</a> <a href="/Locpin/Map" id="grid" class="btn btn-default btn-sm"><span
-                class="glyphicon glyphicon-map-marker"></span> Map</a>
-        </div>
-       </div> 
-</div>
- -->
-
-
-<section class="dashboard-section">
-<div class="container">
-<div class="row">
-  <div class="col-md-12">
-    <div class="col-md-3"> 
-      
-
-      <div class="box grey">
-        <div class="circle-left"></div>
-      <div class="circle-right"></div>
-        <img src="img/add.svg" class="img-responsive" style="position:absolute;top:40%;width:80px;left:35%;"/>
-      </div>
-
-    </div>
-    <div class="col-md-3">
-      
-      <div class="box orange">
-        <div class="circle-left"></div>
-      <div class="circle-right"></div>
-        <div class="box-head">
-          <img src="img/residential-active.svg" class="img-reponsive box-head-image"> 
-          <div class="box-header" style="display:inline-block;">
-            My home Residence
-          </div>
-        </div>
-        <hr class="box-hr">
-        
-        <div class="box-body">
-          <div class="box-subheader">NOTES</div>
-          <div class="box-para">Just open the door and you will find the keyJust open the door and you will find the key</div>
-          <div class="box-subheader" style="">PREFERENCES</div>
-
-          <div class="box-para">You have added 2 preferences</div>
-        </div>
-         <hr class="box-hr-footer">
-
-        <div class="box-footer">
-           <div style="display:inline-block;">
-                     <div style="display:inline-block;"><img src="img/location.png" class="img-responsive"> </div>
-                  <div style="display:inline-block;">15 Holybrook house, NW10 4SA</div></div>
-        </div>
-
-      </div>
-    </div>
-     <div class="col-md-3">
-      
-      <div class="box purple">
-      <div class="circle-left"></div>
-      <div class="circle-right"></div>
-        <div class="box-head">
-          <img src="img/business-active.svg" class="img-reponsive box-head-image"> 
-          <div class="box-header" style="display:inline-block;">
-            Locpin office
-          </div>
-        </div>
-        <hr class="box-hr">
-        
-        <div class="box-body">
-          <div class="box-subheader">NOTES</div>
-          <div class="box-para">Just open the door and you will find the keyJust open the door and you will find the key</div>
-          <div class="box-subheader" style="">PREFERENCES</div>
-
-          <div class="box-para">You have added 2 preferences</div>
-        </div>
-         <hr class="box-hr-footer">
-
-        <div class="box-footer">
-           <div style="display:inline-block;">
-                     <div style="display:inline-block;"><img src="img/location.png" class="img-responsive"> </div>
-                  <div style="display:inline-block;">15 Holybrook house, NW10 4SA</div></div>
-        </div>
-    </div>
-    </div> 
-       </div> 
-
-
-  </div>
-</div>
-</div>
-</section>
  
-
-   
-
-    <footer class="footer">
-       <hr>
-        <div class="container">
+      <section class="dashboard-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="col-md-3">
+                     <div class="box grey">
+                        <div class="circle-left"></div>
+                        <div class="circle-right"></div>
+                        <img src="img/add.svg" class="img-responsive" style="position:absolute;top:40%;width:80px;left:35%;"/>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="box orange">
+                        <div class="circle-left"></div>
+                        <div class="circle-right"></div>
+                        <div class="box-head">
+                           <img src="img/residential-active.svg" class="img-reponsive box-head-image"> 
+                           <div class="box-header" style="display:inline-block;">
+                              My home Residence
+                           </div>
+                        </div>
+                        <hr class="box-hr">
+                        <div class="box-body">
+                           <div class="box-subheader">NOTES</div>
+                           <div class="box-para">Just open the door and you will find the keyJust open the door and you will find the key</div>
+                           <div class="box-subheader" style="">PREFERENCES</div>
+                           <div class="box-para">You have added 2 preferences</div>
+                        </div>
+                        <hr class="box-hr-footer">
+                        <div class="box-footer">
+                           <div style="display:inline-block;">
+                              <div style="display:inline-block;"><img src="img/location.png" class="img-responsive"> </div>
+                              <div style="display:inline-block;">15 Holybrook house, NW10 4SA</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="box purple">
+                        <div class="circle-left"></div>
+                        <div class="circle-right"></div>
+                        <div class="box-head">
+                           <img src="img/business-active.svg" class="img-reponsive box-head-image"> 
+                           <div class="box-header" style="display:inline-block;">
+                              Locpin office
+                           </div>
+                        </div>
+                        <hr class="box-hr">
+                        <div class="box-body">
+                           <div class="box-subheader">NOTES</div>
+                           <div class="box-para">Just open the door and you will find the keyJust open the door and you will find the key</div>
+                           <div class="box-subheader" style="">PREFERENCES</div>
+                           <div class="box-para">You have added 2 preferences</div>
+                        </div>
+                        <hr class="box-hr-footer">
+                        <div class="box-footer">
+                           <div style="display:inline-block;">
+                              <div style="display:inline-block;"><img src="img/location.png" class="img-responsive"> </div>
+                              <div style="display:inline-block;">15 Holybrook house, NW10 4SA</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <footer class="footer">
+         <hr>
+         <div class="container">
             <p class="text-center footer-copyright-text">© Copyright 2017 Locpin Limited. 
-                <a href="/Home/About"><span id="footer-about-us" >About us</span></a>
-                <a href="/Home/Privacy"><span id="footer-privacy" >Privacy Policy</span></a>
-            </p>  
-        </div>
-    </footer>    
-    
-  <!-- Bootstrap core JavaScript
+               <a href="/Home/About"><span id="footer-about-us" >About us</span></a>
+               <a href="/Home/Privacy"><span id="footer-privacy" >Privacy Policy</span></a>
+            </p>
+         </div>
+      </footer>
+      <!-- Bootstrap core JavaScript
          ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-    </script>
-    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <!-- Google Maps -->
-    <script>
-      function initMap()
-      {
-        var uluru = {
-          lat: -25.363,
-          lng: 131.044
-        };
-        var map = new google.maps.Map(document.getElementById('map'),
-        {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker(
-        {
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&callback=initMap"></script>
-</body>
-
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>
+         window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+      </script>
+      <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+      <!-- Google Maps -->
+      <script>
+         function initMap()
+         {
+           var uluru = {
+             lat: -25.363,
+             lng: 131.044
+           };
+           var map = new google.maps.Map(document.getElementById('map'),
+           {
+             zoom: 4,
+             center: uluru
+           });
+           var marker = new google.maps.Marker(
+           {
+             position: uluru,
+             map: map
+           });
+         }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSeVV9ytwTkGTNoGDV3R07ELH-AabgbVk&callback=initMap"></script>
+   </body>
 </html>
