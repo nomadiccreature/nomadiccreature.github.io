@@ -78,3 +78,11 @@ input[type="radio"]:checked + .residential-radio {
     margin: 0 auto;
 
 }
+
+
+.preference-box{
+  background-color: #E3E3E3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}

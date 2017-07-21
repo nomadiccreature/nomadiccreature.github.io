@@ -199,3 +199,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.col-md-3{
+    height: 100px;
+    background-color:rgb(230,230,230);
+    text-align:center;
+}

@@ -42,3 +42,4 @@ var show = function(id) {
 var hide = function(id) {
 	$(id).style.display ='none';
 }
+
