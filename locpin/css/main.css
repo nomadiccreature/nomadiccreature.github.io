@@ -205,3 +205,32 @@ input:checked + .slider:before {
     background-color:rgb(230,230,230);
     text-align:center;
 }
+
+
+/*Settings*/
+    .details li {
+      list-style: none;
+    }
+    li {
+        margin-bottom:10px;
+        
+    }
+
+
+.edit-details {
+  position: relative;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.edit-pencil {
+  position: absolute;
+   right: 0;
+    top: 0;
+  display: none;
+}
+
+.edit-details:hover .edit-pencil {
+  display: block;
+}
+
