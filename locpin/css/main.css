@@ -234,3 +234,11 @@ input:checked + .slider:before {
   display: block;
 }
 
+*:focus {
+    outline: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+

@@ -83,13 +83,21 @@
                <div class="col-md-12" style="float:left !important;">
                   <btn><i class="fa fa-angle-left" aria-hidden="true" style="padding-left:10px;padding-right:10px;"></i>Back</btn>
                   <br><br><br>
-                  <div><input type="text" class="form-control" name="Label" value="Name" style="border:none;font-size:40px;width:100%;max-width:500px;padding:20px;"/><i class="fa fa-pencil" aria-hidden="true"></i></div>
-                  <div><input type="text" class="form-control" name="Label" value="Name" style="border:none;font-size:40px;width:100%;max-width:500px;padding:20px;"/></div>
+                  <div>My residential address <i class="fa fa-pencil" aria-hidden="true"></i></div>
+                  <div><input type="text" value="Name" style="border-bottom: 1px solid;font-size:40px;width:100%;max-width:500px;max-height:50px;padding:20px;"/></div>
                   <br><br><br>
                </div>
                <div class="col-md-4">
                   <div id="wrapper">
                      <div id="map"></div>
+
+                     <br>
+                     <div style="display:inline-block;">
+                     <div style="display:inline-block;"><img src="img/location.png" class="img-responsive"> </div>
+                     <div style="display:inline-block;">15 Holybrook house, NW10 4SA</div>
+                  </div>
+                  <a href="#" onclick="show('popup2')"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+
                      <div id="over_map">
                         <div class="input-group"  style="float:right;">
                            <input type="text" id="searchBox" class="form-control" placeholder="Post Code"/>
@@ -101,11 +109,7 @@
                   </div>
                </div>
                <div class="col-md-4">
-                  <div style="display:inline-block;">
-                     <div style="display:inline-block;"><img src="img/location.png" class="img-responsive"> </div>
-                     <div style="display:inline-block;">15 Holybrook house, NW10 4SA</div>
-                  </div>
-                  <a href="#" onclick="show('popup2')"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                  
                   <div class="popup" id="popup2">
                      <div class="form-inline">
                         <label for="AddressLine1">Address</label>
@@ -139,7 +143,7 @@
                      <a href="#" onclick="hide('popup2')">Ok!</a>
                   </div>
                   <div class="clear"></div>
-                  <br><br><br>
+                  
                   <div class="form-inline">
                      <label for="notes">ADDITIONAL INSTRUCTION FOR OUR DRIVER</label>
                      <textarea rows="4" cols="50" class="form-control form-input" name="Notes" value="" ></textarea>
@@ -159,9 +163,14 @@
                      <span class="tooltiptext">Add a preference and never miss your delivery</span>
                   </div>
                   <br> <br> 
-                  <input class="btn btn-default" value="Add Neighbour" type="button"> <br> <br>
-                  <input class="btn btn-default" value="Add Safe Place" type="button"><br> <br>
-                  <input class="btn btn-default" value="Add Preferred Delivery Days" type="button"> 
+                  <label for="notes">NEIGHBOUR</label><br>
+                  <input class="btn btn-default" value="Add Neighbour" type="button" onclick="show('popup2')"><br><br>
+
+                  <label for="notes">SAFE PLACE</label><br>
+                  <input class="btn btn-default" value="Add Safe Place" type="button" onclick="show('popup2')"><br><br>
+
+                  <label for="notes">PREFERRED DELIVERY DAYS</label><br>
+                  <input class="btn btn-default" value="Add Preferred Delivery Days" type="button" onclick="show('popup2')"> 
                </div>
             </div>
          </div>
