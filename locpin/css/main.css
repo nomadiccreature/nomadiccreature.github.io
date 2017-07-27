@@ -351,12 +351,3 @@ input:checked + .slider:before {
 .edit-details:hover .edit-pencil {
   display: block;
 }
-
-*:focus {
-    outline: none;
-}
-
-textarea:focus, input:focus{
-    outline: none;
-}
-
