@@ -96,6 +96,124 @@ a:hover{
   z-index: -1;
 }
 
+
+
+.popup3 {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  height: 100%;
+  max-height: 200px;
+  top: 20%;
+  margin-top: -100px;
+  background: #FFF;
+  z-index: 2000;
+}
+
+
+#popup3:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#popup3:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+
+.popup4 {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  height: 100%;
+  max-height: 200px;
+  top: 20%;
+  margin-top: -100px;
+  background: #FFF;
+  z-index: 2000;
+}
+
+
+#popup4:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#popup4:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+.popup5 {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  height: 100%;
+  max-height: 300px;
+  top: 20%;
+  margin-top: -100px;
+  background: #FFF;
+  z-index: 2000;
+}
+
+
+#popup5:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#popup5:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #fff !important;
     border-color: #fff !important;
