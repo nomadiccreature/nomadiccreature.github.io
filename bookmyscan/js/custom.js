@@ -196,10 +196,10 @@ function init() {
 
 $(function () { 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 60) { 
+        if ($(this).scrollTop() > 1) { 
             $('.navbar .navbar-brand img').attr('src','./img/logo-black.png');
         }
-        if ($(this).scrollTop() < 60) { 
+        if ($(this).scrollTop() < 1) { 
             $('.navbar .navbar-brand img').attr('src','./img/logo.png');
         }
     })
