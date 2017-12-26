@@ -228,7 +228,11 @@ body {
 }
 
 .box{
-border: 1px solid #DFDFDF;
+border: 0.2px solid #DFDFDF;
+min-height: 450px;
+background: white;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 div.box img {
@@ -238,13 +242,19 @@ div.box img {
 
 .box-header{
 font-size: 20px;
-color:#000;
+    color: #000;
+    max-width: 300px;
+    display: inline-block;
+    line-height: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .box-sub-header{
 font-size: 14px;
 color: #4A4A4A;
 letter-spacing: 0;  
+padding: 10px;
 }
 
 
@@ -290,3 +300,40 @@ margin-bottom: 0.6em;
   background: #3898EC;
     border-radius: 100px;
 }
+
+
+.team-member-header{
+    color: #000;
+    max-width: 300px;
+    display: inline-block;
+    line-height: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+font-size: 20px;
+color: #95A5A6;
+}
+
+
+.team-box{
+border: 0.2px solid #DFDFDF;
+min-height: 690px;
+background: white;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+div.team-box img {
+    width: 100%;
+    height: auto;
+}
+
+
+#btn-join{
+background: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 10px 30px 10px 30px;
+    color:#3898EC !important;
+}
+
