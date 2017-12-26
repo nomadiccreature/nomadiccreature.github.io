@@ -45,21 +45,27 @@ a {
     text-decoration: none;
     color: #3898EC; }
 
+
+
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
  /* text-transform: uppercase;*/
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black; }
+  background-color: white; }
+
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
-    color: white;
-    border: 1px solid white; }
+    color: black;
+    border: 1px solid black; 
+  margin-top: -100px;}
   #mainNav .navbar-brand {
     font-weight: 700; }
-  #mainNav a {
-    color: white; }
+    #mainNav a {
+    color: black; }
+  #mainNav.navbar-shrink a {
+    color: black; }
   #mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
@@ -71,7 +77,27 @@ a {
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
       background-color: transparent; }
+ 
+
+
+#nav-logo-non-responsive{
+  display: block;
+}
+
+#nav-logo-responsive{
+  display: none;
+}
+
+
+
   @media (min-width: 992px) {
+    #btn-login{
+  background: #3898EC;
+    border-radius: 100px;
+    color:white !important;
+}
+     #mainNav a {
+    color: white; }
     #mainNav {
       padding-top: 20px;
       padding-bottom: 20px;
@@ -85,14 +111,48 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: black; }
+        background: white; }
       #mainNav .nav-link.active {
         outline: none;
-        background-color: rgba(255, 255, 255, 0.3);
+        color:#3898EC;
         border-radius: 100px; }
         #mainNav .nav-link.active:hover {
-          color: white; } 
+          color: #3898EC;
+
+
+           } 
+        
+
+#nav-tagline{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+ul{
+  margin-top: -50px;
+}
+
+#mainNav p{
+margin-bottom: 0px !important;
+}
+
+#nav-logo-non-responsive{
+  display: none;
+}
+
+#nav-logo-responsive{
+  display: block;
+}
+
+
         }
+
+
+
+
+
+
 
 .masthead {
   display: table;
@@ -296,10 +356,7 @@ margin-bottom: 0.6em;
     padding-left: 1.5rem;
 }}
 
-#btn-login{
-  background: #3898EC;
-    border-radius: 100px;
-}
+
 
 
 .team-member-header{
@@ -337,3 +394,18 @@ background: #fff;
     color:#3898EC !important;
 }
 
+.footer-privacy{
+color:black;
+padding: 0px 20px 0px 20px;
+}
+
+
+/*#navbar-logo {
+   background-image: url('../img/nav-logo-white.png');
+   width: auto;
+   height:50px;
+}
+
+#navbar-logo:hover {
+   background-image: url('../img/nav-logo-black.png');
+}*/

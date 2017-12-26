@@ -192,3 +192,15 @@ function init() {
     icon: image
   });
 }
+
+
+$(function () { 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 60) { 
+            $('.navbar .navbar-brand img').attr('src','./img/logo-black.png');
+        }
+        if ($(this).scrollTop() < 60) { 
+            $('.navbar .navbar-brand img').attr('src','./img/logo.png');
+        }
+    })
+});
