@@ -45,7 +45,9 @@ BookMyScan custom.js
 
 })(jQuery); // End of use strict
 
-$(function() {
+const mq = window.matchMedia( "(min-width: 600px)" );
+if (mq.matches) {
+  $(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
             $('.navbar .navbar-brand img').attr('src', './img/logo-black.png');
@@ -55,3 +57,7 @@ $(function() {
         }
     })
 });
+} else {
+  // window width is less than 500px
+}
+
