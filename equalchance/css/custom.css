@@ -1,0 +1,328 @@
+/*
+BookMyScan custom.css
+@nomadiccreature
+*/
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin: 0 0 80px;
+    letter-spacing: 1.3px;
+    font-size: 2.5rem !important;
+}
+p {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+@media(min-width: 768px) {
+    p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 35px;
+}
+}
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+}
+ a:focus, a:hover {
+    text-decoration: none;
+    color: #3898EC;
+}
+#mainNav {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: white;
+}
+ #mainNav.navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    color: black;
+    border: 1px solid black;
+    margin-top: -70px;
+}
+ #mainNav.navbar-brand {
+    font-weight: 400;
+}
+ #mainNav a {
+    color: black;
+}
+ #mainNav.navbar-shrink a {
+    color: black;
+}
+ #mainNav .navbar-nav .nav-item {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+ #mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent;
+}
+ #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+ #nav-logo-non-responsive {
+    display: block;
+}
+#nav-logo-responsive {
+    display: none;
+}
+.intro-text {
+    display: inline-block;
+    max-width: 350px;
+    vertical-align: top;
+}
+.intro-header {
+    display: inline-block;
+    max-width: 600px;
+    vertical-align: top;
+    font-weight: 400px;
+    line-height: 1em;
+    font-size: 40px;
+    letter-spacing: 0.55px;
+    margin-top: 60px;
+    margin-bottom: 0.6em;
+}
+ @media (min-width: 992px) {
+    .intro-text {
+    display: inline-block;
+    max-width: 350px;
+    vertical-align: top;
+}
+.intro-header {
+    display: inline-block;
+    max-width: 600px;
+    vertical-align: top;
+    font-weight: 400px;
+    line-height: 1.1em;
+    font-size: 55px;
+    letter-spacing: 0.55px;
+    margin-top: 100px;
+    margin-bottom: 0.6em;
+}
+ #btn-login {
+    background: #3898EC;
+    border-radius: 100px;
+    color: white !important;
+}
+ #mainNav a {
+    color: white;
+}
+ #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+}
+ #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: white;
+}
+ #mainNav .nav-link.active {
+    outline: none;
+    color: #3898EC;
+    border-radius: 100px;
+}
+ #mainNav .nav-link.active:hover {
+    color: #3898EC;
+}
+ #nav-tagline {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+ul {
+    margin-top: -50px;
+}
+#mainNav p {
+    margin-bottom: 0px !important;
+}
+#nav-logo-non-responsive {
+    display: none;
+}
+#nav-logo-responsive {
+    display: block;
+}
+ }
+.masthead {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+ .masthead .intro-body .brand-heading {
+    font-size: 50px;
+}
+ .masthead .intro-body .intro-text {
+    font-size: 18px;
+}
+ @media (min-width: 768px) {
+    .masthead {
+    height: 100%;
+    padding: 0;
+}
+ .masthead .intro-body .brand-heading {
+    font-size: 100px;
+}
+ .masthead .intro-body .intro-text {
+    font-size: 22px;
+}
+ }
+.content-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn {
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.btn-default {
+    color: #42DCA3;
+    border: 1px solid #42DCA3;
+    background-color: transparent;
+}
+ .btn-default:focus, .btn-default:hover {
+    color: black;
+    border: 1px solid #42DCA3;
+    outline: none;
+    background-color: #42DCA3;
+}
+footer {
+    padding: 50px 0;
+}
+ footer p {
+    font-size: 14px;
+    margin: 0;
+}
+:: -moz-selection {
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, 0.2);
+    text-shadow: none;
+}
+:: selection {
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, 0.2);
+    text-shadow: none;
+}
+img:: selection {
+    background: transparent;
+}
+img:: -moz-selection {
+    background: transparent;
+}
+.section-blue {
+    background-color: #00A3DA;
+}
+.box {
+    border: 0.2px solid #DFDFDF;
+    min-height: 450px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.box img {
+    width: 100%;
+    height: auto;
+}
+.box-header {
+    font-size: 20px;
+    color: #000;
+    max-width: 300px;
+    display: inline-block;
+    line-height: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box-sub-header {
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    padding: 10px;
+}
+#btn-cta {
+    background: #3898EC;
+    border-radius: 100px;
+    letter-spacing: 2.88px;
+    font-size: 1em;
+    padding: 20px 60px 20px 60px;
+    color: #fff !important;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+.team-member-header {
+    color: #000;
+    max-width: 300px;
+    display: inline-block;
+    line-height: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #95A5A6;
+}
+.team-box {
+    border: 0.2px solid #DFDFDF;
+    min-height: 690px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.team-box img {
+    width: 100%;
+    height: auto;
+}
+#btn-join {
+    background: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 10px 30px 10px 30px;
+    color: #3898EC !important;
+}
+.footer-privacy {
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
