@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediaries and digital transformation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body class="post-page">
+    <div class="container">
+
+        <div class="toggle-switch form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+            <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+        </div>
+
+        
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-8 col-lg-6 content">
+                
+                <!-- Back Button -->
+                <a href="/index.html" class="back-button">&larr; Back to Blog</a>
+
+                <h3>Intermediaries and digital transformation &ndash; nurturing,
+                    and sustaining inclusive public services</h3>
+                <p>30 Oct 2024</p>
+                
+                <blockquote class="quote">
+                    <p>Belonging is a place where everyone’s differences can be valued and where
+                        everyone feels a commitment to shared responsibility.</p>
+                    <footer>&ndash; Bell Hooks</footer>
+                </blockquote>
+                
+                
+                
+                <p>When I moved to the UK as a grad student, navigating the landscape of a new culture,
+                    I found belonging in libraries &mdash; spaces where access felt like a human right, not a privilege &mdash;
+                    universal and equitable.</p>
+                
+                <p>During my time at the <a href="https://theodi.org/">Open Data Institute</a>, I organised a roundtable on
+                    <a href="https://theodi.org/insights/reports/improving-data-and-information-access-in-regulated-sectors-report/">
+                        improving data access across regulated sectors</a>. Working with <a href="https://www.linkedin.com/in/olivierthereaux/">Olivier</a> and <a href="https://theodi.org/profile/josh-daddario/">Josh</a>, we brought together technology leaders from banking, insurance,
+                    accountancy, law, and government. What emerged vividly was the profound trust participants placed in
+                    intermediaries. Leaders shared an openness grounded in respect for the integrity and neutrality of these
+                    trusted bridges. Intermediaries facilitated genuine exchanges without the weight of competition or guarded
+                    interests, enabling secure and valuable information flows that supported a more open, trustworthy, and
+                    sustainable data ecosystem.</p>
+                
+                <p>Seeing competitors unite around shared values highlights that intermediaries are more
+                    than mere connectors; they are custodians of continuity, fostering collaboration across complex systems.
+                    Like roots in a forest, intermediaries support the flow of knowledge and resources, making systems more
+                    connected and resilient.</p>
+                
+                <p>Reflecting on the future of digital transformation, my journey &mdash; from working
+                    on data trusts to feeling a sense of belonging &mdash; has drawn me towards foundational principles of
+                    radical acceptance and universality. Intermediaries have a crucial role in nurturing and sustaining
+                    inclusive spaces where everyone belongs.</p>
+                
+                <p>As we shape the discussions on the future of digital public service, perhaps the most
+                    meaningful answers lie in the questions we&rsquo;re encouraged to ask:</p>
+                
+                <ul>
+                    <li>Could our vision hold space for universality, providing a foundation upon which all
+                        can build and belong?</li>
+                    <li>Could we be bold enough to bring equitable outcomes as the highest measure of success
+                        while designing these services?</li>
+                </ul>
+                
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('darkModeToggle').checked = true;
+            }
+        });
+    </script>
+    
+</body>
+</html>

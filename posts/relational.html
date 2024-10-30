@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building fair AI model through design patterns</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body class="post-page">
+    <div class="container">
+
+        <div class="toggle-switch form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+            <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+        </div>
+
+        
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-8 col-lg-6 content">
+                
+                <!-- Back Button -->
+                <a href="/index.html" class="back-button">&larr; Back to Blog</a>
+
+                <h2>Designing IoT Solutions for Elderly Care: Harmonising Connection, Autonomy, and Secure Support</h2>
+<p>Sep 20, 2014</p>
+
+<p>While leading research with stakeholders from Microsoft, Kent County Council, The Good Care Group, and UCL’s
+    Departments of Computer Science and Brain Sciences, I’ve had the privilege to explore how IoT technologies can
+    better serve our aging population. Rooted in rigorous research and countless conversations with individuals
+    experiencing conditions like dementia, cancer, and other vulnerabilities, I’ve witnessed firsthand the deeply
+    interwoven networks of care that sustain individuals. These experiences have profoundly shaped my conviction that
+    effective elder care technology must honour the web of human relationships and shared autonomy that defines true
+    support.</p>
+
+<h3>A Paradigm Shift in Elder Care: Weaving Technology into the Fabric of Human Connection</h3>
+<p>The journey toward impactful care technology starts with recognising its inherent relational structure. Care isn’t a
+    singular, linear function; it’s a vibrant, multidimensional system where formal caregivers, family, and individuals
+    coalesce. Yet, many existing systems are built with a reductionist approach, as if each person lives in isolation.
+    This limits the transformative potential of IoT to merely transactional interactions. My research calls for us to
+    look beyond the individual and develop IoT solutions that are symbiotic with the care ecosystems, harmonising with
+    the values of trust, dignity, and independence each person desires.</p>
+
+<h3>Core Principles for Relationship-Centred, Autonomous Elder Care</h3>
+
+<h4>Design for Relationships, Not Just Individuals</h4>
+<p>“User” in elder care is an expanded term—encompassing caregivers, family, and professionals. Imagine each person in
+    this web as a distinct field of interaction. Whether it’s a son checking on his mother’s wellbeing from afar or a
+    caregiver aligning medication schedules, the design must resonate with each unique relationship.
+    Relationship-centred design thus recognises the powerful constellation of supporters around each person, dynamically
+    interconnecting all roles in meaningful ways.</p>
+
+<h4>Enable Adaptive, Contextual Access</h4>
+<p>Just as relationships in a care network vary, IoT systems in elder care must respect fluidity in permissions. Each
+    role requires specific access levels—family may need observational data, while caregivers interact more deeply.
+    Enabling adaptable access honors these nuances, providing just the right visibility while maintaining privacy and
+    agency.</p>
+
+<h4>Empower Autonomy Through the Principle of Consent</h4>
+<p>Consent is an essential force in the care spectrum. IoT solutions should allow for the modulation of permissions as
+    needs evolve, allowing individuals to retain their agency. This consent-based architecture ensures users remain
+    firmly in control of who can observe or interact with their data, preserving autonomy and fostering trust within a
+    shared care framework.</p>
+
+<h4>Infuse Transparency to Sustain Trust and Security</h4>
+<p>Transparency acts like a stabilising force in the care matrix. For elderly individuals, having visibility into who
+    accessed their information—and why—nurtures the grounding trust necessary for sustained, empowered use. Transparency
+    becomes a vital aspect, offering reassurance to each participant in the network and ensuring they feel informed,
+    protected, and respected.</p>
+
+<h3>Building a Resonant, Trustworthy Future for Elderly Care</h3>
+<p>This exploration of IoT in elder care reveals that technology is most powerful when it harmonises with the relational
+    fabric of life itself. Grounded in the understanding that individuals are part of a living network, we can create
+    tools that resonate with the dignity of independent yet interconnected lives. By designing technology that respects
+    autonomy and transparency within the unique landscape of each person’s care ecosystem, we open doors to a future
+    where IoT elevates the very essence of supportive, meaningful human connection.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('darkModeToggle').checked = true;
+            }
+        });
+    </script>
+    
+</body>
+</html>

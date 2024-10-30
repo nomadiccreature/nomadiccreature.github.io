@@ -1,0 +1,126 @@
+@import url(https://themes.googleusercontent.com/fonts/css?kit=ocS2W5q3wivmJKeBMg0MHSL7E_HK2Qwzie-wYllJY9XZO3OCxJmfW9JMcnAz-7gM);
+
+/* General Styling */
+body {
+    font-family: 'Roboto Serif', serif;
+    background-color: #f5f5dc;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.post-page.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.post-page.dark-mode a {
+    color: #8ab4f8;
+}
+
+/* Content Styling */
+.content {
+    max-width: 600px;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+/* Header and Link Styling */
+h1, h2, h3, h4, h5 {
+    color: inherit;
+    font-family: 'Roboto Serif', serif;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+
+h3 {
+    font-size: 1.1em;
+}
+
+
+h4 {
+    font-size: 1.05em;
+}
+
+a {
+    color: #17132D;
+    text-decoration: underline;
+    text-decoration-color: #89809A;
+    text-underline-offset: 10%;
+}
+
+body.dark-mode a {
+    color: #269383;
+    text-decoration-color: #269383;
+}
+
+/* Toggle Switch Position */
+.toggle-switch {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+/* Blog List Article */
+.blog-list article {
+    margin-bottom: 2rem;
+}
+
+/* Back Button */
+.back-button {
+    color: hsl(0, 82%, 13%);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.back-button:hover {
+    color: hsl(0, 87%, 15%);
+    text-decoration: underline;
+}
+
+/* Define color variables for light and dark mode */
+:root {
+    --text-color: #333; /* Light mode text color */
+    --quote-color: #444; /* Light mode quote color */
+    --author-color: #555; /* Light mode author color */
+    --dark-quote-color: #ddd; /* Dark mode quote color */
+    --dark-author-color: #bbb; /* Dark mode author color */
+}
+
+/* Quote Block Styling */
+blockquote.quote {
+    color: var(--quote-color); /* Adjusts with light/dark theme */
+    padding-left: 10px;
+    margin: 20px 0;
+
+}
+
+blockquote.quote p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+blockquote.quote footer {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 8px;
+    color: var(--author-color); /* Different color for the author */
+}
+
+/* Dark Mode Styles for Quotes */
+body.dark-mode blockquote.quote {
+    color: var(--dark-quote-color); /* Adjust quote color for dark mode */
+}
+
+body.dark-mode blockquote.quote footer {
+    color: var(--dark-author-color); /* Adjust author color for dark mode */
+}
