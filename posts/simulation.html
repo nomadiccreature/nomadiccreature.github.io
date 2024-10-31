@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelling learning through simulation and serious play</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body class="post-page">
+    <div class="container">
+
+        <div class="toggle-switch form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+            <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+        </div>
+
+        
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-8 col-lg-6 content">
+                
+                <!-- Back Button -->
+                <a href="/index.html" class="back-button">&larr; Back to Blog</a>
+
+                <h2>Modelling learning through simulation and serious play</h2>
+<p>Sep 20, 2012</p>
+
+<p>In a world where business education still relies on lectures, slides, and case studies, I set out to do something different. I wanted a learning environment that felt less like a classroom and more like real life. Inspired by serious gaming, I created the Network Service Business Game (NSBG)—a dynamic, multiplayer simulation where students aren’t just learning business but actively running companies, managing risks, and negotiating within a virtual space tourism ecosystem.</p>
+<p>Building NSBG was a multi-year journey of learning and iteration, shaped by hundreds of students who played, shared feedback, and helped me refine the experience. Along the way, I uncovered principles that extend beyond traditional education and showcase the true transformative potential of serious games.</p>
+
+<h3>Core principles in building NSBG</h3>
+
+<h4>1. Capture real-world complexity—provide guidance, not over-simplification</h4>
+<p>NSBG was designed to mirror the complexities of real-world business. Students wear multiple hats—acting as CEOs, CTOs, and strategists—facing high-stakes decisions that affect not only their own company but the whole ecosystem. They negotiate, manage teams, and make trade-offs under uncertain conditions, experiencing the messiness of true business dynamics.</p>
+<p><em>Insight:</em> Real learning doesn’t come from neat answers; it comes from navigating complexity. In NSBG, students develop resilience and adaptability, critical traits for any career. And while the game framework guides them, it avoids the rigidity of lectures. This balance between structure and freedom is what makes serious games so impactful and a viable alternative to conventional learning.</p>
+
+<h4>2. Make it accessible—a game for all backgrounds, not just the experts</h4>
+<p>Early versions of NSBG taught me that students’ backgrounds varied widely, with many unfamiliar with industry terms or business jargon. Feedback revealed that terms like “RFP” or “ecosystem formation” often felt inaccessible, despite covering them in pre-game materials.</p>
+<p><em>Insight:</em> For a serious game to succeed, it has to welcome a diverse audience. We introduced layered tutorials and simple guides, enabling all students to engage confidently. Making a game inclusive isn’t about lowering standards; it’s about creating an environment where every player can participate fully. For serious games to become mainstays in education, they must welcome all learners, not just the “experts.”</p>
+
+<h4>3. Prioritise seamless collaboration tools</h4>
+<p>Collaboration is central to NSBG. Teams must coordinate strategies and decisions to succeed. Initially, I allowed students to choose their own tools—whether Facebook, email, or Skype—but this led to mixed results. Some students thrived with the flexibility, while others struggled, often due to privacy concerns or a lack of central communication.</p>
+<p><em>Insight:</em> In multiplayer educational games, built-in communication isn’t a luxury—it’s essential. Future versions of NSBG will feature in-game communication tools to give students a unified, private platform for collaboration. Clear communication empowers students to strategise and build trust, while giving educators a window into how teams interact and problem-solve.</p>
+
+<h4>4. Embrace iteration—continuous feedback drives evolution</h4>
+<p>NSBG has evolved with feedback from students who played it. I used surveys, game diaries, and group discussions to gather honest input, identifying usability issues, introducing new features, and adapting based on students’ needs.</p>
+<p><em>Insight:</em> Iteration isn’t just a design principle; it’s the backbone of effective learning tools. Building a serious game is like navigating uncharted waters—you chart a course, listen to the crew, and adjust as you go. In education, iterative design doesn’t just improve gameplay; it keeps the experience relevant and responsive. The future of serious games lies in this student-centred approach, evolving constantly through real user insights.</p>
+
+<h3>The future of serious games: a new chapter in learning</h3>
+<p>Reflecting on NSBG, I’m more convinced than ever that serious games are more than “edutainment”; they’re powerful tools for immersive learning that engage students in ways traditional methods can’t. These games create a space for hands-on decision-making and resilience-building, offering a real-world feel in a safe environment.</p>
+<p>Looking forward, I envision serious games becoming a staple of educational programmes, bridging theory and practice. With advancements in AI, we’ll see simulations that adapt to student behaviour in real time, providing tailored feedback. Data insights will let educators see not only what students are learning but how they’re learning, preparing them with skills that transcend the classroom.</p>
+<p>In the end, serious games are about more than learning through play; they create a richer, more immersive educational experience, bringing students into the action, letting them take risks, and offering the thrill of real-world challenges. And that’s the kind of learning that lasts.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('darkModeToggle').checked = true;
+            }
+        });
+    </script>
+    
+</body>
+</html>
