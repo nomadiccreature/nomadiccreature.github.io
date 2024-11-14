@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collective inquiry - alternatives to retros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body class="post-page">
+    <div class="container">
+
+        <div class="toggle-switch form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+            <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+        </div>
+
+        
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-8 col-lg-6 content">
+                
+                <!-- Back Button -->
+                <a href="/index.html" class="back-button">&larr; Back to Blog</a>
+
+                <h2>Collective inquiry: Creating safe intentional space for open exploration</h2>
+<p>Nov 04, 2024</p>
+
+
+    <p>Recently, I’ve found myself doing more collective inquiry with my team. It started with a simple structure I laid down to encourage open exploration.</p>
+    <p>What followed was unexpectedly powerful. Rather than focusing on past actions or specific outcomes, we created a space to explore questions together—without the pressure to have all the answers immediately. It’s been a refreshing shift from the usual project-driven pace.</p>
+    
+    <h3>What is collective inquiry?</h3>
+    <p>Collective inquiry is a way of exploring big questions and challenges as a group. It’s about creating space for open dialogue and curiosity, where everyone’s perspective deepens the collective understanding.</p>
+    <p>Unlike retrospectives, which focus on past performance and specific improvements, collective inquiry allows us to explore ideas without the immediate need for conclusions or action.</p>
+    
+    <h4>How collective inquiry differs from agile retrospectives</h4>
+    <ul>
+      <li><strong>Purpose:</strong> Retrospectives focus on reviewing the past—what went well, what didn’t, and how to improve. Collective inquiry is more about exploring broader themes that aren’t necessarily tied to past work or specific outcomes.</li>
+      <li><strong>Structure:</strong> Retros are typically structured with defined action points. Collective inquiry is more open-ended, allowing the team to explore ideas without the pressure to find solutions.</li>
+      <li><strong>Scope:</strong> Retros focus on immediate tasks and team processes. Collective inquiry, on the other hand, invites broader exploration of questions that affect the team, the organisation, or even wider industry trends.</li>
+    </ul>
+    
+    <h3 id="h.20194jn7zvmg">Here’s the structure I used:</h3>
+    <ol>
+      <li>Started with setting a simple code of conduct:
+        <ul>
+          <li>Work-related</li>
+          <li>Respectful</li>
+          <li>Open-minded</li>
+          <li>Constructive</li>
+          <li>Curiosity approach</li>
+        </ul>
+      </li>
+      <li>Used open-ended questions:
+        <ul>
+          <li>“Let’s explore together”</li>
+          <li>“What’s on your mind?”</li>
+          <li>“Curious about…”</li>
+        </ul>
+      </li>
+      <li>Everyone spent 5 minutes writing their thoughts in a shared document, anonymously if they preferred.</li>
+      <li>We collectively categorised the thoughts into themes, followed by a dot-voting session on the ones people are drawn to discuss.</li>
+      <li>Then we open the floor to discuss based on the most voted-on points.</li>
+      <li>We used the last 5 minutes to make sure we’ve an intentional closure by recapping the session, reflecting on what was shared, and offering a graceful outlook on the journey.</li>
+    </ol>
+    
+    <p>For me, collective inquiry has been about more than just finding answers—it’s about creating space for the team to show up, ask questions, and explore together.</p>
+    <p>It’s a way of building trust and understanding, while stepping away from the pressure to always have solutions. In the fast-paced world of tech and public service, this openness has helped foster deeper connections and more resilient teams.</p>
+    <p>Alternating collective inquiry with retrospectives is working, giving me the balance to both reflect and explore, setting the stage for continuous learning and growth.</p>
+
+  
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('darkModeToggle').checked = true;
+            }
+        });
+    </script>
+    
+</body>
+</html>
